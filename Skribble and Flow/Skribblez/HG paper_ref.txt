@@ -1,0 +1,1417 @@
+@article{Mordecai2014,
+  author = {Mordecai, S. C. and Al-Hadithy, N. and Ware, H. E. and Gupte, C. M.},
+  title = {Treatment of meniscal tears: An evidence based approach},
+  journal = {World Journal of Orthopaedics},
+  year = {2014},
+  volume = {5},
+  number = {3},
+  pages = {233--241},
+  doi = {10.5312/wjo.v5.i3.233}
+}
+
+@article{Fox2012,
+  author = {Fox, A. J. and Bedi, A. and Rodeo, S. A.},
+  title = {The basic science of human knee menisci: structure, composition, and function},
+  journal = {Sports Health},
+  year = {2012}, 
+  volume = {4},
+  number = {4},
+  pages = {340--351},
+  doi = {10.1177/1941738111429419}
+}
+
+@book{Athanasiou2009,
+  author = {Athanasiou, K. A. and Sanchez-Adams, J.},
+  title = {Engineering The Knee Meniscus},
+  series = {Synthesis Lectures on Tissue Engineering},
+  year = {2009},
+  doi = {10.2200/S00186ED1V01Y200903TIS001}
+}
+
+@article{SanchezAdams2009,
+  author = {Sanchez-Adams, Johannah and Athanasiou, Kyriacos A.},
+  title = {The Knee Meniscus: A Complex Tissue of Diverse Cells},
+  journal = {Cellular and Molecular Bioengineering},
+  year = {2009},
+  volume = {2},
+  number = {3},
+  pages = {332--340},
+  doi = {10.1007/s12195-009-0066-6}
+}
+
+@article{Makris2011,
+  author = {Makris, Eleftherios A. and Hadidi, Pasha and Athanasiou, Kyriacos A.},
+  title = {The knee meniscus: Structure--function, pathophysiology, current repair techniques, and prospects for regeneration},
+  journal = {Biomaterials},
+  year = {2011},
+  volume = {32},
+  number = {30},
+  pages = {7411--7431},
+  doi = {10.1016/j.biomaterials.2011.06.037}
+}
+
+@article{Kwon2019,
+  author = {Kwon, H. and Brown, W. E. and Lee, C. A. and Wang, D. and Paschos, N. and Hu, J. C. and Athanasiou, K. A.},
+  title = {Surgical and tissue engineering strategies for articular cartilage and meniscus repair},
+  journal = {Nature Reviews Rheumatology},
+  year = {2019},
+  volume = {15},
+  number = {9},
+  pages = {550--570},
+  doi = {10.1038/s41584-019-0255-1}
+}
+
+@article{Beeler2020,
+  author = {Beeler, S. and Vlachopoulos, L. and Jud, L. and Sutter, R. and Gotschi, T. and Furnstahl, P. and Fucentese, S. F.},
+  title = {Meniscus sizing using three-dimensional models of the ipsilateral tibia plateau based on {CT} scans - an experimental study of a new sizing approach},
+  journal = {Journal of Experimental Orthopaedics},
+  year = {2020},
+  volume = {7},
+  number = {1},
+  pages = {36},
+  doi = {10.1186/s40634-020-00252-8}
+}
+
+@article{Bilgen2018,
+  author = {Bilgen, B. and Jayasuriya, C. T. and Owens, B. D.},
+  title = {Current Concepts in Meniscus Tissue Engineering and Repair},
+  journal = {Advanced Healthcare Materials},
+  year = {2018},
+  volume = {7},
+  number = {11},
+  doi = {10.1002/adhm.201701407}
+}
+
+@article{Patel2018,
+  author = {Patel, J. M. and Ghodbane, S. A. and Brzezinski, A. and Gatt, C. J., Jr. and Dunn, M. G.},
+  title = {Tissue-Engineered Total Meniscus Replacement With a Fiber-Reinforced Scaffold in a 2-Year Ovine Model},
+  journal = {American Journal of Sports Medicine},
+  year = {2018},
+  volume = {46},
+  number = {8},
+  pages = {1844--1856},
+  doi = {10.1177/0363546517752668}
+}
+
+@article{Asgarpour2021,
+  author = {Asgarpour, Rahil and Masaeli, Elahe and Kermani, Shabnam},
+  title = {Development of meniscus-inspired {3D}-printed {PCL} scaffolds engineered with chitosan/extracellular matrix hydrogel},
+  journal = {Polymers for Advanced Technologies},
+  year = {2021},
+  volume = {32},
+  number = {12},
+  pages = {4721--4732},
+  doi = {10.1002/pat.5465}
+}
+
+@article{Gupta2020,
+  author = {Gupta, S. and Sharma, A. and Vasantha Kumar, J. and Sharma, V. and Gupta, P. K. and Verma, R. S.},
+  title = {Meniscal tissue engineering via {3D} printed {PLA} monolith with carbohydrate based self-healing interpenetrating network hydrogel},
+  journal = {International Journal of Biological Macromolecules},
+  year = {2020},
+  volume = {162},
+  pages = {1358--1371},
+  doi = {10.1016/j.ijbiomac.2020.07.238}
+}
+
+@article{vanMinnen2024,
+  author = {van Minnen, B. S. and van Tienen, T. G.},
+  title = {The Current State of Meniscus Replacements},
+  journal = {Current Reviews in Musculoskeletal Medicine},
+  year = {2024},
+  volume = {17},
+  number = {8},
+  pages = {293--302},
+  doi = {10.1007/s12178-024-09902-1}
+}
+
+@article{Vetri2019,
+  author = {Vetri, V. and Dragnevski, K. and Tkaczyk, M. and Zingales, M. and Marchiori, G. and Lopomo, N. F. and Zaffagnini, S. and Bondi, A. and Kennedy, J. A. and Murray, D. W. and Barrera, O.},
+  title = {Advanced microscopy analysis of the micro-nanoscale architecture of human menisci},
+  journal = {Scientific Reports},
+  year = {2019},
+  volume = {9},
+  number = {1},
+  pages = {18732},
+  doi = {10.1038/s41598-019-55243-2}
+}
+
+@article{Zhang2005,
+  author = {Zhang, Y. and Ouyang, H. and Lim, C. T. and Ramakrishna, S. and Huang, Z. M.},
+  title = {Electrospinning of gelatin fibers and gelatin/{PCL} composite fibrous scaffolds},
+  journal = {Journal of Biomedical Materials Research Part B: Applied Biomaterials},
+  year = {2005},
+  volume = {72},
+  number = {1},
+  pages = {156--165},
+  doi = {10.1002/jbm.b.30128}
+}
+
+@article{Choi2021,
+  author = {Choi, E. and Kim, D. and Kang, D. and Yang, G. H. and Jung, B. and Yeo, M. and Park, M. J. and An, S. and Lee, K. and Kim, J. S. and Kim, J. C. and Jeong, W. and Yoo, H. H. and Jeon, H.},
+  title = {{3D}-printed gelatin methacrylate ({GelMA})/silanated silica scaffold assisted by two-stage cooling system for hard tissue regeneration},
+  journal = {Regenerative Biomaterials},
+  year = {2021},
+  volume = {8},
+  number = {2},
+  doi = {10.1093/rb/rbab001}
+}
+
+@article{Ateshian2015,
+  author = {Ateshian, G. A. and Henak, C. R. and Weiss, J. A.},
+  title = {Toward patient-specific articular contact mechanics},
+  journal = {Journal of Biomechanics},
+  year = {2015},
+  volume = {48},
+  number = {5},
+  pages = {779--786},
+  doi = {10.1016/j.jbiomech.2014.12.020}
+}
+
+@article{Filardo2019,
+  author = {Filardo, G. and Petretta, M. and Cavallo, C. and Roseti, L. and Durante, S. and Albisinni, U. and Grigolo, B.},
+  title = {Patient-specific meniscus prototype based on {3D} bioprinting of human cell-laden scaffold},
+  journal = {Bone and Joint Research},
+  year = {2019},
+  volume = {8},
+  number = {2},
+  pages = {101--106},
+  doi = {10.1302/2046-3758.82.BJR-2018-0134.R1}
+}
+
+@article{Bagheri2020,
+  author = {Bagheri Saed, Arvin and Behravesh, Amir Hossein and Hasannia, Sadegh and Alavinasab Ardebili, Seyyed Alireza and Akhoundi, Behnam and Pourghayoumi, Majid},
+  title = {Functionalized poly l-lactic acid synthesis and optimization of process parameters for {3D} printing of porous scaffolds via digital light processing ({DLP}) method},
+  journal = {Journal of Manufacturing Processes},
+  year = {2020},
+  volume = {56},
+  pages = {550--561},
+  doi = {10.1016/j.jmapro.2020.04.076}
+}
+
+@article{DiSilvestro2001,
+  author = {DiSilvestro, M. R. and Suh, J. K.},
+  title = {A cross-validation of the biphasic poroviscoelastic model of articular cartilage in unconfined compression, indentation, and confined compression},
+  journal = {Journal of Biomechanics},
+  year = {2001},
+  volume = {34},
+  number = {4},
+  pages = {519--525},
+  doi = {10.1016/s0021-9290(00)00224-4}
+}
+
+@article{Gu2003,
+  author = {Gu, W. Y. and Yao, H. and Huang, C. Y. and Cheung, H. S.},
+  title = {New insight into deformation-dependent hydraulic permeability of gels and cartilage, and dynamic behavior of agarose gels in confined compression},
+  journal = {Journal of Biomechanics},
+  year = {2003},
+  volume = {36},
+  number = {4},
+  pages = {593--598},
+  doi = {10.1016/s0021-9290(02)00437-2}
+}
+
+@article{Korhonen2002,
+  author = {Korhonen, R. K. and Laasanen, M. S. and Töyräs, J. and Rieppo, J. and Hirvonen, J. and Helminen, H. J. and Jurvelin, J. S.},
+  title = {Comparison of the equilibrium response of articular cartilage in unconfined compression, confined compression and indentation},
+  journal = {Journal of Biomechanics},
+  year = {2002},
+  volume = {35},
+  number = {7},
+  pages = {903--909},
+  doi = {10.1016/s0021-9290(02)00052-0}
+}
+
+@article{MartinSeitz2013,
+  author = {Martin Seitz, A. and Galbusera, F. and Krais, C. and Ignatius, A. and Durselen, L.},
+  title = {Stress-relaxation response of human menisci under confined compression conditions},
+  journal = {Journal of the Mechanical Behavior of Biomedical Materials},
+  year = {2013},
+  volume = {26},
+  pages = {68--80},
+  doi = {10.1016/j.jmbbm.2013.05.027}
+}
+
+@article{Kocen2017,
+  author = {Kocen, R. and Gasik, M. and Gantar, A. and Novak, S.},
+  title = {Viscoelastic behaviour of hydrogel-based composites for tissue engineering under mechanical load},
+  journal = {Biomedical Materials},
+  year = {2017},
+  volume = {12},
+  number = {2},
+  pages = {025004},
+  doi = {10.1088/1748-605X/aa5b00}
+}
+
+@article{Stankiewicz2023,
+  author = {Stankiewicz, A. and Juscinski, S.},
+  title = {How to Make the Stress Relaxation Experiment for Polymers More Informative},
+  journal = {Polymers},
+  year = {2023},
+  volume = {15},
+  number = {23},
+  doi = {10.3390/polym15234605}
+}
+
+@article{Shemesh2014,
+  author = {Shemesh, M. and Asher, R. and Zylberberg, E. and Guilak, F. and Linder-Ganz, E. and Elsner, J. J.},
+  title = {Viscoelastic properties of a synthetic meniscus implant},
+  journal = {Journal of the Mechanical Behavior of Biomedical Materials},
+  year = {2014},
+  volume = {29},
+  pages = {42--55},
+  doi = {10.1016/j.jmbbm.2013.08.021}
+}
+
+@article{StaAgueda2021,
+  author = {Sta Agueda, J. R. H. and Chen, Q. and Maalihan, R. D. and Ren, J. and da Silva, G. M. I. and Dugos, N. P. and Caldona, E. B. and Advincula, R. C.},
+  title = {{3D} printing of biomedically relevant polymer materials and biocompatibility},
+  journal = {MRS Communications},
+  year = {2021},
+  volume = {11},
+  number = {2},
+  pages = {197--212},
+  doi = {10.1557/s43579-021-00038-8}
+}
+
+@article{Mei2021,
+  author = {Mei, Q. and Rao, J. and Bei, H. P. and Liu, Y. and Zhao, X.},
+  title = {{3D} Bioprinting Photo-Crosslinkable Hydrogels for Bone and Cartilage Repair},
+  journal = {International Journal of Bioprinting},
+  year = {2021},
+  volume = {7},
+  number = {3},
+  pages = {367},
+  doi = {10.18063/ijb.v7i3.367}
+}
+
+@article{Ashwin2020,
+  author = {Ashwin, B. and Abinaya, B. and Prasith, T. P. and Chandran, S. V. and Yadav, L. R. and Vairamani, M. and Patil, S. and Selvamurugan, N.},
+  title = {{3D}-poly (lactic acid) scaffolds coated with gelatin and mucic acid for bone tissue engineering},
+  journal = {International Journal of Biological Macromolecules},
+  year = {2020},
+  volume = {162},
+  pages = {523--532},
+  doi = {10.1016/j.ijbiomac.2020.06.157}
+}
+
+@article{Gautam2013,
+  author = {Gautam, S. and Dinda, A. K. and Mishra, N. C.},
+  title = {Fabrication and characterization of {PCL}/gelatin composite nanofibrous scaffold for tissue engineering applications by electrospinning method},
+  journal = {Materials Science and Engineering: C},
+  year = {2013},
+  volume = {33},
+  number = {3},
+  pages = {1228--1235},
+  doi = {10.1016/j.msec.2012.12.015}
+}
+
+@article{Guarino2011,
+  author = {Guarino, Vincenzo and Alvarez-Perez, Marco and Cirillo, Valentina and Ambrosio, Luigi},
+  title = {{hMSC} interaction with {PCL} and {PCL}/gelatin platforms: A comparative study on films and electrospun membranes},
+  journal = {Journal of Bioactive and Compatible Polymers},
+  year = {2011},
+  volume = {26},
+  number = {2},
+  pages = {144--160},
+  doi = {10.1177/0883911511399410}
+}
+
+@article{Busby2013,
+  author = {Busby, G. A. and Grant, M. H. and Mackay, S. P. and Riches, P. E.},
+  title = {Confined compression of collagen hydrogels},
+  journal = {Journal of Biomechanics},
+  year = {2013},
+  volume = {46},
+  number = {4},
+  pages = {837--840},
+  doi = {10.1016/j.jbiomech.2012.11.048}
+}
+
+@article{Ghodbane2019,
+  author = {Ghodbane, S. A. and Patel, J. M. and Brzezinski, A. and Lu, T. M. and Gatt, C. J. and Dunn, M. G.},
+  title = {Biomechanical characterization of a novel collagen-hyaluronan infused {3D}-printed polymeric device for partial meniscus replacement},
+  journal = {Journal of Biomedical Materials Research Part B: Applied Biomaterials},
+  year = {2019},
+  volume = {107},
+  number = {8},
+  pages = {2457--2465},
+  doi = {10.1002/jbm.b.34336}
+}
+
+@article{Patel2019,
+  author = {Patel, J. M. and Wise, B. C. and Bonnevie, E. D. and Mauck, R. L.},
+  title = {A Systematic Review and Guide to Mechanical Testing for Articular Cartilage Tissue Engineering},
+  journal = {Tissue Engineering Part C: Methods},
+  year = {2019},
+  volume = {25},
+  number = {10},
+  pages = {593--608},
+  doi = {10.1089/ten.TEC.2019.0116}
+}
+
+@article{Skopinska2021,
+  author = {Skopinska-Wisniewska, J. and Tuszynska, M. and Olewnik-Kruszkowska, E.},
+  title = {Comparative Study of Gelatin Hydrogels Modified by Various Cross-Linking Agents},
+  journal = {Materials},
+  year = {2021},
+  volume = {14},
+  number = {2},
+  pages = {396},
+  doi = {10.3390/ma14020396}
+}
+
+@article{Rozykulyyeva2023,
+  author = {Rozykulyyeva, L. and Widiyanti, P. and Utomo, D. N. and Astuti, S. D.},
+  title = {Poly (ε-caprolactone) - Based biomaterials for meniscus tissue engineering},
+  journal = {AIP Conference Proceedings},
+  year = {2023},
+  volume = {2679},
+  number = {1},
+  doi = {10.1063/5.0111407}
+}
+
+@article{Commisso2014,
+  author = {Commisso, M. S. and Martinez-Reina, J. and Mayo, J. and Dominguez, J. and Tanaka, E.},
+  title = {Effect of non-uniform thickness of samples in stress relaxation tests under unconfined compression of samples of articular discs},
+  journal = {Journal of Biomechanics},
+  year = {2014},
+  volume = {47},
+  number = {6},
+  pages = {1526--1530},
+  doi = {10.1016/j.jbiomech.2014.02.008}
+}
+
+@article{Klarmann2023,
+  author = {Klarmann, George J. and Piroli, Maria E. and Loverde, Joseph R. and Nelson, Andrew F. and Li, Zhaozhang and Gilchrist, Kristin H. and Gaston, Joel D. and Ho, Vincent B.},
+  title = {{3D} printing a universal knee meniscus using a custom collagen ink},
+  journal = {Bioprinting},
+  year = {2023},
+  volume = {31},
+  doi = {10.1016/j.bprint.2023.e00272}
+}
+
+@article{ElKommos2024,
+  author = {El Kommos, A. and Jackson, A. R. and Andreopoulos, F. and Travascio, F.},
+  title = {Development of Improved Confined Compression Testing Setups for Use in Stress Relaxation Testing of Viscoelastic Biomaterials},
+  journal = {Gels},
+  year = {2024},
+  volume = {10},
+  number = {5},
+  doi = {10.3390/gels10050329}
+}
+
+@article{Imeni2020,
+  author = {Imeni, Milad and Seyfi, Behzad and Fatouraee, Nasser and Samani, Abbas},
+  title = {Constitutive modeling of menisci tissue: a critical review of analytical and numerical approaches},
+  journal = {Biomechanics and Modeling in Mechanobiology},
+  year = {2020},
+  volume = {19},
+  number = {6},
+  pages = {1979--1996},
+  doi = {10.1007/s10237-020-01352-1}
+}
+
+@article{Mohamadi2021,
+  author = {Mohamadi, Amin and Momenzadeh, Kaveh and Masoudi, Aidin and Walley, Kempland C. and Ierardi, Kenny and Ramappa, Arun and DeAngelis, Joseph P. and Nazarian, Ara},
+  title = {Evolution of knowledge on meniscal biomechanics: a 40 year perspective},
+  journal = {BMC Musculoskeletal Disorders},
+  year = {2021},
+  volume = {22},
+  number = {1},
+  pages = {625},
+  doi = {10.1186/s12891-021-04492-2}
+}
+
+@article{Boschetti2004,
+  author = {Boschetti, F. and Pennati, G. and Gervaso, F. and Peretti, G. M. and Dubini, G.},
+  title = {Biomechanical properties of human articular cartilage under compressive loads},
+  journal = {Biorheology},
+  year = {2004},
+  volume = {41},
+  number = {3-4},
+  pages = {159--166},
+  doi = {10.3233/BIR-2004-41314}
+}
+
+@article{Morejon2020,
+  author = {Morejon, A. and Norberg, C. D. and De Rosa, M. and Best, T. M. and Jackson, A. R. and Travascio, F.},
+  title = {Compressive Properties and Hydraulic Permeability of Human Meniscus: Relationships With Tissue Structure and Composition},
+  journal = {Frontiers in Bioengineering and Biotechnology},
+  year = {2020},
+  volume = {8},
+  pages = {622552},
+  doi = {10.3389/fbioe.2020.622552}
+}
+
+@article{Morejon2022,
+  author = {Morejon, A. and Mantero, A. M. A. and Best, T. M. and Jackson, A. R. and Travascio, F.},
+  title = {Mechanisms of energy dissipation and relationship with tissue composition in human meniscus},
+  journal = {Osteoarthritis and Cartilage},
+  year = {2022},
+  volume = {30},
+  number = {4},
+  pages = {605--612},
+  doi = {10.1016/j.joca.2022.01.001}
+}
+
+@article{Gharibshahian2023,
+  author = {Gharibshahian, M. and Salehi, M. and Beheshtizadeh, N. and Kamalabadi-Farahani, M. and Atashi, A. and Nourbakhsh, M. S. and Alizadeh, M.},
+  title = {Recent advances on {3D}-printed {PCL}-based composite scaffolds for bone tissue engineering},
+  journal = {Frontiers in Bioengineering and Biotechnology},
+  year = {2023},
+  volume = {11},
+  pages = {1168504},
+  doi = {10.3389/fbioe.2023.1168504}
+}
+
+@article{Vedadghavami2017,
+  author = {Vedadghavami, A. and Minooei, F. and Mohammadi, M. H. and Khetani, S. and Rezaei Kolahchi, A. and Mashayekhan, S. and Sanati-Nezhad, A.},
+  title = {Manufacturing of hydrogel biomaterials with controlled mechanical properties for tissue engineering applications},
+  journal = {Acta Biomaterialia},
+  year = {2017},
+  volume = {62},
+  pages = {42--63},
+  doi = {10.1016/j.actbio.2017.07.028}
+}
+
+@article{Vemaganti2020,
+  author = {Vemaganti, Kumar and Madireddy, Sandeep and Kedari, Sayali},
+  title = {On the inference of viscoelastic constants from stress relaxation experiments},
+  journal = {Mechanics of Time-Dependent Materials},
+  year = {2020},
+  volume = {24},
+  pages = {1--24}
+}
+
+@article{Cipitria2011,
+  author = {Cipitria, A. and Skelton, A. and Dargaville, T. R. and Dalton, P. D. and Hutmacher, D. W.},
+  title = {Design, fabrication and characterization of {PCL} electrospun scaffolds—a review},
+  journal = {Journal of Materials Chemistry},
+  year = {2011},
+  volume = {21},
+  number = {26},
+  doi = {10.1039/c0jm04502k}
+}
+
+@article{Bahcecioglu2019,
+  author = {Bahcecioglu, G. and Hasirci, N. and Bilgen, B. and Hasirci, V.},
+  title = {A {3D} printed {PCL}/hydrogel construct with zone-specific biochemical composition mimicking that of the meniscus},
+  journal = {Biofabrication},
+  year = {2019},
+  volume = {11},
+  number = {2},
+  pages = {025002},
+  doi = {10.1088/1758-5090/aaf707}
+}
+
+@article{Bauer2017,
+  author = {Bauer, A. and Gu, L. and Kwee, B. and Li, W. A. and Dellacherie, M. and Celiz, A. D. and Mooney, D. J.},
+  title = {Hydrogel substrate stress-relaxation regulates the spreading and proliferation of mouse myoblasts},
+  journal = {Acta Biomaterialia},
+  year = {2017},
+  volume = {62},
+  pages = {82--90},
+  doi = {10.1016/j.actbio.2017.08.041}
+}
+
+@article{Chaudhuri2016,
+  author = {Chaudhuri, O. and Gu, L. and Klumpers, D. and Darnell, M. and Bencherif, S. A. and Weaver, J. C. and Huebsch, N. and Lee, H. P. and Lippens, E. and Duda, G. N. and Mooney, D. J.},
+  title = {Hydrogels with tunable stress relaxation regulate stem cell fate and activity},
+  journal = {Nature Materials},
+  year = {2016},
+  volume = {15},
+  number = {3},
+  pages = {326--334},
+  doi = {10.1038/nmat4489}
+}
+
+@article{Fitzgerald2015,
+  author = {Fitzgerald, M. M. and Bootsma, K. and Berberich, J. A. and Sparks, J. L.},
+  title = {Tunable stress relaxation behavior of an alginate-polyacrylamide hydrogel: comparison with muscle tissue},
+  journal = {Biomacromolecules},
+  year = {2015},
+  volume = {16},
+  number = {5},
+  pages = {1497--1505},
+  doi = {10.1021/bm501845j}
+}
+
+@article{Maes2006,
+  author = {Maes, J. A. and Donahue, T. L. H.},
+  title = {Time dependent properties of bovine meniscal attachments: stress relaxation and creep},
+  journal = {Journal of Biomechanics},
+  year = {2006},
+  volume = {39},
+  number = {16},
+  pages = {3055--3061},
+  doi = {10.1016/j.jbiomech.2005.10.026}
+}
+
+@article{Seitz2013,
+  author = {Seitz, Andreas Martin and Galbusera, Fabio and Krais, C. and Ignatius, A. and Dürselen, L.},
+  title = {Stress-relaxation response of human menisci under confined compression conditions},
+  journal = {Journal of the Mechanical Behavior of Biomedical Materials},
+  year = {2013},
+  volume = {26},
+  pages = {68--80},
+  doi = {10.1016/j.jmbbm.2013.05.027}
+}
+
+@article{Norberg2021,
+  author = {Norberg, Christopher and Filippone, Giovanni and Andreopoulos, Fotios and Best, Thomas M and Baraga, Michael and Jackson, Alicia R and Travascio, Francesco},
+  title = {Viscoelastic and equilibrium shear properties of human meniscus: Relationships with tissue structure and composition},
+  journal = {Journal of Biomechanics},
+  year = {2021},
+  volume = {120},
+  pages = {110343},
+  doi = {10.1016/j.jbiomech.2021.110343}
+}
+
+@article{Roberts2011,
+  author = {Roberts, J. J. and Earnshaw, A. and Ferguson, V. L. and Bryant, S. J.},
+  title = {Comparative study of the viscoelastic mechanical behavior of agarose and poly(ethylene glycol) hydrogels},
+  journal = {Journal of Biomedical Materials Research Part B: Applied Biomaterials},
+  year = {2011},
+  volume = {99},
+  number = {1},
+  pages = {158--169},
+  doi = {10.1002/jbm.b.31883}
+}
+
+@article{Mirani2009,
+  author = {Mirani, R. D. and Pratt, J. and Iyer, P. and Madihally, S. V.},
+  title = {The stress relaxation characteristics of composite matrices etched to produce nanoscale surface features},
+  journal = {Biomaterials},
+  year = {2009},
+  volume = {30},
+  number = {5},
+  pages = {703--710},
+  doi = {10.1016/j.biomaterials.2008.10.023}
+}
+
+@article{Cakmak2020,
+  author = {Cakmak, A. M. and Unal, S. and Sahin, A. and Oktar, F. N. and Sengor, M. and Ekren, N. and Gunduz, O. and Kalaskar, D. M.},
+  title = {3D Printed Polycaprolactone/Gelatin/Bacterial Cellulose/Hydroxyapatite Composite Scaffold for Bone Tissue Engineering},
+  journal = {Polymers},
+  year = {2020},
+  volume = {12},
+  number = {9},
+  doi = {10.3390/polym12091962}
+}
+
+@article{Hernandez2017,
+  author = {Hernandez, I. and Kumar, A. and Joddar, B.},
+  title = {A Bioactive Hydrogel and 3D Printed Polycaprolactone System for Bone Tissue Engineering},
+  journal = {Gels},
+  year = {2017},
+  volume = {3},
+  number = {3},
+  doi = {10.3390/gels3030026}
+}
+
+@article{Daszkiewicz2021,
+  author = {Daszkiewicz, K. and Luczkiewicz, P.},
+  title = {Biomechanics of the medial meniscus in the osteoarthritic knee joint},
+  journal = {PeerJ},
+  year = {2021},
+  volume = {9},
+  pages = {e12509},
+  doi = {10.7717/peerj.12509}
+}
+
+@article{Mauck2000,
+  author = {Mauck, R. L. and Soltz, M. A. and Wang, C. C. and Wong, D. D. and Chao, P. H. and Valhmu, W. B. and Hung, C. T. and Ateshian, G. A.},
+  title = {Functional tissue engineering of articular cartilage through dynamic loading of chondrocyte-seeded agarose gels},
+  journal = {Journal of Biomechanical Engineering},
+  year = {2000},
+  volume = {122},
+  number = {3},
+  pages = {252--260},
+  doi = {10.1115/1.429656}
+}
+
+@article{Nguyen2012,
+  author = {Nguyen, Q. T. and Hwang, Y. and Chen, A. C. and Varghese, S. and Sah, R. L.},
+  title = {Cartilage-like mechanical properties of poly (ethylene glycol)-diacrylate hydrogels},
+  journal = {Biomaterials},
+  year = {2012},
+  volume = {33},
+  number = {28},
+  pages = {6682--6690},
+  doi = {10.1016/j.biomaterials.2012.06.005}
+}
+
+@article{Chen2001,
+  author = {Chen, A. C. and Bae, W. C. and Schinagl, R. M. and Sah, R. L.},
+  title = {Depth- and strain-dependent mechanical and electromechanical properties of full-thickness bovine articular cartilage in confined compression},
+  journal = {Journal of Biomechanics},
+  year = {2001},
+  volume = {34},
+  number = {1},
+  pages = {1--12},
+  doi = {10.1016/s0021-9290(00)00170-6}
+}
+
+@article{Abpeikar2022,
+  author = {Abpeikar, Z. and Javdani, M. and Alizadeh, A. and Khosravian, P. and Tayebi, L. and Asadpour, S.},
+  title = {Development of meniscus cartilage using polycaprolactone and decellularized meniscus surface modified by gelatin, hyaluronic acid biomacromolecules: A rabbit model},
+  journal = {International Journal of Biological Macromolecules},
+  year = {2022},
+  volume = {213},
+  pages = {498--515},
+  doi = {10.1016/j.ijbiomac.2022.05.140}
+}
+
+@article{Patricio2013,
+  author = {Patrício, T. and Bártolo, P.},
+  title = {Thermal Stability of {PCL}/{PLA} Blends Produced by Physical Blending Process},
+  journal = {Procedia Engineering},
+  year = {2013},
+  volume = {59},
+  pages = {292--297},
+  doi = {10.1016/j.proeng.2013.05.124}
+}
+
+@article{Huber2022,
+  author = {Huber, Fabian and Vollmer, David and Vinke, Johannes and Riedel, Bianca and Zankovic, Sergej and Schmal, Hagen and Seidenstuecker, Michael},
+  title = {Influence of 3D Printing Parameters on the Mechanical Stability of PCL Scaffolds and the Proliferation Behavior of Bone Cells},
+  journal = {Materials},
+  year = {2022},
+  volume = {15},
+  number = {6},
+  pages = {2091}
+}
+
+@article{Zheng2014,
+  author = {Zheng, R. and Duan, H. and Xue, J. and Liu, Y. and Feng, B. and Zhao, S. and Zhu, Y. and Liu, Y. and He, A. and Zhang, W. and Liu, W. and Cao, Y. and Zhou, G.},
+  title = {The influence of Gelatin/{PCL} ratio and {3-D} construct shape of electrospun membranes on cartilage regeneration},
+  journal = {Biomaterials},
+  year = {2014},
+  volume = {35},
+  number = {1},
+  pages = {152--164},
+  doi = {10.1016/j.biomaterials.2013.09.082}
+}
+
+@article{Ghafouri2023,
+  author = {Ghafouri Azar, M. and Wiesnerova, L. and Dvorakova, J. and Chocholata, P. and Moztarzadeh, O. and Dejmek, J. and Babuska, V.},
+  title = {Optimizing PCL/PLGA Scaffold Biocompatibility Using Gelatin from Bovine, Porcine, and Fish Origin},
+  journal = {Gels},
+  year = {2023},
+  volume = {9},
+  number = {11},
+  doi = {10.3390/gels9110900}
+}
+
+@article{Wang2020,
+  author = {Wang, Yanen and Lei, Mingju and Wei, Qinghua and Wang, Yanmei and Zhang, Juan and Guo, Ying and Saroia, Jabran},
+  title = {3D printing biocompatible l-Arg/GNPs/PLA nanocomposites with enhanced mechanical property and thermal stability},
+  journal = {Journal of Materials Science},
+  year = {2020},
+  volume = {55},
+  number = {12},
+  pages = {5064--5078},
+  doi = {10.1007/s10853-020-04353-8}
+}
+
+@article{Armiento2018,
+  author = {Armiento, A. R. and Stoddart, M. J. and Alini, M. and Eglin, D.},
+  title = {Biomaterials for articular cartilage tissue engineering: Learning from biology},
+  journal = {Acta Biomaterialia},
+  year = {2018},
+  volume = {65},
+  pages = {1--20},
+  doi = {10.1016/j.actbio.2017.11.021}
+}
+
+@article{Visser2015,
+  author = {Visser, J. and Melchels, F. P. and Jeon, J. E. and van Bussel, E. M. and Kimpton, L. S. and Byrne, H. M. and Dhert, W. J. and Dalton, P. D. and Hutmacher, D. W. and Malda, J.},
+  title = {Reinforcement of hydrogels using three-dimensionally printed microfibres},
+  journal = {Nature Communications},
+  year = {2015},
+  volume = {6},
+  pages = {6933},
+  doi = {10.1038/ncomms7933}
+}
+
+@article{Coluccino2017,
+  author = {Coluccino, Luca and Peres, Chiara and Gottardi, Riccardo and Bianchini, Paolo and Diaspro, Alberto and Ceseracciu, Luca},
+  title = {Anisotropy in the viscoelastic response of knee meniscus cartilage},
+  journal = {Journal of Applied Biomaterials \& Functional Materials},
+  year = {2017},
+  volume = {15},
+  number = {1},
+  pages = {77--83}
+}
+
+@article{Danso2017,
+  author = {Danso, E. K. and Oinas, J. M. T. and Saarakkala, S. and Mikkonen, S. and Töyräs, J. and Korhonen, R. K.},
+  title = {Structure-function relationships of human meniscus},
+  journal = {Journal of the Mechanical Behavior of Biomedical Materials},
+  year = {2017},
+  volume = {67},
+  pages = {51--60},
+  doi = {10.1016/j.jmbbm.2017.01.036}
+}
+
+@article{Wu2022,
+  author = {Wu, D. T. and Jeffreys, N. and Diba, M. and Mooney, D. J.},
+  title = {Viscoelastic Biomaterials for Tissue Regeneration},
+  journal = {Tissue Engineering Part C: Methods},
+  year = {2022},
+  volume = {28},
+  number = {7},
+  pages = {289--300},
+  doi = {10.1089/ten.TEC.2022.0040}
+}
+
+@article{Bulle2021,
+  author = {Bulle, Raphaël and Alotta, Gioacchino and Marchiori, Gregorio and Berni, Matteo and Lopomo, Nicola F. and Zaffagnini, Stefano and Bordas, Stéphane P. A. and Barrera, Olga},
+  title = {The Human Meniscus Behaves as a Functionally Graded Fractional Porous Medium under Confined Compression Conditions},
+  journal = {Applied Sciences},
+  year = {2021},
+  volume = {11},
+  number = {20},
+  pages = {9405},
+  doi = {10.3390/app11209405}
+}
+
+@article{Zhou2024,
+  author = {Zhou, Z. and Wang, J. and Jiang, C. and Xu, K. and Xu, T. and Yu, X. and Fang, J. and Yang, Y. and Dai, X.},
+  title = {Advances in Hydrogels for Meniscus Tissue Engineering: A Focus on Biomaterials, Crosslinking, Therapeutic Additives},
+  journal = {Gels},
+  year = {2024},
+  volume = {10},
+  number = {2},
+  pages = {114},
+  doi = {10.3390/gels10020114}
+}
+
+@article{Abpeikar2022,
+  author = {Abpeikar, Z. and Javdani, M. and Alizadeh, A. and Khosravian, P. and Tayebi, L. and Asadpour, S.},
+  title = {Development of meniscus cartilage using polycaprolactone and decellularized meniscus surface modified by gelatin, hyaluronic acid biomacromolecules: A rabbit model},
+  journal = {International Journal of Biological Macromolecules},
+  year = {2022},
+  volume = {213},
+  pages = {498--515},
+  doi = {10.1016/j.ijbiomac.2022.05.140}
+}
+
+@article{Abpeikar2021,
+  author = {Abpeikar, Z. and Moradi, L. and Javdani, M. and Kargozar, S. and Soleimannejad, M. and Hasanzadeh, E. and Mirzaei, S. A. and Asadpour, S.},
+  title = {Characterization of Macroporous Polycaprolactone/Silk Fibroin/Gelatin/Ascorbic Acid Composite Scaffolds and In Vivo Results in a Rabbit Model for Meniscus Cartilage Repair},
+  journal = {Cartilage},
+  year = {2021},
+  volume = {13},
+  number = {2\_suppl},
+  pages = {1583s--1601s},
+  doi = {10.1177/19476035211013490}
+}
+
+@article{Aifantis1975,
+  author = {Aifantis, E. and Gerberich, W.},
+  title = {A theoretical review of stress relaxation testing},
+  journal = {Materials Science and Engineering},
+  year = {1975},
+  volume = {21},
+  pages = {107--113}
+}
+
+@article{Ashwin2020,
+  author = {Ashwin, B. and Abinaya, B. and Prasith, T. P. and Chandran, S. V. and Yadav, L. R. and Vairamani, M. and Patil, S. and Selvamurugan, N.},
+  title = {3D-poly (lactic acid) scaffolds coated with gelatin and mucic acid for bone tissue engineering},
+  journal = {International Journal of Biological Macromolecules},
+  year = {2020},
+  volume = {162},
+  pages = {523--532},
+  doi = {10.1016/j.ijbiomac.2020.06.157}
+}
+
+@article{Ateshian2015,
+  author = {Ateshian, G. A. and Henak, C. R. and Weiss, J. A.},
+  title = {Toward patient-specific articular contact mechanics},
+  journal = {Journal of Biomechanics},
+  year = {2015},
+  volume = {48},
+  number = {5},
+  pages = {779--786}
+}
+
+@book{Athanasiou2009,
+  author = {Athanasiou, K. A. and Sanchez-Adams, J.},
+  title = {Engineering The Knee},
+  series = {Synthesis Lectures on Tissue Engineering},
+  publisher = {Morgan \& Claypool Publishers},
+  year = {2009}
+}
+
+@article{BagheriSaed2020,
+  author = {Bagheri Saed, A. and Behravesh, A. H. and Hasannia, S. and Alavinasab Ardebili, S. A. and Akhoundi, B. and Pourghayoumi, M.},
+  title = {Functionalized poly l-lactic acid synthesis and optimization of process parameters for 3D printing of porous scaffolds via digital light processing (DLP) method},
+  journal = {Journal of Manufacturing Processes},
+  year = {2020},
+  volume = {56},
+  pages = {550--561}
+}
+
+@article{Bahcecioglu2019,
+  author = {Bahcecioglu, G. and Hasirci, N. and Bilgen, B. and Hasirci, V.},
+  title = {A 3D printed PCL/hydrogel construct with zone-specific biochemical composition mimicking that of the meniscus},
+  journal = {Biofabrication},
+  year = {2019},
+  volume = {11},
+  number = {2},
+  pages = {025002}
+}
+
+@article{Bauer2017,
+  author = {Bauer, A. and Gu, L. and Kwee, B. and Li, W. A. and Dellacherie, M. and Celiz, A. D. and Mooney, D. J.},
+  title = {Hydrogel substrate stress-relaxation regulates the spreading and proliferation of mouse myoblasts},
+  journal = {Acta Biomaterialia},
+  year = {2017},
+  volume = {62},
+  pages = {82--90}
+}
+
+@article{Beeler2020,
+  author = {Beeler, S. and Vlachopoulos, L. and Jud, L. and Sutter, R. and Gotschi, T. and Furnstahl, P. and Fucentese, S. F.},
+  title = {Meniscus sizing using three-dimensional models of the ipsilateral tibia plateau based on CT scans - an experimental study of a new sizing approach},
+  journal = {Journal of Experimental Orthopaedics},
+  year = {2020},
+  volume = {7},
+  number = {1},
+  pages = {36}
+}
+
+@article{Bilgen2018,
+  author = {Bilgen, B. and Jayasuriya, C. T. and Owens, B. D.},
+  title = {Current Concepts in Meniscus Tissue Engineering and Repair},
+  journal = {Advanced Healthcare Materials},
+  year = {2018},
+  volume = {7},
+  number = {11},
+  pages = {e1701407}
+}
+
+@article{Bulle2021,
+  author = {Bulle, R. and Alotta, G. and Marchiori, G. and Berni, M. and Lopomo, N. F. and Zaffagnini, S. and Bordas, S. P. A. and Barrera, O.},
+  title = {The Human Meniscus Behaves as a Functionally Graded Fractional Porous Medium under Confined Compression Conditions},
+  journal = {Applied Sciences},
+  year = {2021},
+  volume = {11},
+  number = {20}
+}
+
+@article{Bursac2000,
+  author = {Bursać, P. and McGrath, C. V. and Eisenberg, S. R. and Stamenović, D.},
+  title = {A microstructural model of elastostatic properties of articular cartilage in confined compression},
+  journal = {Journal of Biomechanical Engineering},
+  year = {2000},
+  volume = {122},
+  number = {4},
+  pages = {347--353}
+}
+
+@article{Busby2013,
+  author = {Busby, G. A. and Grant, M. H. and Mackay, S. P. and Riches, P. E.},
+  title = {Confined compression of collagen hydrogels},
+  journal = {Journal of Biomechanics},
+  year = {2013},
+  volume = {46},
+  number = {4},
+  pages = {837--840}
+}
+
+@article{Buschmann1998,
+  author = {Buschmann, M. D. and Soulhat, J. and Shirazi-Adl, A. and Jurvelin, J. S. and Hunziker, E. B.},
+  title = {Confined compression of articular cartilage: linearity in ramp and sinusoidal tests and the importance of interdigitation and incomplete confinement},
+  journal = {Journal of Biomechanics},
+  year = {1998},
+  volume = {31},
+  number = {2},
+  pages = {171--178}
+}
+
+@article{Cakmak2020,
+  author = {Cakmak, A. M. and Unal, S. and Sahin, A. and Oktar, F. N. and Sengor, M. and Ekren, N. and Gunduz, O. and Kalaskar, D. M.},
+  title = {3D Printed Polycaprolactone/Gelatin/Bacterial Cellulose/Hydroxyapatite Composite Scaffold for Bone Tissue Engineering},
+  journal = {Polymers},
+  year = {2020},
+  volume = {12},
+  number = {9}
+}
+
+@article{Chaudhuri2016,
+  author = {Chaudhuri, O. and Gu, L. and Klumpers, D. and Darnell, M. and Bencherif, S. A. and Weaver, J. C. and Huebsch, N. and Lee, H. P. and Lippens, E. and Duda, G. N. and Mooney, D. J.},
+  title = {Hydrogels with tunable stress relaxation regulate stem cell fate and activity},
+  journal = {Nature Materials},
+  year = {2016},
+  volume = {15},
+  number = {3},
+  pages = {326--334}
+}
+
+@article{Chen2020,
+  author = {Chen, L. and Liu, J. and Guan, M. and Zhou, T. and Duan, X. and Xiang, Z.},
+  title = {Growth Factor and Its Polymer Scaffold-Based Delivery System for Cartilage Tissue Engineering},
+  journal = {International Journal of Nanomedicine},
+  year = {2020},
+  volume = {15},
+  pages = {6097--6111}
+}
+
+@article{Choi2021,
+  author = {Choi, E. and Kim, D. and Kang, D. and Yang, G. H. and Jung, B. and Yeo, M. and Park, M. J. and An, S. and Lee, K. and Kim, J. S. and Kim, J. C. and Jeong, W. and Yoo, H. H. and Jeon, H.},
+  title = {3D-printed gelatin methacrylate (GelMA)/silanated silica scaffold assisted by two-stage cooling system for hard tissue regeneration},
+  journal = {Regenerative Biomaterials},
+  year = {2021},
+  volume = {8},
+  number = {2},
+  pages = {rbab001}
+}
+
+@article{Cipitria2011,
+  author = {Cipitria, A. and Skelton, A. and Dargaville, T. R. and Dalton, P. D. and Hutmacher, D. W.},
+  title = {Design, fabrication and characterization of PCL electrospun scaffolds—a review},
+  journal = {Journal of Materials Chemistry},
+  year = {2011},
+  volume = {21},
+  number = {26}
+}
+
+@article{Coluccino2017,
+  author = {Coluccino, L. and Peres, C. and Gottardi, R. and Bianchini, P. and Diaspro, A. and Ceseracciu, L.},
+  title = {Anisotropy in the viscoelastic response of knee meniscus cartilage},
+  journal = {Journal of Applied Biomaterials \& Functional Materials},
+  year = {2017},
+  volume = {15},
+  number = {1},
+  pages = {77--83}
+}
+
+@article{Commisso2014,
+  author = {Commisso, M. S. and Martinez-Reina, J. and Mayo, J. and Dominguez, J. and Tanaka, E.},
+  title = {Effect of non-uniform thickness of samples in stress relaxation tests under unconfined compression of samples of articular discs},
+  journal = {Journal of Biomechanics},
+  year = {2014},
+  volume = {47},
+  number = {6},
+  pages = {1526--1530}
+}
+
+@article{Cordin2018,
+  author = {Cordin, M. and Bechtold, T. and Pham, T.},
+  title = {Effect of fibre orientation on the mechanical properties of polypropylene–lyocell composites},
+  journal = {Cellulose},
+  year = {2018},
+  volume = {25},
+  number = {12},
+  pages = {7197--7210}
+}
+
+@article{Danso2015,
+  author = {Danso, E. and Mäkelä, J. and Tanska, P. and Mononen, M. and Honkanen, J. and Jurvelin, J. and Töyräs, J. and Julkunen, P. and Korhonen, R.},
+  title = {Characterization of site-specific biomechanical properties of human meniscus—Importance of collagen and fluid on mechanical nonlinearities},
+  journal = {Journal of Biomechanics},
+  year = {2015},
+  volume = {48},
+  number = {8},
+  pages = {1499--1507}
+}
+
+@article{Danso2014,
+  author = {Danso, E. K. and Honkanen, J. T. and Saarakkala, S. and Korhonen, R. K.},
+  title = {Comparison of nonlinear mechanical properties of bovine articular cartilage and meniscus},
+  journal = {Journal of Biomechanics},
+  year = {2014},
+  volume = {47},
+  number = {1},
+  pages = {200--206}
+}
+
+@article{Danso2017,
+  author = {Danso, E. K. and Oinas, J. M. T. and Saarakkala, S. and Mikkonen, S. and Töyräs, J. and Korhonen, R. K.},
+  title = {Structure-function relationships of human meniscus},
+  journal = {Journal of the Mechanical Behavior of Biomedical Materials},
+  year = {2017},
+  volume = {67},
+  pages = {51--60},
+  doi = {10.1016/j.jmbbm.2017.01.036}
+}
+
+@article{Daszkiewicz2021,
+  author = {Daszkiewicz, K. and Luczkiewicz, P.},
+  title = {Biomechanics of the medial meniscus in the osteoarthritic knee joint},
+  journal = {PeerJ},
+  year = {2021},
+  volume = {9},
+  pages = {e12509}
+}
+
+@article{Davis2012,
+  author = {Davis, F. M. and De Vita, R.},
+  title = {A nonlinear constitutive model for stress relaxation in ligaments and tendons},
+  journal = {Annals of Biomedical Engineering},
+  year = {2012},
+  volume = {40},
+  number = {12},
+  pages = {2541--2550}
+}
+
+@article{DeMori2018,
+  author = {De Mori, A. and Pena Fernandez, M. and Blunn, G. and Tozzi, G. and Roldo, M.},
+  title = {3D Printing and Electrospinning of Composite Hydrogels for Cartilage and Bone Tissue Engineering},
+  journal = {Polymers},
+  year = {2018},
+  volume = {10},
+  number = {3}
+}
+
+@article{DeMulder2009,
+  author = {De Mulder, E. L. W. and Buma, P. and Hannink, G.},
+  title = {Anisotropic Porous Biodegradable Scaffolds for Musculoskeletal Tissue Engineering},
+  journal = {Materials},
+  year = {2009},
+  volume = {2},
+  number = {4},
+  pages = {1674--1696}
+}
+
+@article{Dias2022,
+  author = {Dias, J. R. and Sousa, A. and Augusto, A. and Bartolo, P. J. and Granja, P. L.},
+  title = {Electrospun Polycaprolactone (PCL) Degradation: An In Vitro and In Vivo Study},
+  journal = {Polymers},
+  year = {2022},
+  volume = {14},
+  number = {16}
+}
+
+@article{DiSilvestro2001,
+  author = {DiSilvestro, M. R. and Suh, J. K.},
+  title = {A cross-validation of the biphasic poroviscoelastic model of articular cartilage in unconfined compression, indentation, and confined compression},
+  journal = {Journal of Biomechanical Engineering},
+  year = {2001},
+  volume = {123},
+  number = {4},
+  pages = {519--525}
+}
+
+@article{Dwivedi2020,
+  author = {Dwivedi, R. and Kumar, S. and Pandey, R. and Mahajan, A. and Nandana, D. and Katti, D. S. and Mehrotra, D.},
+  title = {Polycaprolactone as biomaterial for bone scaffolds: Review of literature},
+  journal = {Journal of Oral Biology and Craniofacial Research},
+  year = {2020},
+  volume = {10},
+  number = {1},
+  pages = {381--388}
+}
+
+@article{Echave2017,
+  author = {Echave, M. C. and Saenz del Burgo, L. and Pedraz, J. L. and Orive, G.},
+  title = {Gelatin as Biomaterial for Tissue Engineering},
+  journal = {Current Pharmaceutical Design},
+  year = {2017},
+  volume = {23},
+  number = {24},
+  pages = {3567--3584}
+}
+
+@article{ElKommos2024,
+  author = {El Kommos, A. and Jackson, A. R. and Andreopoulos, F. and Travascio, F.},
+  title = {Development of Improved Confined Compression Testing Setups for Use in Stress Relaxation Testing of Viscoelastic Biomaterials},
+  journal = {Gels},
+  year = {2024},
+  volume = {10},
+  number = {5}
+}
+
+@article{Field2021,
+  author = {Field, J. and Haycock, J. W. and Boissonade, F. M. and Claeyssens, F.},
+  title = {A Tuneable, Photocurable, Poly(Caprolactone)-Based Resin for Tissue Engineering-Synthesis, Characterisation and Use in Stereolithography},
+  journal = {Molecules},
+  year = {2021},
+  volume = {26},
+  number = {5}
+}
+
+@article{Filardo2019,
+  author = {Filardo, G. and Petretta, M. and Cavallo, C. and Roseti, L. and Durante, S. and Albisinni, U. and Grigolo, B.},
+  title = {Patient-specific meniscus prototype based on 3D bioprinting of human cell-laden scaffold},
+  journal = {Bone and Joint Research},
+  year = {2019},
+  volume = {8},
+  number = {2},
+  pages = {101--106}
+}
+
+@article{Fitzgerald2015,
+  author = {Fitzgerald, M. M. and Bootsma, K. and Berberich, J. A. and Sparks, J. L.},
+  title = {Tunable stress relaxation behavior of an alginate-polyacrylamide hydrogel: comparison with muscle tissue},
+  journal = {Biomacromolecules},
+  year = {2015},
+  volume = {16},
+  number = {5},
+  pages = {1497--1505}
+}
+
+@article{Fox2012,
+  author = {Fox, A. J. and Bedi, A. and Rodeo, S. A.},
+  title = {The basic science of human knee menisci: structure, composition, and function},
+  journal = {Sports Health},
+  year = {2012},
+  volume = {4},
+  number = {4},
+  pages = {340--351}
+}
+
+@article{Gautam2013,
+  author = {Gautam, S. and Dinda, A. K. and Mishra, N. C.},
+  title = {Fabrication and characterization of PCL/gelatin composite nanofibrous scaffold for tissue engineering applications by electrospinning method},
+  journal = {Materials Science and Engineering C: Materials for Biological Applications},
+  year = {2013},
+  volume = {33},
+  number = {3},
+  pages = {1228--1235}
+}
+
+@article{GhafouriAzar2023,
+  author = {Ghafouri Azar, M. and Wiesnerova, L. and Dvorakova, J. and Chocholata, P. and Moztarzadeh, O. and Dejmek, J. and Babuska, V.},
+  title = {Optimizing PCL/PLGA Scaffold Biocompatibility Using Gelatin from Bovine, Porcine, and Fish Origin},
+  journal = {Gels},
+  year = {2023},
+  volume = {9},
+  number = {11}
+}
+
+@article{Gharibshahian2023,
+  author = {Gharibshahian, M. and Salehi, M. and Beheshtizadeh, N. and Kamalabadi-Farahani, M. and Atashi, A. and Nourbakhsh, M. S. and Alizadeh, M.},
+  title = {Recent advances on 3D-printed PCL-based composite scaffolds for bone tissue engineering},
+  journal = {Frontiers in Bioengineering and Biotechnology},
+  year = {2023},
+  volume = {11},
+  pages = {1168504}
+}
+
+@article{GhavamiNejad2020,
+  author = {GhavamiNejad, A. and Ashammakhi, N. and Wu, X. Y. and Khademhosseini, A.},
+  title = {Crosslinking Strategies for 3D Bioprinting of Polymeric Hydrogels},
+  journal = {Small},
+  year = {2020},
+  volume = {16},
+  number = {35},
+  pages = {e2002931}
+}
+
+@article{Ghodbane2019,
+  author = {Ghodbane, S. A. and Patel, J. M. and Brzezinski, A. and Lu, T. M. and Gatt, C. J. and Dunn, M. G.},
+  title = {Biomechanical characterization of a novel collagen-hyaluronan infused 3D-printed polymeric device for partial meniscus replacement},
+  journal = {Journal of Biomedical Materials Research Part B: Applied Biomaterials},
+  year = {2019},
+  volume = {107},
+  number = {8},
+  pages = {2457--2465}
+}
+
+@article{Gu2003,
+  author = {Gu, W. Y. and Yao, H. and Huang, C. Y. and Cheung, H. S.},
+  title = {New insight into deformation-dependent hydraulic permeability of gels and cartilage, and dynamic behavior of agarose gels in confined compression},
+  journal = {Journal of Biomechanics},
+  year = {2003},
+  volume = {36},
+  number = {4},
+  pages = {593--598}
+}
+
+@article{Guarino2011,
+  author = {Guarino, V. and Alvarez-Perez, M. and Cirillo, V. and Ambrosio, L.},
+  title = {hMSC interaction with PCL and PCL/gelatin platforms: A comparative study on films and electrospun membranes},
+  journal = {Journal of Bioactive and Compatible Polymers},
+  year = {2011},
+  volume = {26},
+  number = {2},
+  pages = {144--160}
+}
+
+@article{Guo2021,
+  author = {Guo, W. and Chen, M. and Wang, Z. and Tian, Y. and Zheng, J. and Gao, S. and Li, Y. and Zheng, Y. and Li, X. and Huang, J. and Niu, W. and Jiang, S. and Hao, C. and Yuan, Z. and Zhang, Y. and Wang, M. and Wang, Z. and Peng, J. and Wang, A. and Wang, Y. and Sui, X. and Xu, W. and Hao, L. and Zheng, X. and Liu, S. and Guo, Q.},
+  title = {3D-printed cell-free PCL-MECM scaffold with biomimetic micro-structure and micro-environment to enhance in situ meniscus regeneration},
+  journal = {Bioactive Materials},
+  year = {2021},
+  volume = {6},
+  number = {10},
+  pages = {3620--3633},
+  doi = {10.1016/j.bioactmat.2021.02.019}
+}
+
+@article{Hauch2010,
+  author = {Hauch, K. N. and Villegas, D. F. and Donahue, T. L. H.},
+  title = {Geometry, time-dependent and failure properties of human meniscal attachments},
+  journal = {Journal of Biomechanics},
+  year = {2010},
+  volume = {43},
+  number = {3},
+  pages = {463--468}
+}
+
+@article{Hernandez2017,
+  author = {Hernandez, I. and Kumar, A. and Joddar, B.},
+  title = {A Bioactive Hydrogel and 3D Printed Polycaprolactone System for Bone Tissue Engineering},
+  journal = {Gels},
+  year = {2017},
+  volume = {3},
+  number = {3}
+}
+
+@article{Horkay2020,
+  author = {Horkay, F. and Basser, P. J.},
+  title = {Composite Hydrogel Model of Cartilage Predicts Its Load-Bearing Ability},
+  journal = {Scientific Reports},
+  year = {2020},
+  volume = {10},
+  number = {1},
+  pages = {8103}
+}
+
+@article{Huber2022,
+  author = {Huber, F. and Vollmer, D. and Vinke, J. and Riedel, B. and Zankovic, S. and Schmal, H. and Seidenstuecker, M.},
+  title = {Influence of 3D Printing Parameters on the Mechanical Stability of PCL Scaffolds and the Proliferation Behavior of Bone Cells},
+  journal = {Materials},
+  year = {2022},
+  volume = {15},
+  number = {6},
+  pages = {2091}
+}
+
+@article{Imeni2020,
+  author = {Imeni, M. and Seyfi, B. and Fatouraee, N. and Samani, A.},
+  title = {Constitutive modeling of menisci tissue: a critical review of analytical and numerical approaches},
+  journal = {Biomechanics and Modeling in Mechanobiology},
+  year = {2020},
+  volume = {19},
+  number = {6},
+  pages = {1979--1996}
+}
+
+@article{Karjalainen2021,
+  author = {Karjalainen, V. P. and Kestilä, I. and Finnilä, M. A. and Folkesson, E. and Turkiewicz, A. and Önnerfjord, P. and Hughes, V. and Tjörnstrand, J. and Englund, M. and Saarakkala, S.},
+  title = {Quantitative three-dimensional collagen orientation analysis of human meniscus posterior horn in health and osteoarthritis using micro-computed tomography},
+  journal = {Osteoarthritis and Cartilage},
+  year = {2021},
+  volume = {29},
+  number = {5},
+  pages = {762--772}
+}
+
+@article{Klarmann2023,
+  author = {Klarmann, G. J. and Piroli, M. E. and Loverde, J. R. and Nelson, A. F. and Li, Z. and Gilchrist, K. H. and Gaston, J. D. and Ho, V. B.},
+  title = {3D printing a universal knee meniscus using a custom collagen ink},
+  journal = {Bioprinting},
+  year = {2023},
+  volume = {31}
+}
+
+@article{Kocen2017,
+  author = {Kocen, R. and Gasik, M. and Gantar, A. and Novak, S.},
+  title = {Viscoelastic behaviour of hydrogel-based composites for tissue engineering under mechanical load},
+  journal = {Biomedical Materials},
+  year = {2017},
+  volume = {12},
+  number = {2},
+  pages = {025004}
+}
+
+@article{Kong2021,
+  author = {Kong, L. and Zheng, W. and Wang, X. and Wu, G. and Qi, Y. and Xue, Y. and Wang, B. and Xu, H.},
+  title = {Effects of Layering Types and Fiber Off-Axis Angle on the Mechanical Properties of {S}-Glass-fiber-Reinforced Composites},
+  journal = {Mechanics of Composite Materials},
+  year = {2021},
+  volume = {57},
+  number = {4},
+  pages = {551--562},
+  doi = {10.1007/s11029-021-09946-1}
+}
+
+@article{Maes2006,
+  author = {Maes, J. A. and Donahue, T. L. H.},
+  title = {Time dependent properties of bovine meniscal attachments: stress relaxation and creep},
+  journal = {Journal of Biomechanics},
+  year = {2006},
+  volume = {39},
+  number = {16},
+  pages = {3055--3061},
+  doi = {10.1016/j.jbiomech.2005.10.026}
+}
+
+@article{Seitz2013,
+  author = {Seitz, A. M. and Galbusera, F. and Krais, C. and Ignatius, A. and Dürselen, L.},
+  title = {Stress-relaxation response of human menisci under confined compression conditions},
+  journal = {Journal of the Mechanical Behavior of Biomedical Materials},
+  year = {2013},
+  volume = {26},
+  pages = {68--80},
+  doi = {10.1016/j.jmbbm.2013.05.027}
+}
+
+@article{Norberg2021,
+  author = {Norberg, C. and Filippone, G. and Andreopoulos, F. and Best, T. M. and Baraga, M. and Jackson, A. R. and Travascio, F.},
+  title = {Viscoelastic and equilibrium shear properties of human meniscus: Relationships with tissue structure and composition},
+  journal = {Journal of Biomechanics},
+  year = {2021},
+  volume = {120},
+  pages = {110343},
+  doi = {10.1016/j.jbiomech.2021.110343}
+}
+
+@article{Boschetti2004,
+  author = {Boschetti, F. and Pennati, G. and Gervaso, F. and Peretti, G. M. and Dubini, G.},
+  title = {Biomechanical properties of human articular cartilage under compressive loads},
+  journal = {Biorheology},
+  year = {2004},
+  volume = {41},
+  number = {3-4},
+  pages = {159--166},
+  doi = {10.3233/BIR-2004-41314}
+}
+
+@article{SanchezAdams2009,
+  author = {Sanchez-Adams, J. and Athanasiou, K. A.},
+  title = {The Knee Meniscus: A Complex Tissue of Diverse Cells},
+  journal = {Cellular and Molecular Bioengineering},
+  year = {2009},
+  volume = {2},
+  number = {3},
+  pages = {332--340},
+  doi = {10.1007/s12195-009-0066-6}
+}
+
+@book{Athanasiou2009,
+  author = {Athanasiou, K. A. and Sanchez-Adams, J.},
+  title = {Engineering The Knee Meniscus},
+  series = {Synthesis Lectures on Tissue Engineering},
+  publisher = {Morgan \& Claypool Publishers},
+  year = {2009},
+  doi = {10.2200/S00186ED1V01Y200903TIS001}
+}
+
+@article{Abpeikar2022,
+  author = {Abpeikar, Z. and Javdani, M. and Alizadeh, A. and Khosravian, P. and Tayebi, L. and Asadpour, S.},
+  title = {Development of meniscus cartilage using polycaprolactone and decellularized meniscus surface modified by gelatin, hyaluronic acid biomacromolecules: A rabbit model},
+  journal = {International Journal of Biological Macromolecules},
+  year = {2022},
+  volume = {213},
+  pages = {498--515},
+  doi = {10.1016/j.ijbiomac.2022.05.140}
+}
+
+@article{Abpeikar2021,
+  author = {Abpeikar, Z. and Moradi, L. and Javdani, M. and Kargozar, S. and Soleimannejad, M. and Hasanzadeh, E. and Mirzaei, S. A. and Asadpour, S.},
+  title = {Characterization of Macroporous Polycaprolactone/Silk Fibroin/Gelatin/Ascorbic Acid Composite Scaffolds and In Vivo Results in a Rabbit Model for Meniscus Cartilage Repair},
+  journal = {Cartilage},
+  year = {2021},
+  volume = {13},
+  number = {2\_suppl},
+  pages = {1583s--1601s},
+  doi = {10.1177/19476035211013490}
+}
+

@@ -1,0 +1,7 @@
+{
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.autoClean.run": "never",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    "editor.wrappingIndent": "same"
+} 
