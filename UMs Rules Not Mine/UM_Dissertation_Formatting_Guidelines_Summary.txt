@@ -1,0 +1,59 @@
+
+University of Miami Dissertation Formatting Summary (Rev. 10/22/2024)
+
+GENERAL STRUCTURE:
+- Manuscript must be a unified, book-like work, not a collection of articles.
+- Only one: Abstract, Introduction (typically Chapter 1), References, and Appendices section.
+- Use alternative headings for chapter-level intros like "Background" or "Overview".
+
+MARGINS, FONT, AND SPACING:
+- Margins: Left = 1.5", Top/Bottom/Right = 1"
+- Font: 12 pt; Times New Roman, Arial, or Courier New
+- Line spacing: Double-spaced text. Exceptions (single-spaced): footnotes, block quotes, references, figure/table legends
+
+PAGE NUMBERING:
+1. Unnumbered Front Matter:
+   - Title Page, Copyright Page, Signature Page, Abstract (in that order)
+2. Roman Numerals (center-bottom): Dedication, Acknowledgment, Preface, ToC, List of Figures/Tables/Abbreviations
+3. Arabic Numbers (main body): Upper right corner except first page of each chapter (bottom center)
+
+CHAPTERS AND HEADINGS:
+- Chapters must begin on new pages, titled as "Chapter X"
+- No running headers or fancy page number symbols
+
+TABLE OF CONTENTS, FIGURES, AND TABLES:
+- ToC does not include front matter like Abstract, Dedication, etc.
+- All entries must include page numbers aligned to the right
+- Figures/tables can be labeled as Figure X.Y (e.g., 2.1, 2.2)
+- Captions must be on the same page as the figure/table unless it's too large
+
+REFERENCES:
+- Use consistent citation style as per committee
+- Format: Single-spaced entries, one blank line between citations
+- No Wikipedia, YouTube, or unstable web sources
+
+FOOTNOTES:
+- 10-pt font, numbered consecutively throughout document
+- Superscript placed outside punctuation
+
+SPECIAL FORMATTING:
+- Block quotes: indented both sides, single-spaced, no quotation marks
+- Display quotes (beginning of chapter): italicized, 10-pt, indented both sides
+- Foreign words italicized; British spelling should be Americanized
+
+ETD REQUIREMENTS:
+- First page of each chapter starts on a new page
+- Title/Signature/Abstract pages must use templates exactly
+- Graduation dates: "May 2024", "August 2024", "December 2024" (no comma)
+
+OPTIONAL SECTIONS:
+- VITA: Optional, no page number, placed at the end
+
+CONTACTS:
+- ETD Support: dfs@miami.edu
+- Sr. Editor: grad.dissertation@miami.edu
+- Templates: grad.miami.edu
+
+---
+
+Keep this file in your Cursor workspace for quick reference while writing. For full details, consult the official PDF or ETD site.

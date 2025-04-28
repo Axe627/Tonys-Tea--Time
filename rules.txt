@@ -1,0 +1,43 @@
+# University of Miami Thesis/Dissertation Formatting Rules
+
+## Margins
+- Left: 1.5"
+- Top, Bottom, Right: 1"
+
+## Spacing
+- Double-spaced text
+- Single-spaced: footnotes, block quotes, figure/table legends, references
+
+## Font
+- 12pt Arial, Times New Roman, or Courier New
+
+## Page Numbering
+- Unnumbered front matter (title, copyright, signature, abstract)
+- Lower-case Roman numerals (front matter, centered bottom, start with iii)
+- Arabic numerals (main body, upper right except first page of chapters/sections: centered bottom)
+- VITA page: unnumbered, not in page count
+
+## Organization
+- One abstract, one introduction, one references, one appendices
+- Chapters start on new page, labeled "Chapter X"
+- No running headers
+
+## Table of Contents
+- Includes chapters, references, appendices, etc.
+- List of Figures/Tables after TOC, new page
+
+## References & Footnotes
+- Consistent citation style
+- References: single-spaced, one line between
+- Footnotes: 10pt, consecutively numbered throughout
+
+## Other
+- No Wikipedia citations
+- No hyperlinks (black font)
+- Block quotes: indented, single-spaced, no quotation marks
+- Display quotes: italicized, 10pt, indented, single-spaced
+- Foreign words italicized (except common Latin)
+- Dates: U.S. style (e.g., January 1, 2023)
+- Ampersands only in specific cases
+
+# See full guidelines for details. 
