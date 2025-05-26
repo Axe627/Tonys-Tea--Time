@@ -1,0 +1,607 @@
+\chapter{Introduction and Background}\label{chap:intro}
+
+\section{Meniscal Injury Epidemiology and Burden}
+
+\subsection{Clinical Motivation and Problem Statement}
+
+Meniscal injuries are among the most frequently encountered knee pathologies in orthopedic practice, often resulting in chronic pain, joint dysfunction, and long-term degenerative changes~\cite{mordecai2014treatmentmeniscal, beeler2020meniscussizing, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+The unique challenges in meniscus healing stem from its limited vascular supply, particularly in the inner regions where most injuries occur~\cite{athanasiou2009engineeringknee, makris2011kneemeniscus, tran2020comprehensivereview}.
+This avascularity, combined with the constant mechanical loads experienced during daily activities, creates a complex healing environment that often leads to poor outcomes~\cite{makris2011kneemeniscus, athanasiou2009engineeringknee, bahcecioglu20193dprinted}.
+Given the high prevalence of meniscus injury combined with these biological and mechanical challenges that limit the success of current surgical techniques, a viable alternative is in high demand~\cite{mordecai2014treatmentmeniscal, a.murphy20243dprintedvariable, baek2015meniscustissue}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{figures/intro/intro1.pdf}
+    \caption[Clinical Impact of Meniscal Injuries]{Clinical impact of meniscus injuries, highlighting their high prevalence, identification of at-risk groups, and associated socioeconomic burden. Meniscal injuries contribute significantly to healthcare demands and long-term disability, particularly due to their association with osteoarthritis and loss of productivity. (Adapted from \cite{mordecai2014treatmentmeniscal, christino2019, beeler2020meniscussizing, abdelgaied2015comparisonbiomechanical})}\label{fig:intro1}
+\end{figure}
+
+As illustrated in Figure~\ref{fig:intro1}, meniscal injuries impose a substantial burden across clinical, demographic, economic, and long-term health dimensions~\cite{mordecai2014treatmentmeniscal, beeler2020meniscussizing, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+Clinically, meniscal injuries are the most common sports-related injury and necessitate more than 750,000 surgical interventions annually in the United States alone, with partial meniscectomy remaining the most common procedure despite its association with significant long-term complications~\cite{mordecai2014treatmentmeniscal, beeler2020meniscussizing, baek2015meniscustissue}.
+The demographic impact is broad, affecting a wide range of age groups from young athletes to elderly patients, each presenting different activity profiles that necessitate tailored treatment strategies~\cite{mordecai2014treatmentmeniscal, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+Economically, meniscal injuries contribute to substantial healthcare costs, including direct surgical expenses, rehabilitation services, and lost productivity, with overall expenditures estimated to reach several billion dollars annually~\cite{beeler2020meniscussizing, mordecai2014treatmentmeniscal, baek2015meniscustissue}.
+Moreover, the long-term consequences are profound, as meniscectomy significantly increases the risk of post-traumatic osteoarthritis, ultimately leading to a decreased quality of life and, in many cases, the eventual need for total knee replacement~\cite{mordecai2014treatmentmeniscal, abdelgaied2015comparisonbiomechanical, baek2015meniscustissue}.
+
+Together, these burdens underscore the urgent need for regenerative solutions that not only restore mechanical function but also mitigate the long-term risks of joint degeneration~\cite{a.murphy20243dprintedvariable, bahcecioglu20193dprinted, baek2015meniscustissue}.
+
+\subsection{Types of Meniscal Injuries}
+
+Meniscal tears are the most common form of meniscal injury and can arise from both traumatic events and chronic degenerative changes~\cite{mordecai2014treatmentmeniscal, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+Several distinct tear patterns are recognized, each affecting knee function differently and influencing treatment strategies~\cite{makris2011kneemeniscus, szojka2017biomimetic3d, athanasiou2009engineeringknee}:
+
+\begin{itemize}
+    \item \textbf{Radial Tears:} Extend from the inner margin outward, disrupting the circumferential fibers essential for hoop stress generation~\cite{szojka2017biomimetic3d, makris2011kneemeniscus}.
+    \item \textbf{Longitudinal Tears:} Run parallel to the meniscal curvature, often occurring in the more vascularized peripheral regions where healing potential is greater~\cite{makris2011kneemeniscus, athanasiou2009engineeringknee}.
+    \item \textbf{Oblique (Flap) Tears:} Create unstable segments that may impinge during movement, causing mechanical symptoms~\cite{mordecai2014treatmentmeniscal, baek2015meniscustissue}.
+    \item \textbf{Horizontal Tears:} Commonly associated with degenerative changes~\cite{makris2011kneemeniscus, athanasiou2009engineeringknee}.
+    \item \textbf{Complex Tears:} Involve combinations of radial, longitudinal, and horizontal components~\cite{makris2011kneemeniscus, baek2015meniscustissue}.
+    \item \textbf{Bucket Handle Tears:} Result in mechanical locking and severe mechanical dysfunction~\cite{mordecai2014treatmentmeniscal, baek2015meniscustissue}.
+\end{itemize}
+
+Understanding the morphology and location of meniscal injuries is essential, as healing potential varies markedly between the vascularized (red zone) and avascular (white zone) regions~\cite{athanasiou2009engineeringknee, tran2020comprehensivereview, makris2011kneemeniscus, baek2015meniscustissue}.
+Accurate diagnosis and classification are therefore critical for selecting appropriate treatment approaches and optimizing clinical outcomes~\cite{mordecai2014treatmentmeniscal, abdelgaied2015comparisonbiomechanical}.
+
+\section{Biomechanics of~the~Meniscus}
+
+\subsection{Knee Joint Anatomy and Meniscus Structure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/intro/intro2.pdf}
+    \caption[Knee and Meniscal Anatomy]{Anatomy of the Knee and Menisci. The figure highlights the major ligaments and attachments stabilizing the knee joint, as well as the layered and regional structure of the meniscus. (Adapted from \cite{athanasiou2009engineeringknee, makris2011kneemeniscus, baek2015meniscustissue})}\label{fig:intro2}
+\end{figure}
+
+As shown in Figure~\ref{fig:intro2}, the knee joint is a complex, load-bearing hinge joint that plays a critical role in weight transmission and locomotion~\cite{makris2011kneemeniscus, athanasiou2009engineeringknee, abdelgaied2015comparisonbiomechanical}.
+Structurally, it is formed by the articulation of the femur, tibia, and patella, and is stabilized by a series of ligaments including the anterior cruciate ligament (ACL), posterior cruciate ligament (PCL), medial collateral ligament (MCL), and lateral collateral ligament (LCL)~\cite{athanasiou2009engineeringknee, makris2011kneemeniscus}.
+Among these structures, the menisci—the medial and lateral meniscus—serve a vital biomechanical function~\cite{makris2011kneemeniscus, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+These crescent-shaped fibrocartilaginous tissues are situated between the femoral condyles and the tibial plateau, acting to increase joint congruency, distribute axial loads, absorb shock, and reduce friction during movement~\cite{makris2011kneemeniscus, athanasiou2009engineeringknee, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+
+Each meniscus is anchored to the tibial plateau through horn attachments and connected via ligamentous structures such as the transverse ligament and the ligaments of Humphrey and Wrisberg~\cite{athanasiou2009engineeringknee, makris2011kneemeniscus}.
+The vascularization of the menisci is confined primarily to the peripheral red-zone, while the central white-zone remains avascular, impacting the tissue's healing potential~\cite{athanasiou2009engineeringknee, makris2011kneemeniscus, tran2020comprehensivereview}.
+Furthermore, the menisci display a highly organized internal structure, divided into three distinct layers: superficial, lamellar, and deep~\cite{athanasiou2009engineeringknee, makris2011kneemeniscus, baek2015meniscustissue}.
+Each layer varies in collagen fiber orientation and mechanical function, contributing to the overall anisotropic mechanical behavior of the tissue~\cite{makris2011kneemeniscus, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+Regional differences, namely between the red (outer), red-white (transitional), and white (inner) zones, also define the meniscus's ability to respond to mechanical stresses and injuries~\cite{athanasiou2009engineeringknee, makris2011kneemeniscus, baek2015meniscustissue}.
+
+\subsection{Macrostructure and Microstructure}
+
+Macroscopically, the meniscus exhibits a characteristic C-shaped geometry that optimizes the distribution of compressive loads across the tibiofemoral joint~\cite{makris2011kneemeniscus, athanasiou2009engineeringknee, baek2015meniscustissue}.
+This geometry increases the contact area between the femur and tibia, thereby reducing peak stresses on the underlying articular cartilage and mitigating cartilage degeneration~\cite{makris2011kneemeniscus, abdelgaied2015comparisonbiomechanical, baek2015meniscustissue}.
+The medial meniscus tends to be more semicircular, while the lateral meniscus displays a tighter, more complete curvature, contributing to functional differences in load transmission~\cite{makris2011kneemeniscus, athanasiou2009engineeringknee, baek2015meniscustissue}.
+
+At the microscale, the meniscus possesses a highly organized, hierarchical structure composed primarily of collagen fibers, interspersed with a smaller proportion of proteoglycans that contribute to fluid retention and compressive resistance~\cite{makris2011kneemeniscus, athanasiou2009engineeringknee, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+Collagen fibers are anisotropically aligned, with their orientation varying across distinct tissue zones to fulfill specialized mechanical roles~\cite{makris2011kneemeniscus, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+The superficial layer features randomly oriented fibers adapted to resist shear stresses at the articulating surfaces~\cite{makris2011kneemeniscus, baek2015meniscustissue}.
+Beneath this, the lamellar layer exhibits fibers aligned more circumferentially, supporting hoop stress resistance~\cite{makris2011kneemeniscus, baek2015meniscustissue}.
+The deep (core) layer is dominated by densely packed circumferential collagen bundles, critical for withstanding tensile forces generated during axial compression of the knee joint~\cite{makris2011kneemeniscus, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+This sophisticated multiscale organization underpins the meniscus's ability to absorb dynamic loads while preserving joint stability~\cite{makris2011kneemeniscus, athanasiou2009engineeringknee, baek2015meniscustissue, abdelgaied2015comparisonbiomechanical}.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.}
+\setlength{\tabcolsep}{8pt}
+\rowcolors{2}{blue!10}{white} % Alternating row colors
+\begin{tabular}{|l|p{6cm}|p{6.5cm}|}
+\hline
+\rowcolor{blue!20}
+\textbf{Layer} & \textbf{Fiber Orientation}& \textbf{Functional Role} \\ \hline
+\textbf{Superficial Layer} & Random collagen fibers on femoral and tibial surfaces & Smooth articulation, shear resistance, interface with cartilage \\ \hline
+\textbf{Lamellar Layer} & Interdigitated radial and oblique fibers in the intermediate zone & Transfers loads to the core, provides structural transition \\ \hline
+\textbf{Deep Layer (Core)} & Densely packed circumferential fibers with radial ties & Primary load-bearing, resists hoop stresses, maintains integrity \\ \hline
+\end{tabular}
+\caption{Table summarizing the structural organization and functional roles of the distinct layers within meniscal tissue, highlighting key differences in collagen orientation and biomechanical function. Adapted from (Athanasiou et al., 2009).}
+\label{tab:meniscal_structure}
+\end{table}
+
+\subsection{Tissue Composition}
+
+The functional capacity of the meniscus is intrinsically linked to its unique biochemical composition. As summarized in Table~\ref{tab:meniscus_composition}, the tissue is composed predominantly of water and collagen, with smaller contributions from glycosaminoglycans (GAGs), DNA, and minor proteins. Water accounts for approximately 70\% of the total weight and plays a critical role in enabling the meniscus to exhibit viscoelastic behavior, particularly under dynamic loading conditions\cite{makris2011kneemeniscus,gupta2020meniscaltissue,moutos2007biomimeticthreedimensional}. Collagen, comprising about 75\% of the dry weight, provides the primary structural framework necessary for tensile strength and mechanical integrity. Notably, the distribution of collagen types varies by region: type I collagen is highly concentrated in the outer (red) region, accounting for over 90--99\% of the collagen content, whereas the inner (white) region contains a greater proportion of type II collagen, supporting compressive load-bearing\cite{athanasiou2009engineeringknee,bahcecioglu20193dprinted}. Glycosaminoglycans, although representing a smaller fraction of the tissue, are essential for maintaining hydration and resisting compressive forces due to their highly charged nature. Minor components such as DNA, adhesion proteins, and elastin fibers contribute to the tissue's cellular function and overall mechanical resilience. This specialized composition underlies the meniscus's ability to withstand complex mechanical environments within the knee joint\cite{vetri2019advancedmicroscopy}.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{10pt}
+\rowcolors{2}{blue!10}{white}
+\begin{tabular}{|p{3.5cm}|p{2cm}|p{7cm}|}
+\hline
+\rowcolor{blue!20}
+\textbf{Component} & \textbf{Percentage} & \textbf{Key Function or Details} \\ \hline
+Water & 70--80\% (wet weight) & Major contributor to viscoelastic behavior; supports fluid pressurization \\ \hline
+\multicolumn{3}{|c|}{\textbf{Dry Weight Composition}} \\ \hline
+Total Dry Weight & 20--30\% (relative to wet weight) & Reflects total mass of solid matrix components after water removal \\ \hline
+Collagen & 60--75\% of dry weight & Primary structural protein; Type I dominant in outer regions, Type II more prevalent in inner zones \\ \hline
+Glycosaminoglycans (GAGs) & 1--2\% of dry weight & Provides compressive stiffness and retains water through osmotic swelling \\ \hline
+DNA (Cellular Content) & $\sim$2\% of dry weight & Represents cellular content within the extracellular matrix \\ \hline
+Minor Proteins & $<$2\% of dry weight & Includes adhesion molecules and elastin fibers; support mechanical and cellular functions \\ \hline
+\end{tabular}
+\caption{Biochemical composition of the meniscal tissue, distinguishing between wet and dry weight contributions, and the functional significance of each component.}\label{tab:meniscus_composition}
+\end{table}
+
+\subsection{Mechanical Functions of the Meniscus}
+
+The meniscus plays a vital role in maintaining knee joint homeostasis through several key biomechanical functions~\cite{wang2022advanceselectrospun}.
+It distributes compressive loads across a broader surface area of the tibial plateau, reducing focal stress on the articular cartilage and thereby mitigating the risk of degeneration~\cite{boschetti2004biomechanicalproperties}.
+Additionally, the meniscus acts as a dynamic shock absorber, dissipating mechanical energy during weight-bearing and high-impact activities~\cite{du2023meniscusheterogeneity}.
+Its unique semicircular geometry and organized fiber orientation allow the meniscus to conform to the moving femoral condyles, providing critical joint stabilization throughout flexion and extension~\cite{merriam2015successfultotal}.
+Importantly, the meniscus converts axial compressive forces into circumferential tensile (hoop) stresses through its collagen network, preserving joint congruity and mechanical integrity~\cite{bahceciogluanatomicalmeniscus, morejon2020compressiveproperties}.
+
+\subsection{Mechanical Properties and Regional Variability}
+
+The ability of the meniscus to perform these functions depends on its sophisticated mechanical properties, which are directly tied to its internal structure and biochemical composition~\cite{bahcecioglu20193dprinted, vetri2019advancedmicroscopy}.
+The meniscus exhibits marked anisotropy; its mechanical response varies based on the direction of loading~\cite{seitz2013stressrelaxationresponse}, largely due to the circumferential alignment of collagen fibers~\cite{guo20213dprintedcellfree}.
+It also demonstrates viscoelastic behavior, with time-dependent responses such as stress relaxation and creep under sustained loads, allowing it to adapt to both static and dynamic forces~\cite{seitz2013stressrelaxationresponse}.
+The tissue's compressive stiffness, characterized by its aggregate modulus (a measure of equilibrium stiffness under confined compression), increases with strain rate, allowing the meniscus to resist sudden, high-impact forces~\cite{wanganalysiseects, boschetti2004biomechanicalproperties, busby2013confinedcompression}.
+Regional variability is another critical feature: the outer (red) zone is more fibrous and stiffer due to dense type I collagen, whereas the inner (white) zone is softer and more cartilage-like, enriched with proteoglycans and type II collagen~\cite{bahcecioglu20193dprinted}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/intro/intro3.pdf}
+    \caption[Meniscal Load Distribution and Injury Patterns]{Mechanical load distribution and common meniscal injury patterns. 
+    (Top) Axial loads applied to the femur are transmitted through the menisci, generating hoop stresses that resist radial extrusion and enhance joint stability. 
+    (Bottom) Representative tear patterns of the meniscus, including radial, longitudinal, oblique, horizontal, complex, and bucket-handle tears, each influencing the tissue's mechanical integrity and healing capacity.(Adapted from \cite{athanasiou2009})}
+    \label{fig:meniscal_mechanics_and_injuries}
+\end{figure}
+
+The mechanical behavior of the meniscus, illustrated in Figure~\ref{fig:meniscal_mechanics_and_injuries}, demonstrates how axial loads are transformed into circumferential stresses through the tissue's unique architecture. This load distribution mechanism is critical for joint stability and cartilage protection.
+
+\section{Limitations of Current Treatments and Implants}
+
+\subsection{Current Treatment Landscape}
+
+Meniscal injuries present a complex clinical challenge, and several surgical interventions have been developed to mitigate symptoms and preserve joint function~\cite{kwon2019surgicaltissue, li2024totalmeniscus, merriam2015successfultotal, sun2017overviewscaffold}.
+Current treatment options include partial or total meniscectomy, meniscal repair techniques, meniscus allograft transplantation, and synthetic implants.~\cite{beeler2020meniscussizing}
+While these approaches can offer symptomatic relief or temporary restoration of joint biomechanics, each carries intrinsic limitations that impact their long-term success~\cite{ghodbane2019partialmeniscus, sun2017overviewscaffold}.
+Table \ref{tab:treatment_summary} summarizes the primary treatment modalities and associated challenges.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{8pt}
+\rowcolors{2}{blue!10}{white}
+
+
+\begin{tabular}{|l|p{8cm}|}
+\hline
+\rowcolor{blue!20}
+\textbf{Surgical Intervention} & \textbf{Key Characteristics} \\ \hline
+Partial or Total Meniscectomy & Symptom relief; risk of accelerated joint degeneration \\ \hline
+Meniscal Repair Techniques & Preservation of meniscal function; limited by tear location and vascularity \\ \hline
+Meniscus Allografts & Biological replacement; limited donor availability; disease transmission risk \\ \hline
+Synthetic Implants & Emerging options; mixed long-term outcomes \\ \hline
+\end{tabular}
+\caption{Summary of Current Treatment Options and Limitations}
+\label{tab:treatment_summary}
+\end{table}
+
+\subsection{Meniscectomy and Meniscal Repair}
+
+Partial or total meniscectomy remains the most commonly performed procedure for meniscal injuries. Although it offers rapid symptomatic relief, meniscectomy disrupts the native load-distributing function of the meniscus. This disruption increases focal stress on the articular cartilage, predisposing the joint to early osteoarthritic changes.
+
+Meniscal repair techniques, including inside-out, outside-in, and all-inside suturing methods, aim to preserve native tissue and maintain biomechanical function. However, repair success is highly dependent on tear location and tissue vascularity. Tears in the avascular inner region heal poorly, and the mechanical stresses of joint motion further jeopardize repair integrity during the healing period.
+
+\subsection{Meniscus Allografts}
+
+Meniscal allograft transplantation provides an alternative for patients with substantial meniscal loss. Properly sized allografts can restore joint congruency and protect articular cartilage initially. However, clinical success is limited by donor tissue scarcity, strict size-matching requirements, and the risk of disease transmission. Furthermore, graft sterilization techniques may compromise mechanical properties, and long-term durability is often undermined by immune-mediated degradation or mechanical mismatches between the graft and host environment.
+
+\subsection{Current Meniscus Implants}
+
+Meniscus implants offer alternatives for patients unsuitable for biological repair or transplantation. Current approaches include synthetic, semi-synthetic, and natural materials, each balancing mechanical performance and regenerative potential. However, no implant fully replicates native meniscal function, and challenges such as poor integration, mechanical mismatch, and limited durability persist.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/intro/intro4.pdf}
+    \caption[Current Meniscal Implant Types]{Current commercially available meniscus implants categorized by material composition. 
+    \textbf{Synthetic} implants, such as the \textit{NuSurface} (Active Implants) and \textit{Artimis} (ATRO Medical), are composed of polymeric materials designed to replace mechanical function. 
+    \textbf{Semi-synthetic} options, such as the \textit{Actifit} scaffold (Orteq), combine synthetic polymers with biological integration strategies.
+    \textbf{Natural} scaffolds, such as the \textit{Collagen Meniscus Implant (CMI)} by Stryker, are derived from biologically based materials and aim to promote tissue regeneration.}
+    \label{fig:intro4}
+\end{figure}
+
+\subsubsection{Synthetic Implants}
+
+Synthetic implants are designed to prioritize mechanical functionality by utilizing robust polymeric materials such as polycarbonate-urethane and polyurethane. These implants aim to immediately restore mechanical integrity to the knee joint following meniscectomy or persistent meniscal injury. The NuSurface implant (Active Implants LLC) is one of the most widely studied examples, intended to provide rapid pain relief and enhance knee stability in patients who are not suitable candidates for biological repair or meniscal transplantation.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{10pt}
+\rowcolors{2}{blue!10}{white}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+\hline
+\rowcolor{blue!20}
+\textbf{Advantages} & \textbf{Limitations} \\ \hline
+Superior initial mechanical strength and load-bearing capacity & Poor biological integration, preventing true tissue remodeling \\ \hline
+Immediate restoration of joint stability and function & Risk of long-term complications such as implant loosening, wear, or chronic inflammation \\ \hline
+Reliable performance in patients unsuitable for biological repair & Lack of regenerative capacity to restore native meniscal tissue \\ \hline
+\multicolumn{1}{|c|}{} & Typically serves as a transitional solution before total knee replacement \\ \hline
+\end{tabular}
+\caption{Advantages and limitations of synthetic meniscal implants.}
+\label{tab:synthetic_implants}
+\end{table}
+
+\subsubsection{Semi-synthetic Implants}
+
+Semi-synthetic implants represent a hybrid approach that combines synthetic polymers with biodegradable design elements intended to support partial biological regeneration. The ActiFit scaffold (Orteq Sports Medicine) exemplifies this strategy, utilizing a biodegradable polyurethane matrix to provide initial mechanical support while allowing for gradual cellular infiltration and tissue remodeling as the scaffold resorbs.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{10pt}
+\rowcolors{2}{blue!10}{white}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+\hline
+\rowcolor{blue!20}
+\textbf{Advantages} & \textbf{Limitations} \\ \hline
+Provides balanced mechanical support during early healing phases & Potential mismatch between scaffold degradation rate and new tissue formation \\ \hline
+Facilitates partial tissue ingrowth and biological integration & Risk of inflammatory response to synthetic polymer remnants \\ \hline
+Reduced risk of chronic foreign body reactions through controlled biodegradation & Variable biological outcomes dependent on patient-specific healing capacity \\ \hline
+\end{tabular}
+\caption{Advantages and limitations of semi-synthetic meniscal implants.}
+\label{tab:semi_synthetic_implants}
+\end{table}
+
+\subsubsection{Natural Implants}
+
+Natural implants are designed to closely replicate the biological and structural properties of the native meniscus by utilizing extracellular matrix-derived components. The Collagen Meniscus Implant (CMI, Stryker) is a well-studied example, consisting of highly purified type I collagen derived from bovine tendon. This scaffold promotes endogenous cellular infiltration, extracellular matrix deposition, and eventual remodeling into functional meniscus-like tissue.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{10pt}
+\rowcolors{2}{blue!10}{white}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+\hline
+\rowcolor{blue!20}
+\textbf{Advantages} & \textbf{Limitations} \\ \hline
+Excellent biocompatibility and minimal chronic immune response & Inferior initial mechanical strength compared to synthetic alternatives \\ \hline
+Promotes cellular adhesion, proliferation, and matrix remodeling & Extended rehabilitation time required for sufficient tissue remodeling \\ \hline
+Supports long-term tissue integration and biological healing & Regenerative outcomes are highly variable and patient-dependent \\ \hline
+\multicolumn{1}{|c|}{} & Susceptibility to graft failure under high mechanical demand \\ \hline
+\end{tabular}
+\caption{Advantages and limitations of natural meniscal implants.}\label{tab:natural_implants}
+\end{table}
+
+
+\subsection{Summary of Meniscus Implants}
+The current landscape of meniscal implants spans synthetic, semi-synthetic, and natural designs. Synthetic implants, such as NuSurface, offer mechanical stability but lack regenerative capacity. Semi-synthetic scaffolds like ActiFit aim to balance support and biodegradation, though tissue integration remains inconsistent. Natural implants, such as the Collagen Meniscus Implant (CMI), promote regeneration but have limited mechanical strength and require longer rehabilitation.
+
+Despite advances, no implant fully restores both mechanical function and biological integration, underscoring the need for next-generation, hybrid tissue-engineered solutions.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.25}
+\setlength{\tabcolsep}{6pt}
+\rowcolors{2}{blue!10}{white}
+
+\begin{tabular}{|p{3.2cm}|p{5.2cm}|p{5.2cm}|}
+\hline
+\rowcolor{blue!20}
+\textbf{Implant Type} & \textbf{Advantages} & \textbf{Limitations} \\ \hline
+Synthetic (e.g., NuSurface) & Superior mechanical strength; immediate joint stability; suitable for patients unsuitable for biological repair & Poor biological integration; risk of long-term complications; no regenerative capacity; often a temporary solution \\ \hline
+Semi-synthetic (e.g., ActiFit) & Balanced mechanical support and tissue regeneration; controlled biodegradation; potential for tissue integration & Risk of degradation-tissue mismatch; inflammatory response; variable biological outcomes \\ \hline
+Natural (e.g., CMI) & Excellent biocompatibility; promotes cellular infiltration and matrix remodeling; supports long-term healing & Limited mechanical strength; extended rehabilitation; patient-dependent regenerative success; higher failure risk under high loads \\ \hline
+\end{tabular}
+
+\caption{Summary of advantages and limitations of meniscal implants.}
+\label{tab:implant_summary}
+\end{table}
+
+\section{Advances and Shortcomings in Bioprinting and Scaffold Design}
+
+\subsection{Current Bioprinting Research for Meniscal Repair}
+
+Bioprinting represents a cutting-edge extension of tissue engineering, offering unprecedented control over the spatial organization of cells, biomaterials, and bioactive signals \cite{engberg2021opensource} to create anatomically and functionally relevant tissue constructs.
+In the context of meniscal repair, bioprinting aims to overcome the intrinsic challenges associated with meniscal healing by fabricating scaffolds that mimic the native tissue's zonal organization, mechanical anisotropy, and biological complexity~\cite{sun20213dbioprintingreadytoimplant}.
+
+Meniscal bioprinting research primarily focuses on the development of bioinks composed of natural hydrogels (e.g., gelatin methacrylate, alginate), synthetic polymers (e.g., polycaprolactone [PCL], polylactic acid [PLA]), and composite materials that integrate biological and mechanical functionality~\cite{bahcecioglu20193dprinted, baek2015meniscustissue, a.murphy20243dprintedvariable}.
+These materials are printed in highly controlled architectures, enabling the recreation of regional differences in fiber orientation, stiffness, and cellular composition critical to meniscal function~\cite{a.murphy20243dprintedvariable, bahceciogluanatomicalmeniscus, sun20213dbioprintingreadytoimplant}.
+
+\begin{itemize}
+    \item \textbf{Material Selection:} Use of natural, synthetic, and hybrid bioinks designed to balance mechanical strength, biodegradability, and cellular compatibility.
+
+    \item \textbf{Cell Incorporation:} Printing of constructs seeded with mesenchymal stem cells (MSCs), fibrochondrocytes, or other progenitor cell types to promote in situ tissue regeneration and matrix deposition.
+
+    \item \textbf{Bioactive Molecule Delivery:} Incorporation of growth factors (e.g., TGF-\(\beta\), VEGF) within printed structures to stimulate tissue maturation, vascularization, and integration with host tissues.
+
+    \item \textbf{Architectural Design:} Engineering of anisotropic fiber alignments and zonal gradations within the construct to mimic the circumferential, radial, and compressive properties of the native meniscus.
+
+    \item \textbf{Mechanical Conditioning:} Application of dynamic mechanical stimulation in bioreactors to precondition constructs, enhancing matrix organization and mechanical properties before implantation.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/intro/intro5.pdf}
+    \caption[Bioprinting Research in Meniscal Engineering]{Examples of current bioprinting research in meniscal tissue engineering. 
+    Top row: Different printing architectures (custom G-code, concentric, grid, and rectilinear patterns) for meniscal scaffold fabrication (Klarmann, Piroli et al., 2023). 
+    Bottom left: Layered scaffold structure mimicking meniscal fiber orientation (Szojka, Lalh et al., 2017). 
+    Bottom right: Hydrogel-based meniscus-shaped construct developed for potential tissue integration and regeneration (Filardo et al., 2019).}
+    \label{fig:intro5}
+\end{figure}
+
+\subsection{Current Limitations in Bioprinting Approaches}
+
+Despite significant technological progress, current bioprinting research faces several critical challenges, including:
+
+\begin{itemize}
+    \item \textbf{Limited Mechanical Robustness:} Printed tissues often lack the mechanical strength required for load-bearing joint applications.
+    
+    \item \textbf{Extended Fabrication Times:} High-resolution printing of complex geometries requires significant time, limiting clinical practicality.
+    
+    \item \textbf{High Operational Costs:} Specialized bioprinting equipment and materials remain expensive, restricting widespread adoption.
+    
+    \item \textbf{Regulatory Barriers:} Complex, cell-laden constructs face intensive regulatory scrutiny, slowing clinical translation.
+    
+    \item \textbf{Integration Challenges:} Achieving seamless biological and mechanical integration with native joint tissues remains an unmet goal.
+\end{itemize}
+
+Nevertheless, ongoing advances in biomaterials, printing resolution, multi-material deposition, and in vitro maturation techniques continue to propel bioprinting closer to clinical translation for functional meniscal regeneration.
+
+\section{Engineering Requirements}
+
+\subsection{Mechanical Performance}
+
+Mechanical performance is one of the most critical design considerations for next-generation meniscal scaffolds~\cite{sun2017overviewscaffold, gupta2020meniscaltissue, ma2025structurallysophisticated}.
+The native meniscus plays a vital role in distributing compressive loads, transforming them into circumferential tensile stresses, and maintaining overall joint stability during dynamic activities~\cite{makris2011kneemeniscus}.
+Therefore, engineered scaffolds must replicate key mechanical behaviors of the meniscus, including compressive stiffness, anisotropic load-bearing capacity, viscoelastic stress relaxation, and long-term durability under cyclic physiological loading~\cite{seitz2013stressrelaxationresponse, a.murphy20243dprintedvariable, sun2017overviewscaffold}.
+Achieving these properties ensures that the scaffold can protect the underlying articular cartilage, resist extrusion, and maintain structural integrity throughout the healing process\cite{patel2018tissueengineeredtotal, sun2017overviewscaffold}
+Failure to match these mechanical demands not only compromises functional restoration but may also accelerate degenerative changes within the joint~\cite{ghodbane2019partialmeniscus, makris2011kneemeniscus}.
+
+Key mechanical design targets include:
+
+\begin{itemize}
+    \item \textbf{Compressive Stiffness:} Aggregate modulus in the range of 100–150 kPa to match native meniscal compression resistance \cite{morejon2020compressiveproperties}.
+    
+    \item \textbf{Anisotropic Behavior:} Ability to transform axial compressive forces into circumferential tensile hoop stresses, reflecting the fiber orientation of native tissue
+    \cite{makris2011kneemeniscus}.
+    
+    \item \textbf{Viscoelastic Properties:} Stress relaxation and creep behavior similar to native meniscus to dissipate dynamic loads effectively \cite{mordecai2014treatmentmeniscal}.
+    
+    \item \textbf{Fatigue Resistance:} Structural stability under millions of cyclic loading cycles experienced during normal gait and activity.
+    
+    \item \textbf{Dimensional Integrity:} Maintenance of anatomical shape and load-bearing surface under physiological joint forces.
+\end{itemize}
+
+\subsection{Biological Integration}
+
+Biological integration is essential for the long-term success of meniscal scaffolds, ensuring not only initial biocompatibility but also active participation in tissue regeneration~\cite{ma2025structurallysophisticated, li20213dprinted, li2024advancedhydrogel, luis20203ddirect, shamloo2018acceleratedfullthickness}.
+Scaffolds must create a permissive environment for cellular infiltration, proliferation, and extracellular matrix deposition while minimizing inflammatory responses that could lead to fibrosis or implant failure~\cite{shamloo2018acceleratedfullthickness, xu2013hybridprinting}
+Successful biological integration also requires controlled scaffold degradation synchronized with new tissue formation, allowing gradual transfer of mechanical loads to the regenerating meniscus~\cite{morenonieto2021productdesign, pitt1981aliphaticpolyesters}.
+Moreover, the scaffold must achieve firm biological and mechanical anchorage with the surrounding native tissues to restore functional continuity within the joint~\cite{ghodbane2019partialmeniscus}.
+Without robust integration, even mechanically competent constructs are unlikely to achieve durable clinical outcomes~\cite{bakerengineeringanatomicallyshaped}.
+
+Key biological design targets include:
+
+\begin{itemize}
+    \item \textbf{Biocompatibility:} Scaffold materials must minimize immune and inflammatory responses, supporting a regenerative healing environment \cite{beeler2020meniscussizing, christino2019meniscal}.
+    
+    \item \textbf{Cellular Infiltration and Remodeling:} Scaffolds should enable cell migration, attachment, proliferation, and matrix deposition to promote functional neotissue formation\cite{gupta2020meniscaltissue,du2023meniscusheterogeneity}.
+    
+    \item \textbf{Host Tissue Integration:} Constructs must bond with adjacent meniscal and articular cartilage tissues to restore mechanical continuity and biological functionality \cite{li2024totalmeniscus,mauck2000functionaltissue,pokhrel2020meniscal}.
+    
+    \item \textbf{Controlled Biodegradation:} Scaffold degradation should be timed to coincide with tissue regeneration, maintaining mechanical support during early healing while allowing eventual load transfer to new tissue\cite{wang20203dprinting,choi20213dprintedgelatin}.
+\end{itemize}
+
+\subsection{Clinical Translation}
+
+Clinical translation is a critical consideration in the design of next-generation meniscal scaffolds~\cite{sun2017overviewscaffold}.
+Beyond biological and mechanical performance, scaffolds must be manufactured reproducibly and economically to facilitate widespread clinical adoption~\cite{luis20203ddirect, xiao2013mechanicaltesting}.
+Fabrication techniques must support consistent scaffold architecture, scalability for large patient populations, and compatibility with established sterilization protocols to meet regulatory and clinical standards~\cite{gupta2020meniscaltissue,}
+Additionally, constructs must maintain dimensional stability throughout manufacturing, storage, and implantation processes to ensure anatomical accuracy and mechanical functionality~\cite{norberg2021viscoelasticequilibrium, woodruff2010returnforgotten}.
+Finally, cost-effective production using accessible platforms, such as desktop-scale bioprinters, is essential to reduce healthcare costs and expand global accessibility to regenerative therapies~\cite{sooriyaarachchi2019hybridfabrication, fares2018interpenetratingnetwork, gautam2013fabricationcharacterization, elkommos2025hybridhydrogels}.
+
+In addition to these design requirements, future clinical translation will necessitate rigorous preclinical testing and navigation of regulatory frameworks to ensure safety and efficacy.
+This includes comprehensive biocompatibility assessments, mechanical validation under physiological conditions, and demonstration of long-term stability in relevant animal models.
+
+Key clinical design targets include:
+
+\begin{itemize}
+    \item \textbf{Reproducible Fabrication:} Scaffold manufacturing processes must produce consistent structural and functional outcomes across multiple batches and sites.
+    
+    \item \textbf{Sterilization Compatibility:} Materials and scaffold architectures must withstand standard sterilization methods without compromising mechanical or biological properties.
+    
+    \item \textbf{Dimensional Stability:} Constructs must preserve anatomical geometry and mechanical integrity during processing, handling, and surgical placement \cite{Beaufils2017, makris2011kneemeniscus}.
+    
+    \item \textbf{Cost-Effective Manufacturing:} Scaffold production should be affordable and feasible using scalable, accessible equipment such as desktop 3D bioprinting systems \cite{bahcecioglu20193dprinted,klarmann20233dprinting,elkommos2025hybridhydrogels}.
+\end{itemize}
+
+In summary, achieving a biomimetic, mechanically robust, and biologically active scaffold remains the critical design challenge in engineering a clinically translatable meniscal replacement.
+A successful scaffold must exhibit poroviscoelastic behavior, mimic the mechanical anisotropy of native meniscal tissue, support cellular activity, and maintain cost-effective manufacturability for widespread clinical application.
+
+\section{Rationale for the HANI Approach}
+
+\subsection{Current Challenges and Need for a Hybrid Approach}
+
+Meniscal repair strategies—including surgical interventions, tissue engineering constructs, and additive manufacturing technologies—have made significant strides but consistently fall short of replicating the multifunctional demands of native meniscal tissue~\cite{makris2011kneemeniscus, luis20203ddirect, ma2025structurallysophisticated}.
+Surgical repairs often compromise joint biomechanics and accelerate degeneration~\cite{mordecai2014treatmentmeniscal}.
+Tissue-engineered scaffolds struggle to balance mechanical strength with biological functionality, and while additive manufacturing offers architectural precision, scalability and clinical practicality remain major obstacles~\cite{mordecai2014treatmentmeniscal}.
+
+To address these persistent challenges, a hybrid regenerative strategy is required—one that combines the mechanical robustness of synthetic polymers, the biological compatibility of natural hydrogels, and scalable, cost-effective fabrication methods.
+The Hydrogels Augmented via Additive Network Integration (HANI) platform was developed to meet these needs, offering an integrated scaffold system designed to restore both mechanical resilience and biological functionality\cite{elkommos2025hybridhydrogels}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/intro/intro6.png}
+    \caption[HANI Platform Overview]{Overview of the Hydrogels Augmented via Additive Network Integration (HANI) platform. The HANI strategy combines natural gelatin-based hydrogels and synthetic polycaprolactone (PCL) polymers to achieve balanced biocompatibility, mechanical strength, and poroviscoelastic behavior. Additive manufacturing techniques, including Fused Deposition Modeling (FDM) and Stereolithography (SLA), are utilized to fabricate precise reinforcement networks and molds. Integrated network architectures and thermal stabilization approaches ensure structural integrity and dimensional control during hydrogel embedding and curing, enabling scalable fabrication of mechanically robust, biologically compatible scaffolds.}
+    \label{fig:intro6}
+\end{figure}
+
+\subsection{Functional and Material Advantages of the HANI Platform}
+
+The HANI platform represents a strategic response to the current limitations in meniscal tissue engineering, combining advanced hydrogel chemistry, synthetic reinforcement networks, and precision additive manufacturing to engineer functionally relevant, clinically translatable meniscal replacements.
+This integrated approach directly addresses the key challenges identified in current bioprinting research while offering several distinct advantages~\cite{elkommos2025hybridhydrogels}.
+Specifically, the platform utilizes:
+
+\begin{itemize}
+    \item Gelatin-based hydrogels (GelA) crosslinked with glutaraldehyde (GTA) to achieve physiologically relevant poroviscoelastic properties and water content,
+    \item Poly-$\varepsilon$-caprolactone (PCL) reinforcement networks fabricated via Fused Deposition Modeling (FDM) to create anisotropic, biomimetic mechanical patterns,
+    \item Custom stereolithography (SLA)-printed molds for precise dimensional control,
+    \item Thermal stabilization techniques to maintain network architecture during hydrogel integration.
+\end{itemize}
+
+This integrated strategy seeks to overcome the trade-offs inherent in current meniscal engineering methods by combining mechanical performance, biological integration, and scalable manufacturing. %\cite[]
+
+\subsection{Design and Functional Advantages}
+
+The HANI methodology strategically integrates:
+
+\subsubsection{Hybrid Hydrogels}
+
+\begin{itemize}
+    \item \textbf{Gelatin-Based Hydrogel (GelA):} Provides natural cell-binding motifs, tunable viscoelastic properties, and an extracellular matrix (ECM)-mimetic microenvironment.
+    \item \textbf{PCL Reinforcement Networks:} Offer mechanical strength, anisotropic load distribution, and structural stability during physiological deformation.
+    \item \textbf{Controlled Crosslinking (GTA):} Enables tunable stiffness, degradation rates, and water content to support mechanical and biological performance.
+\end{itemize}
+
+\subsubsection{Augmented via Additive}
+
+\begin{itemize}
+    \item \textbf{Fused Deposition Modeling (FDM):} Fabricates precise PCL networks with customizable architectures using cost-effective, desktop-scale equipment.
+    \item \textbf{Stereolithography (SLA):} Produces high-resolution molds to achieve dimensional stability and complex geometries necessary for meniscal scaffold design.
+    \item \textbf{Mechanical Properties:} Novel utilization of Additive technology to enhance Hybrid Hydrogel mechanical properties.  Maintains network architecture during hydrogel integration and curing.
+\end{itemize}
+
+\subsubsection{Network}
+
+\begin{itemize}
+    \item \textbf{Hydrogel-PCL Networks}: The interaction of the hydrogel and various PCL reinforcments
+    \item \textbf{Aligned Networks:} For directional mechanical reinforcement.
+    \item \textbf{Circumferential Networks:} To replicate hoop stress distribution.
+    \item \textbf{3D Thermomolded Structures:} Enhancing through-thickness compressive stability.
+\end{itemize}
+
+\subsubsection{Integration}
+
+\begin{itemize}
+    \item \textbf{Thermal Stabilization:} Maintains network architecture during hydrogel integration and curing.
+    \item \textbf{Dimensional Control:} Achieves precise scaffold dimensions and mechanical properties.
+    \item \textbf{Scalability:} Enables large-scale, cost-effective fabrication.
+\end{itemize}
+
+\subsection{Biomaterial Components of the HANI System}
+
+Having outlined the functional strategy of HANI, the following sections detail the material components that underpin its mechanical and biological performance.
+
+\subsubsection{Gelatin-Based Hydrogel (GelA) as a Scaffold Matrix}
+
+Gelatin-based hydrogel (GelA), derived from collagen, is widely used in tissue engineering due to its intrinsic biocompatibility, biodegradability, and cell-adhesive properties. Its tunable polymer concentration and crosslinking density allow the engineering of hydrogels with physiologically relevant water content and stress-relaxation behavior, making it an ideal candidate for soft tissue scaffolds.
+
+\subsubsection{Poly-$\varepsilon$-caprolactone (PCL) as a Reinforcement Material}
+
+Poly-$\varepsilon$-caprolactone (PCL) is a synthetic, biodegradable polymer with excellent mechanical strength and flexibility \cite{cipitria2011designfabrication}. When fabricated into reinforcing networks via FDM, PCL enhances the structural integrity of GelA-based constructs and enables the creation of anisotropic load-bearing architectures, critical for mimicking the mechanical function of native meniscus.
+
+\subsubsection{Composite Scaffold Integration}
+
+The combination of GelA hydrogels and PCL reinforcement networks enables the fabrication of composite scaffolds that integrate biological functionality with mechanical resilience. Composite designs can be engineered to reproduce the viscoelastic, anisotropic behavior of native meniscal tissue, providing a platform for functional tissue regeneration.
+
+\subsection{Technical and Translational Advantages}
+
+The combined material and manufacturing approach of the HANI system provides:
+
+\begin{itemize}
+    \item Tunable mechanical and poroviscoelastic behavior,
+    \item Enhanced biological compatibility and nutrient diffusion,
+    \item Scalable, cost-effective fabrication for potential patient-specific applications.
+\end{itemize}
+
+\section{Significance of the HANI Platform}
+
+The Hydrogels Augmented via Additive Network Integration (HANI) platform advances meniscal tissue engineering by addressing the longstanding trade-offs between mechanical strength and biological functionality. Key methodological advantages include:
+
+\begin{itemize}
+    \item Tunable mechanical and viscoelastic properties,
+    \item Enhanced cellular biointegration,
+    \item Scalable, patient-specific manufacturing using accessible equipment,
+    \item Cost-effective alternatives to traditional bioprinting technologies.
+\end{itemize}
+
+Together, these innovations position the HANI approach as a transformative strategy in the development of next-generation meniscal replacements. %\cite[]
+
+\section{Research Objectives and Specific Aims}
+
+This dissertation addresses critical gaps in meniscal tissue engineering through a systematic investigation of the 
+ Hybrid Hydrogel Augmented via Additive Network Integration (HANI) platform\cite{elkommos2025hybridhydrogels}. The research strategy is organized into a progression of interconnected studies, each building upon previous findings to develop a comprehensive solution for functional meniscal tissue replacement.
+
+\section{Overview of Dissertation Structure}
+
+The dissertation is structured into six chapters that methodically investigate key aspects of the HANI platform development.
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[node distance=1.5cm]
+        % Style definitions
+        \tikzstyle{chapter}=[rectangle, rounded corners, draw=blue!60, fill=blue!5, 
+                            minimum width=4cm, minimum height=1cm]
+        \tikzstyle{arrow}=[->, thick, >=latex]
+        
+        % Nodes
+        \node[chapter] (ch1) {Chapter~\ref{chap:intro}: Introduction and Background};
+        \node[chapter, below=of ch1] (ch2) {Chapter~\ref{chap:2}: Hybrid Hydrogel Development and Characterization};
+        \node[chapter, below=of ch2] (ch3) {Chapter~\ref{chap:3}: Augmented via Additive};
+        \node[chapter, below=of ch3] (ch4) {Chapter~\ref{chap:4}: Additive Network Integration};
+        \node[chapter, below=of ch4] (ch5) {Chapter~\ref{chap:5}: HANI Poroviscoelastic Characterization};
+        % \node[chapter, below=of ch5] (ch6) {Chapter~\ref{chap:6}: Strain-Rate Dependent Mechanical Behavior};
+        % \node[chapter, below=of ch6] (ch7) {Chapter~\ref{chap:conclusion}: Conclusions and Future Perspectives};
+        
+        % Arrows
+        \draw[arrow] (ch1) -- (ch2);
+        \draw[arrow] (ch2) -- (ch3);
+        \draw[arrow] (ch3) -- (ch4);
+        \draw[arrow] (ch4) -- (ch5);
+        % \draw[arrow] (ch5) -- (ch7);
+        % % \draw[arrow] (ch6) -- (ch7);
+    \end{tikzpicture}
+    \caption{Dissertation chapter organization and relationships. Each chapter builds upon previous findings to develop a comprehensive meniscal tissue engineering solution.}
+    \label{fig:chapter_organization}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Chapter~\ref{chap:intro}: Introduction and Background}
+    \begin{itemize}
+        \item \textit{Focus:} Overview of meniscal tissue engineering challenges, current solutions, and the rationale for the HANI platform.
+        \item \textit{Key Methods:} Literature review, gap analysis, and project objectives.
+        \item \textit{Expected Outcomes:} Establishment of the need for hybrid hydrogel and additive manufacturing approaches.
+    \end{itemize}
+    
+    \item \textbf{Chapter~\ref{chap:2}: Hybrid Hydrogel Development and Characterization}
+    \begin{itemize}
+        \item \textit{Focus:} Development and optimization of gelatin-based hydrogel formulations with native-like water content, swelling, and tunable mechanical properties.
+        \item \textit{Key Methods:} hydrogel characterization, swelling studies, mechanical and stress-relaxation testing.
+        \item \textit{Expected Outcomes:} Identification of GelA/GTA formulations with physiologically relevant properties and demonstration of tunable stress relaxation via network design.
+    \end{itemize}
+    
+    \item \textbf{Chapter~\ref{chap:3}: Augmented via Additive}
+    \begin{itemize}
+        \item \textit{Focus:} Development of custom instrumentation and methodologies for advanced mechanical testing of hydrogels.
+        \item \textit{Key Methods:} Additive manufacturing of testing apparatus, CAD design, validation, and data acquisition.
+        \item \textit{Expected Outcomes:} Reliable, physiologically relevant measurement of poroviscoelastic properties.
+    \end{itemize}
+    
+    \item \textbf{Chapter~\ref{chap:4}: Additive Network Integration}
+    \begin{itemize}
+        \item \textit{Focus:} Design and fabrication of PCL reinforcement architectures and their integration with hydrogels.
+        \item \textit{Key Methods:} FDM printing, network design optimization, integration protocols.
+        \item \textit{Expected Outcomes:} Stable, biomimetic PCL-hydrogel composites with tunable architecture and mechanical performance.
+    \end{itemize}
+    
+    \item \textbf{Chapter~\ref{chap:5}: HANI Poroviscoelastic Characterization}
+    \begin{itemize}
+        \item \textit{Focus:} Evaluation of composite scaffold mechanical properties under quasi-static and stress-relaxation loading.
+        \item \textit{Key Methods:} Confined compression stress-relaxation testing, poroviscoelastic modeling.
+        \item \textit{Expected Outcomes:} Achievement of native-like mechanical behavior and demonstration of tunable stress relaxation.
+    \end{itemize}
+    
+    % \item \textbf{Chapter~\ref{chap:6}: Strain-Rate Dependent Mechanical Behavior}
+    % \begin{itemize}
+    %     \item \textit{Focus:} Dynamic mechanical response of HANI scaffolds across varying strain rates.
+    %     \item \textit{Key Methods:} Compressive testing at physiological strain rates, dynamic mechanical analysis.
+    %     \item \textit{Expected Outcomes:} Optimization of scaffold design for dynamic loading and demonstration of rate-dependent mechanical properties.
+    % \end{itemize}
+
+    \item \textbf{Chapter~\ref{chap:conclusion}: Conclusions and Future Perspectives}
+    \begin{itemize}
+        \item \textit{Focus:} Synthesis of key findings, discussion of the HANI platform's impact, and outlook for future research and clinical translation.
+        \item \textit{Key Methods:} Integrative analysis, critical reflection, and identification of future directions.
+        \item \textit{Expected Outcomes:} Comprehensive summary of contributions, limitations, and recommendations for advancing meniscal tissue engineering.
+    \end{itemize}
+\end{itemize}
+
+Together, these chapters present a comprehensive investigation of the HANI platform's development and potential for meniscal tissue engineering applications. The progression from fundamental hydrogel characterization through dynamic mechanical analysis ensures thorough validation of each component before integration into the final system. The following chapter begins this investigation by examining the synthesis, optimization, and mechanical characterization of gelatin-based hydrogels as the foundation for composite scaffold development.
+

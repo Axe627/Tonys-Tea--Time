@@ -1,7 +1,17 @@
 {
+    // Previous settings (commented out)
+    // "latex-workshop.latex.autoBuild.run": "never",
+    // "latex-workshop.latex.autoClean.run": "never",
+    // "editor.wordWrap": "wordWrapColumn",
+    // "editor.wordWrapColumn": 80,
+    // "editor.wrappingIndent": "same",
+
+    // New settings with ChkTeX enabled
     "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.autoClean.run": "never",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
-    "editor.wrappingIndent": "same"
+    "editor.wrappingIndent": "same",
+    "latex-workshop.chktex.enabled": true,
+    "latex-workshop.chktex.autoCheck": true
 } 

@@ -1,0 +1,121 @@
+Here’s a **thorough and categorized summary** of all the items that need to be addressed from the transcript you provided:
+
+---
+
+
+## **II. Abstract & Line Breaks**
+
+### **Abstract Issues**
+
+* Remove unnecessary or awkward line breaks (e.g., phrases like “including custom fabricated, seamless, circumferential” need smooth flow).
+* Ensure full sentences, readable formatting.
+
+---
+
+## **III. Acknowledgments & Dedication**
+
+* Acknowledgments need to be **revised** (style or content).
+* Revisit and finalize the **dedication** (not specifically mentioned but included in flow).
+
+---
+
+## **IV. Lists and Structural Components**
+
+### **List of Figures**
+
+* Not compiling in Overleaf – troubleshoot LaTeX error.
+* Decide **consistent formatting**:
+
+  * Use **boldface title followed by caption** in the list (preferred).
+  * Early figures might only have titles — update them to include captions.
+  * Consistency between:
+
+    * Chapter 1: uses title only.
+    * Chapter 2: uses title + caption.
+* Reformat entries to be consistent in style, numbering, and indentation.
+
+### **List of Tables**
+
+* Same as figures: decide whether to use **caption or title** (preferred: include caption).
+* Format must match List of Figures.
+
+---
+
+## **V. Citations and Bibliography**
+
+* **BibTeX issue** – citations not compiling (showing as `??`).
+* Fix `.bib` file link and ensure all entries are present and referenced.
+* Remove any **redundant bibliography headings** (e.g., at end of Introduction file).
+
+---
+
+## **VI. Section/Subsection Structure**
+
+* Current format is overly complex (e.g., `1.6.3.4`) — **too deep**.
+* Recommended limit: **no more than three levels** (e.g., `1.6.3` max).
+* Replace deep nesting with **boldface headers and bullet lists** where appropriate.
+
+---
+
+## **VII. Images and Tables**
+
+### **General Issues**
+
+* **All images need review**: cropping issues, format errors.
+* Some images appear corrupted or reverted to uncropped versions.
+* Check against desktop/Word backup (“Nixon Six” version) to identify where crops were lost.
+* Replace all affected images with **updated, high-resolution, properly cropped versions**.
+
+### **Chapter-specific Notes**
+
+* Chapter 1: images need adjustment.
+* Chapter 2: graphics generally good, but re-review for improvement.
+* Chapter 3: "Augmented via Additive" – good overall, but images also affected.
+
+---
+
+## **VIII. Software/Workflow**
+
+* **Overleaf is causing issues** (citation errors, figure compilation).
+* Recommendation: transition to **Cursor AI** as main editing environment.
+
+  * Use **side-by-side viewer** to compare against previous versions.
+  * Make iterative corrections and formatting fixes here.
+
+---
+
+## **IX. Content Improvements & Additions**
+
+### **Conclusion Section**
+
+* Expand discussion on:
+
+  * Limitations:
+
+    * PCL annealing and thermomolding process inconsistencies
+    * Mold release issues, polymer quality
+  * Material versatility for **region-specific** use:
+
+    * Ethical/material restrictions in Israel, Egypt, Saudi Arabia vs. Japan
+    * Emphasize **adaptability of system** to different cultural/clinical constraints
+  * Highlight:
+
+    * Mechanical tuning options
+    * Geometrical variability
+    * Customizability and biointegration features
+
+---
+
+## **X. Overall Notes**
+
+* General formatting:
+
+  * Correct line breaks throughout text.
+  * Standardize citation, figure, and table styles.
+* Revise and tighten prose where necessary.
+* Maintain momentum; small edits build up over time.
+* Ensure final version includes all corrected graphics and up-to-date citations.
+
+---
+
+Let me know if you'd like this exported as a `.md`, `.txt`, or checklist format to use in Obsidian, Overleaf, or Cursor AI.
