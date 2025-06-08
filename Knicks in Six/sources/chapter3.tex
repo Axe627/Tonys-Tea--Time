@@ -3,9 +3,10 @@
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_A.pdf}
-    \caption{\textbf{Augmented via Additive "A" } Visual representation of the “Augmented via Additive” strategy, highlighting the integration of additive manufacturing techniques (e.g., 3D printing) into scaffold fabrication workflows to enhance mechanical performance, structural precision, and design versatility in tissue engineering applications. }
+    \caption{\textbf{Augmented via Additive "A" } Visual representation of the "Augmented via Additive" strategy, highlighting the integration of additive manufacturing techniques (e.g., 3D printing) into scaffold fabrication workflows to enhance mechanical performance, structural precision, and design versatility in tissue engineering applications. }
     \label{fig:ch3_A}
 \end{figure}
+
 \section{Defining ``Augmented via Additive'' in a Mechanical Context}
 
 The ``augmented via additive'' approach reflects a dual strategy: first, the use of additive manufacturing to develop precision-engineered mechanical testing equipment that overcomes the limitations of traditional hydrogel characterization; and second, the reinforcement of hydrogels through additively manufactured PCL networks to enhance mechanical performance. 
@@ -16,7 +17,8 @@ Before advancing to scaffold reinforcement, it was essential to establish accura
 
 Accurately characterizing the mechanical behavior of hydrated, low-modulus biomaterials—such as gelatin-based hydrogels—remains a significant challenge in meniscal tissue engineering. Traditional mechanical testing systems, though effective for stiffer materials, often fail to capture the complex poroviscoelastic behavior inherent to these highly hydrated scaffolds \cite{chaudhuri2016hydrogels, roberts2011mechanicalproperties}. These challenges arise both from intrinsic material properties (e.g., high water content, low modulus) and from limitations of conventional testing platforms.
 
-In our initial mechanical characterization, we employed unconfined compression testing to assess the hydrogels’ behavior under axial loading. However, we quickly identified significant limitations with this method. The hydrogels exhibited substantial lateral expansion during compression, which not only altered the stress distribution but also introduced slippage at the platen interfaces. These factors led to unstable force readings and low peak force values, making it difficult to capture meaningful mechanical data. Moreover, the unconfined setup failed to accurately replicate the constrained mechanical environment of native meniscal tissue, limiting its relevance for our biomimetic design goals. These challenges underscored the need to transition toward confined compression testing to achieve more reliable and physiologically relevant measurements. 
+In our initial mechanical characterization, we employed unconfined compression testing to assess the hydrogels' behavior under axial loading. However, we quickly identified significant limitations with this method. The hydrogels exhibited substantial lateral expansion during compression, which not only altered the stress distribution but also introduced slippage at the platen interfaces. These factors led to unstable force readings and low peak force values, making it difficult to capture meaningful mechanical data. Moreover, the unconfined setup failed to accurately replicate the constrained mechanical environment of native meniscal tissue, limiting its relevance for our biomimetic design goals. These challenges underscored the need to transition toward confined compression testing to achieve more reliable and physiologically relevant measurements. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_unconfinedEarly.pdf}
@@ -24,16 +26,15 @@ In our initial mechanical characterization, we employed unconfined compression t
     \label{fig:ch3_unconfined}
 \end{figure}
 
-
 Confined compression setups, typically designed for bulk materials, present key obstacles: misalignment between platens and samples leads to edge effects and non-uniform loading; small chamber sizes (3--10 mm diameter) yield weak force signals and poor signal-to-noise ratios; and friction between samples and chamber walls distorts true material response. Additionally, lack of environmental controls often results in sample dehydration and compromised data integrity. Early tests using commercial and ad hoc systems yielded inconsistent results, underscoring the need for a purpose-built platform capable of precise alignment, rigid confinement, uniform drainage, and continuous hydration.
 
-To assess hydrogel mechanical performance under physiologically relevant conditions, stress-relaxation testing was employed. In this method, samples are compressed to a fixed strain while the decay in stress over time reflects the scaffold’s ability to dissipate mechanical energy \cite{joshi1995biomechanical, makris2011kneemeniscus}. GelA--GTA hydrogels, in particular, exhibit poroviscoelastic responses strongly influenced by crosslinking density and hydration state \cite{chaudhuri2016hydrogels, morejon2020compressiveproperties}, highlighting the critical need for precise and reproducible testing protocols.
+To assess hydrogel mechanical performance under physiologically relevant conditions, stress-relaxation testing was employed. In this method, samples are compressed to a fixed strain while the decay in stress over time reflects the scaffold's ability to dissipate mechanical energy \cite{joshi1995biomechanical, makris2011kneemeniscus}. GelA--GTA hydrogels, in particular, exhibit poroviscoelastic responses strongly influenced by crosslinking density and hydration state \cite{chaudhuri2016hydrogels, morejon2020compressiveproperties}, highlighting the critical need for precise and reproducible testing protocols.
 
 Having established the practical challenges and rationale for a refined characterization approach, we now turn to the theoretical framework underpinning compression testing—specifically, the distinctions between unconfined and confined compression methods, and their implications for accurate mechanical evaluation.
 
 \section{Theoretical Framework: Unconfined vs. Confined Compression}
 
-Two primary modes are employed to characterize soft biomaterials: unconfined and confined compression. Both derive from poroelastic theory, where the material’s mechanical response results from fluid flow and solid matrix deformation.
+Two primary modes are employed to characterize soft biomaterials: unconfined and confined compression. Both derive from poroelastic theory, where the material's mechanical response results from fluid flow and solid matrix deformation.
 
 \subsection{Unconfined Compression}
 
@@ -59,10 +60,11 @@ Here, the characteristic relaxation time scales with sample thickness ($\tau \si
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_CCstressrelaxation.pdf}
-    \caption{\textbf{Schematic of stress relaxation in confined compression testing.} The diagram (left) illustrates axial compression of a hydrogel scaffold within a confined chamber, forcing fluid flow through the porous platen. The accompanying plot (right) shows a typical stress relaxation curve, highlighting key parameters: peak force immediately after compression and equilibrium force following full relaxation at 10\% strain. }
+    \caption{\textbf{Schematic of stress relaxation in confined compression testing.} The diagram (left) illustrates axial compression of a hydrogel scaffold within a confined chamber, forcing fluid flow through the porous platen. The accompanying plot (right) shows a typical stress relaxation curve, highlighting key parameters: peak force immediately after compression and equilibrium force following full relaxation at 10\% strain.}
     \label{fig:ch3_CCstressrelaxation}
 \end{figure}
-Stress relaxation testing provides critical insight into the viscoelastic and poroelastic behavior of hydrogels under confined conditions. After an initial rapid axial compression to a set strain (typically 10\%), the hydrogel is held at constant strain while the force response decays over time as fluid redistributes through the porous platen. This decay curve allows extraction of key mechanical parameters such as peak stress, equilibrium stress, and characteristic relaxation times. Confined compression stress relaxation is particularly relevant for simulating the in situ loading environment of the meniscus, where compressive forces act within a constrained anatomical space and fluid flow predominantly occurs axially. 
+
+Stress relaxation testing provides critical insight into the viscoelastic and poroelastic behavior of hydrogels under confined conditions. After an initial rapid axial compression to a set strain (typically 10\%), the hydrogel is held at constant strain while the force response decays over time as fluid redistributes through the porous platen. This decay curve allows extraction of key mechanical parameters such as peak stress, equilibrium stress, and characteristic relaxation times. Confined compression stress relaxation is particularly relevant for simulating the in situ loading environment of the meniscus, where compressive forces act within a constrained anatomical space and fluid flow predominantly occurs axially.
 
 \section{Boundary Condition Violations and Testing Challenges}
 
@@ -179,7 +181,7 @@ To address the limitations of conventional confined compression systems, we deve
 
 \subsection{Iterative Design and Material Selection}
 
-Through iterative design cycles, we refined the chamber geometry and material selection to balance mechanical strength with visual accessibility. The final apparatus featured a transparent compression chamber fabricated using high-resolution digital light synthesis (DLS) 3D printing with Loctite Henkel 405 Clear Resin (Young’s Modulus $\sim$1350~MPa). This material was selected for its combination of rigidity and optical clarity, ensuring minimal deformation under load and excellent visibility of the sample during testing.
+Through iterative design cycles, we refined the chamber geometry and material selection to balance mechanical strength with visual accessibility. The final apparatus featured a transparent compression chamber fabricated using high-resolution digital light synthesis (DLS) 3D printing with Loctite Henkel 405 Clear Resin (Young's Modulus $\sim$1350~MPa). This material was selected for its combination of rigidity and optical clarity, ensuring minimal deformation under load and excellent visibility of the sample during testing.
 
 Finite element analysis (FEA) confirmed that the chamber exhibited negligible deformation ($1.4~\mu\mathrm{m}$) under maximum expected loading (20~N), validating its structural integrity. To accommodate practical sample preparation and improve force sensitivity, we scaled the chamber to hold 12.7~mm diameter specimens—resulting in a 645\% increase in surface area compared to conventional 5~mm chambers—while maintaining compatibility with existing hydrogel mold designs.
 
@@ -328,9 +330,9 @@ Statistical analyses were performed using two-way ANOVA to assess the effects of
 To validate the performance and improvements of the novel confined compression apparatus, a direct comparison was conducted against a conventional confined compression setup. Testing was performed on identical hydrogel formulations using both systems, allowing for side-by-side assessment of measurement sensitivity, reproducibility, and physiologically relevant force detection.
 
 
-\begin{table}[h!]
+\begin{table}[htbp]
 \centering
-\caption{Summary of values for Aggregate Modulus, Equilibrium Force, and Peak Force for both the Conventional Setup and Revised Setup. Values are reported in Mean ± Std. Dev.}
+\caption{\textbf{Aggregate Modulus and Force Comparison.} Summary of values for aggregate modulus, equilibrium force, and peak force for both the conventional setup and revised setup. Values are reported in Mean ± Std. Dev.}
 \label{tab:aggregate_force_comparison}
 \begin{tabular}{|l|c|c|}
 \hline
@@ -388,7 +390,7 @@ This statistical validation is particularly meaningful as it confirms that the a
 
 \subsection{Agreement with Literature Values}
 
-The revised setup yielded aggregate modulus values of 15 kPa and 44 kPa for 2\% and 4\% agarose hydrogels, respectively, aligning well with literature values ranging from ~2--40 kPa for similar agarose concentrations\citep{buschmann1998mechanicalproperties}. Moreover, the setup exhibited trends consistent with literature as aggregate moduli and equilibrium forces increased with polymer concentration and cross-linking density for both hydrogels.
+The revised setup yielded aggregate modulus values of 15 kPa and 44 kPa for 2\% and 4\% agarose hydrogels, respectively, aligning well with literature values ranging from ~2--40 kPa for similar agarose concentrations\cite{buschmann1998mechanicalproperties}. Moreover, the setup exhibited trends consistent with literature as aggregate moduli and equilibrium forces increased with polymer concentration and cross-linking density for both hydrogels.
 
 \section{Key Augmentations}
 
@@ -472,7 +474,7 @@ By improving the accuracy and reliability of mechanical testing for these materi
 
 \begin{table}[H]
     \centering
-    \caption{Mechanical properties of hydrated biomaterials relevant to tissue engineering and drug delivery applications.}
+    \caption{\textbf{Hydrated Biomaterial Mechanical Properties.} Mechanical properties of hydrated biomaterials relevant to tissue engineering and drug delivery applications.}
     \label{tab:biomaterial_mechanics}
     \renewcommand{\arraystretch}{1.3}
     \setlength{\tabcolsep}{6pt}

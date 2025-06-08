@@ -1,17 +1,20 @@
 {
-    // Previous settings (commented out)
-    // "latex-workshop.latex.autoBuild.run": "never",
-    // "latex-workshop.latex.autoClean.run": "never",
-    // "editor.wordWrap": "wordWrapColumn",
-    // "editor.wordWrapColumn": 80,
-    // "editor.wrappingIndent": "same",
-
-    // New settings with ChkTeX enabled
+    Auto-compilation settings (commented out - manual mode)
     "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.autoClean.run": "never",
+    "latex-workshop.latex.autoBuild.interval": 0,
+
+    // // Auto-compilation settings (active - automatic mode)
+    // "latex-workshop.latex.autoBuild.run": "onSave",
+    // "latex-workshop.latex.autoClean.run": "onFailed",
+    // "latex-workshop.latex.autoBuild.interval": 0,
+
+    // Editor settings
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
     "editor.wrappingIndent": "same",
+
+    // ChkTeX settings
     "latex-workshop.chktex.enabled": true,
     "latex-workshop.chktex.autoCheck": true
 } 

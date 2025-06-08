@@ -1,107 +1,84 @@
 \documentclass[12pt]{umdiss}
 
-\usepackage{afterpage, amsfonts, amsmath, amssymb, amsxtra,tabularx, arydshln, boxedminipage, changepage,  comment, diagbox, epsfig, epstopdf, float, graphics, graphicx, lastpage, lscape, mathtools, mdwmath,nicefrac, multirow, pifont, psfig, url, xspace, array} % subfig,natbib,cite, 
-
-\usepackage{tikz}
-\usetikzlibrary{arrows.meta, positioning, shapes.geometric}
-
-\usepackage{calligra}
-\usepackage[T1]{fontenc}
-
-% Preamble additions
-%\usepackage{calligra}      % For quote font
-\usepackage{mathrsfs}      % For \mathscr script font
-%\usepackage{pzc}           % For \fontfamily{pzc} fancy font
-%\usepackage{amsfonts}      % Just in case for extra fonts
-
-\usepackage{mathpazo} % For Palatino
-\usepackage{charter}  % For Charter
-%\usepackage{natbib}  % Remove natbib for numbered citations
-\usepackage{enumitem}
-\usepackage{cite}    % Add cite package for numbered citations
-% Other packages...
-
-% Add UTF-8 input encoding support
+% Essential packages
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{textcomp}
 
-% Fix figure paths - adjust the graphicspath to include all figure directories
-\graphicspath{{figures/}{figures/intro/}{figures/chapter3/}{figures/chapter4/}{figures/chapter5/}}
+% Math packages
+\usepackage{amsmath, amssymb, amsfonts, amsxtra}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{esvect}
+\usepackage{mathrsfs}
+\usepackage{dsfont}
 
-%\usepackage{cite} % [nobreak]
-\usepackage[table]{xcolor}
+% Graphics and figures
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric, shadows}
+
+% Tables
+\usepackage{array}
+\usepackage{booktabs}
 \usepackage{colortbl}
+\usepackage{tabularx}
+\usepackage{arydshln}
+\usepackage{diagbox}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{multicol}
 
+% Layout and formatting
+\usepackage{afterpage}
+\usepackage{changepage}
+\usepackage{boxedminipage}
+\usepackage{lastpage}
+\usepackage{lscape}
+\usepackage{enumitem}
+\usepackage{lineno}
+\usepackage{stackengine}
+\usepackage{caption}
 
+% Citations and references
+\usepackage{cite}
+\usepackage[multiple,symbol]{footmisc}
 
+% Fonts
+\usepackage{mathpazo}
+\usepackage{charter}
+\usepackage{calligra}
 
-%%%%%%%%%%%%
-\usepackage{xspace}
-\usepackage{subcaption}
+% Table of contents
+\usepackage{titletoc}
+\titlecontents{chapter}
+  [0pt]
+  {}
+  {\bfseries\MakeUppercase{\chaptername}\ \thecontentslabel\quad}
+  {\bfseries}
+  {\bfseries\hfill\contentspage}
 
-
-%% to quickly add et al. after author name
-\newcommand{\etal}{\textit{et al. \xspace}}
+% Custom commands
+\newcommand{\etal}{\textit{et al.}\xspace}
 \newcommand{\ie}{i.e.,\xspace}
 \newcommand{\eg}{e.g.,\xspace}
 \newcommand{\nb}{n.b.,\xspace}
 
-
-
-%%%%%%%%%%%%%%%%%%%%%%
-% for centering the captions
+% Caption settings
 \captionsetup[table]{justification=centering}
-%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%
-%% for bold digits as a vector
-\usepackage{dsfont}
-%%%%%%%%%%%%%%%%%%%
+% Graphics paths
+\graphicspath{{figures/}{figures/intro/}{figures/chapter3/}{figures/chapter4/}{figures/chapter5/}}
 
-
-\usepackage{mathtools}
-\usepackage{bm}
-\usepackage{esvect}
-
-
-\usepackage{booktabs}
-\usepackage{multicol}
-\usepackage{multirow}
-\usepackage{hhline}
-
-\usepackage{lineno}
-
-\usepackage{stackengine}
-
-
-\usepackage[multiple,symbol]{footmisc}
-
-
-\usepackage{titletoc} % , titlesec
-
-\titlecontents{chapter}
-  [0pt]% <left>
-  {}% <above-code>
-  {\bfseries\MakeUppercase{\chaptername}\ \thecontentslabel\quad}% <numbered-entry-format>
-  {\bfseries}% <numberless-entry-format>
-  {\bfseries\hfill\contentspage}% <filler-page-format>
-  
-
-
-%%%%%%%%%%
-
-%%%%%%%%%
-
-
-
+% Additional formatting
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{4}
-
-\usepackage[font={footnotesize}]{caption}
 
 \widowpenalty10000
 \clubpenalty10000
 
+% Theorem environments
 \newtheorem{theorem}{Theorem}
 \newtheorem{result}{Result}
 \newtheorem{definition}{Definition}
@@ -114,8 +91,11 @@
 \newtheorem{example}{Example}
 \newtheorem{property}{Property}
 
-\leftchapter%\oneandhalfspace
+% Document spacing
+\leftchapter
 \doublespace
+
+% Math commands
 \newcommand{\ml}{\multicolumn}
 \newcommand{\ds}{\displaystyle}
 \newcommand{\ol}{\overline}
@@ -130,11 +110,35 @@
 \newcommand{\bs}{\boldsymbol}
 \newcommand{\argmax}{\operatornamewithlimits{argmax}}
 
+% QED symbols
 \def\QEDopen{{\setlength{\fboxsep}{0pt}\setlength{\fboxrule}{0.2pt}\fbox{\rule[0pt]{0pt}{1.3ex}\rule[0pt]{1.3ex}{0pt}}}}
-\def\QED{\QEDclosed} % default to closed
+\def\QED{\QEDclosed}
 \def\endbox{\hspace*{\fill}~\QED\par\endtrivlist\unskip}
 \def\whitebox{\hspace{\fill}\QEDopen}
 
+% Hyperref settings
+\usepackage[colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=black,
+    filecolor=black
+]{hyperref}
+
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{cleveref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=black,
+    filecolor=black,
+    pdftitle={Hybrid Hydrogels Augmented via Additive Network Integration (HANI) for Meniscal Tissue Engineering Applications},
+    pdfauthor={Anthony John El Kommos},
+    pdfsubject={Biomedical Engineering},
+    pdfkeywords={meniscal tissue engineering, hybrid hydrogels, additive manufacturing, biomedical engineering}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
    
@@ -147,7 +151,7 @@
 \renewcommand{\dissmonth}{August}
 \renewcommand{\dissyear}{2025}
 \renewcommand{\disstitle}{Hybrid Hydrogels Augmented via Additive Network Integration (HANI) for Meniscal Tissue Engineering Applications}
-\renewcommand{\dissabstitle}{Use This One \\ to Indicate a Line-broken \\ Version of Your Title}
+\renewcommand{\dissabstitle}{Hybrid Hydrogels Augmented Via Additive Network Integration (HANI)\\for Meniscal Tissue Engineering Applications}
 \renewcommand{\dissauthoraddress}{\\Department of Biomedical Engineering
 				    University of Miami}
 \renewcommand{\disssupervisor}{Fotios M. Andreopoulos}
@@ -193,13 +197,6 @@ If you don't, smack him around a little bit until you do''}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Add this before \begin{document}
-\usepackage[colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=cyan,
-    citecolor=blue]{hyperref}
-
 \begin{document}
 \disstitlepage          % Cover page for dissertation
 \disscopyrightpage
@@ -218,8 +215,8 @@ If you don't, smack him around a little bit until you do''}
 \include{./sources/introduction}    % loads introduction.tex
 \include{./sources/chapter2}        % loads chapter2.tex
 \include{./sources/chapter3}        % loads chapter3.tex
-\include{./sources/chapter4}        % loads chapter4.tex
-\include{./sources/chapter5}        % loads chapter5.tex
+% \include{./sources/chapter4}        % loads chapter4.tex
+% \include{./sources/chapter5}        % loads chapter5.tex
 % \include{./sources/chapter6}      % commented out as it's not ready
 \include{./sources/conclusion}      % loads conclusion.tex
 
@@ -228,5 +225,8 @@ If you don't, smack him around a little bit until you do''}
 \interlinepenalty=10000
 \bibliographystyle{plain}
 \bibliography{./sources/DissertationReferences}
+
+\let\color\relax
+\let\textcolor\relax
 
 \end{document}
