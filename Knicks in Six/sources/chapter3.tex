@@ -43,16 +43,19 @@ In unconfined compression, the sample is compressed axially while allowed to exp
     \item Radial displacement: $u_r \neq 0$
     \item Pore pressure: fluid exits radially and axially
 \end{itemize}
+
 The characteristic relaxation time is proportional to the square of the sample radius ($\tau \sim a^2$), highlighting the role of radial drainage in time-dependent behavior.
 
 \subsection{Confined Compression}
 
 In confined compression, radial displacement is restricted ($u_r = 0$), forcing fluid to drain axially through porous platens. This more closely simulates constrained environments like the meniscus under load. Theoretical assumptions include:
+
 \begin{itemize}
     \item Perfect confinement: no radial movement
     \item Uniform axial drainage: pore pressure $p = 0$ at platen interfaces
     \item Smooth, rigid chamber walls: no wall deformation or frictional effects
 \end{itemize}
+
 Here, the characteristic relaxation time scales with sample thickness ($\tau \sim h^2$).
 
 \subsection{Stress Relaxation Testing}
@@ -118,7 +121,9 @@ A custom Python script was also developed to streamline data processing and enha
     \caption{\textbf{Improved data collection and curve-fitting in confined compression testing.} Comparison between the initial setup (left), featuring a 5 mm diameter chamber, and the improved setup (right) with a 12.7 mm diameter chamber. The larger chamber resulted in a 645\% increase in cross-sectional area, enabling higher force readings and significantly reducing signal noise. Enhanced signal quality and force detection improved the reliability of stress-relaxation data and curve-fitting accuracy. }
     \label{fig:ch3_signalAug}
 \end{figure}
+
 Data normalization enables meaningful comparisons between different samples and testing conditions by:
+
 \begin{itemize}
     \item Normalizing stress values to account for variations in initial sample dimensions
     \item Adjusting time scales to account for differences in loading rates
@@ -209,6 +214,7 @@ This integrated approach ensured that each design iteration not only solved isol
 \subsection{Additive Fabrication and Post-Processing}
 
 The compression chamber and platen components were fabricated using a Carbon3D M1 DLS SLA printer at 50~µm Z-layer resolution. Throughout the fabrication process, part orientation and tolerances were optimized to maximize:
+
 \begin{itemize}
     \item Optical transparency of the compression chamber
     \item Dimensional accuracy within the XY plane
@@ -256,8 +262,7 @@ Further validation of alignment was achieved through the use of a magnetically s
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{figures/chapter 3/ch3_finalCC.pdf}
-    \caption{\textbf{Improved confined compression chamber with enhanced sample setup and visualization.} The diagram highlights key components of the custom testing system, including the compression plug, porous plate, hydrogel sample, PCL grid, and chamber base. Insets illustrate sample placement, magnetic attachment of the porous plate, and real-time visualization of the hydrogel–platen interface. The full assembly, shown mounted with a 20 N load cell and XY stage, demonstrates the integrated system designed for precise alignment and controlled mechanical testing.
-}
+    \caption{\textbf{Improved confined compression chamber with enhanced sample setup and visualization.} The diagram highlights key components of the custom testing system, including the compression plug, porous plate, hydrogel sample, PCL grid, and chamber base. Insets illustrate sample placement, magnetic attachment of the porous plate, and real-time visualization of the hydrogel–platen interface. The full assembly, shown mounted with a 20 N load cell and XY stage, demonstrates the integrated system designed for precise alignment and controlled mechanical testing.}
     \label{fig:Ch3_Assembly}
 \end{figure}
 
@@ -474,8 +479,7 @@ By improving the accuracy and reliability of mechanical testing for these materi
 
 \begin{table}[H]
     \centering
-    \caption{\textbf{Hydrated Biomaterial Mechanical Properties.} Mechanical properties of hydrated biomaterials relevant to tissue engineering and drug delivery applications.}
-    \label{tab:biomaterial_mechanics}
+    \caption{\textbf{Hydrated Biomaterial Mechanical Properties.} Mechanical properties of hydrated biomaterials relevant to tissue engineering and drug delivery applications.}\label{tab:biomaterial_mechanics}
     \renewcommand{\arraystretch}{1.3}
     \setlength{\tabcolsep}{6pt}
     \rowcolors{2}{gray!10}{white}
@@ -565,7 +569,7 @@ The characterization of hydrogel permeability follows Darcy's law, relating spec
     q = -k \frac{\mathrm{d}P}{\mathrm{d}x}
 \end{equation}
 
-where q represents specific discharge (m/s), k is hydraulic permeability (m⁴/N·s), and $$\frac{\mathrm{d}P}{\mathrm{d}x}$$ denotes the applied pressure gradient (Pa/m).
+where $q$ represents specific discharge ($\mathrm{m/s}$), $k$ is hydraulic permeability ($\mathrm{m^4/N \cdot s}$), and $\frac{\mathrm{d}P}{\mathrm{d}x}$ denotes the applied pressure gradient ($\mathrm{Pa/m}$).
 
 For experimental determination, permeability is calculated using:
 
@@ -573,7 +577,7 @@ For experimental determination, permeability is calculated using:
     k = \frac{Q \cdot h}{A \cdot \Delta P}
 \end{equation}
 
-where Q is volumetric flow rate (m³/s), h is sample thickness (m), A represents cross-sectional area (m²), and ΔP is the pressure differential (Pa).
+where $Q$ is volumetric flow rate ($\mathrm{m}^3/\mathrm{s}$), $h$ is sample thickness ($\mathrm{m}$), $A$ represents cross-sectional area ($\mathrm{m}^2$), and $\Delta P$ is the pressure differential ($\mathrm{Pa}$).
 
 The accuracy of these calculations critically depends on maintaining precise pressure differentials and flow measurements. Even minor pressure losses can propagate into significant errors in permeability calculations due to the direct proportionality between permeability and pressure differential. For example, a 10\% error in pressure measurement due to system leakage can result in a corresponding 10\% error in calculated permeability, while combined errors in pressure and flow measurements can propagate compounded inaccuracies potentially exceeding 50\% of the true permeability value. Our improved design, with its focus on pressure retention and seal integrity, reduces these systematic errors to <5\%, enabling more reliable characterization of strain-dependent permeability behavior in hydrated biomaterials.
 

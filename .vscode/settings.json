@@ -1,13 +1,13 @@
 {
-    Auto-compilation settings (commented out - manual mode)
-    "latex-workshop.latex.autoBuild.run": "never",
-    "latex-workshop.latex.autoClean.run": "never",
-    "latex-workshop.latex.autoBuild.interval": 0,
-
-    // // Auto-compilation settings (active - automatic mode)
-    // "latex-workshop.latex.autoBuild.run": "onSave",
-    // "latex-workshop.latex.autoClean.run": "onFailed",
+    // Auto-compilation settings (commented out - manual mode)
+    // "latex-workshop.latex.autoBuild.run": "never",
+    // "latex-workshop.latex.autoClean.run": "never",
     // "latex-workshop.latex.autoBuild.interval": 0,
+
+    // Auto-compilation settings (active - automatic mode)
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.autoBuild.interval": 0,
 
     // Editor settings
     "editor.wordWrap": "wordWrapColumn",
