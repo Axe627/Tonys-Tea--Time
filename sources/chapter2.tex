@@ -1,0 +1,310 @@
+\chapter{Hybrid Hydrogel}\label{chap:2}
+
+% \chapter*{ }\label{chap:2}
+\addcontentsline{toc}{chapter}{Hybrid Hydrogel}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\linewidth]{figures/Chapter 2/chapter2_hybridhydrogel.pdf}
+    \caption{\textbf{Hybrid Hydrogel Concept.} Hybrid hydrogel concept integrating natural and synthetic components. This chapter introduces the development of a composite hydrogel system designed to mimic the structural and functional characteristics of native meniscal tissue. The hybrid approach combines a hydrated polymer network with synthetic fiber reinforcements, leveraging the biological advantages of natural hydrogels alongside the mechanical robustness of engineered scaffolds. Key aspects include optimizing polymer crosslinking, embedding synthetic meshes, and tailoring the composite architecture to achieve enhanced durability, anisotropy, and cell-instructive properties.}
+    \label{fig:ch2_hybridhydrogel}
+\end{figure}
+
+\section{Defining ``Hybrid Hydrogel'': Natural + Synthetic Biomaterial Synergy}\label{sec:ch2_hybrid}
+
+The successful development of biomaterials for meniscal tissue engineering requires meeting several critical criteria~\cite{patel2019systematicreview murphy20243dprintedvariable, bahcecioglu20193dprinted}. The scaffold must exhibit physiologically relevant water content and swelling behavior to maintain the osmotic environment necessary for cellular function~\cite{ahmed2015hydrogelpreparation,chaudhuri2016hydrogelstunable}.
+
+
+Given these challenges, natural or composite natural–synthetic biomaterials offer a promising solution for engineering complex load-bearing tissues like the meniscus. The meniscus is a highly organized fibrocartilaginous structure, responsible for absorbing dynamic compressive loads and dissipating mechanical stress within the knee joint. Therefore, replicating both its mechanical and biological behavior is fundamental to the design of successful scaffold systems.
+
+\section{Design Requirements and Approach}
+\subsection{Mechanical and Biological Targets}
+The development of biomaterials for meniscal tissue engineering requires meeting several critical criteria. The scaffold must exhibit physiologically relevant water content and swelling behavior to maintain the osmotic environment necessary for cellular function. It must possess mechanical properties that enable effective load distribution and stress dissipation under joint loading. Furthermore, it must support cellular adhesion, proliferation, and extracellular matrix production to facilitate biological integration and regeneration. Finally, structural stability under physiological conditions is essential to ensure that the scaffold maintains its form and function during prolonged in vivo use.
+
+Specific design targets include:
+\begin{itemize}
+    \item Water Content: 70-80\% to match native tissue~\cite{morejon2020compressiveproperties}
+    \item Matrix Distribution: Strategic PCL integration maintaining appropriate solid-to-fluid ratios
+    \item Regional Variation: Composition gradients mimicking native tissue organization
+    \item Structural Stability: Maintenance of form under physiological loading conditions
+\end{itemize}
+
+Given these requirements, natural or composite natural–synthetic biomaterials offer a promising solution. The meniscus's highly organized fibrocartilaginous structure, responsible for absorbing dynamic compressive loads and dissipating mechanical stress within the knee joint, demands scaffolds that can replicate both its mechanical and biological behavior.
+
+\subsection{Polycaprolactone Integration: Mechanical Reinforcement and Biocompatibility}
+
+While GelA-based hydrogels provide excellent biological properties and tunable swelling behavior, they often lack the mechanical strength required for load-bearing applications such as meniscal replacement \cite{2021synthesisapplication}. To address this limitation, polycaprolactone (PCL) was integrated as a synthetic reinforcement component \cite{bagherisaed2020functionalizedpoly}. PCL is a biodegradable aliphatic polyester with excellent mechanical properties, long-term structural stability, and established biocompatibility in orthopedic applications.
+
+The integration of PCL reinforcement networks within the GelA hydrogel matrix creates a hybrid scaffold system that leverages the complementary properties of both materials. PCL provides mechanical strength and structural integrity, while the GelA hydrogel component maintains the physiological water content and biological signaling necessary for cellular function. Notably, the PCL framework serves as a mechanical backbone within which the GelA hydrogel is physically entrapped, promoting a synergistic interaction that leverages both materials' inherent strengths. This hybrid approach enables the development of composite scaffolds that better mimic the complex mechanical behavior of native meniscal tissue, including its anisotropic properties and region-specific variations in stiffness.
+
+The role of PCL in mechanical reinforcement and its integration with GelA hydrogels will be explored in detail in subsequent sections, particularly as we examine the development of Hybrid Hydrogels Augmented via Network Integration (HANI) biomaterials. This systematic investigation will demonstrate how PCL networks can be strategically incorporated to enhance mechanical properties while maintaining the beneficial biological characteristics of the GelA matrix.
+
+\begin{table}[H]
+    \centering
+    \caption{\textbf{PCL Material Properties.} Comprehensive overview of polycaprolactone (PCL) material properties relevant to scaffold design and fabrication, including mechanical, thermal, and biological characteristics.}
+    \label{tab:PCL-properties}
+    \begin{tabular}{|p{4.5cm}|p{4cm}|p{5.5cm}|}
+        \hline
+        \textbf{Property} & \textbf{Value (Typical)} & \textbf{Notes / References} \\[0.3em]
+        \hline
+        Chemical formula & (C$_6$H$_{10}$O$_2$)$_n$ & Aliphatic polyester \\[0.3em]
+        \hline
+        Molar mass (monomer) & 114.14 g/mol & -- \\[0.3em]
+        \hline
+        Density & 1.145--1.150 g/cm$^3$ & \cite{woodruff2010returnforgotten, pitt1981polycaprolactone} \\[0.3em]
+        \hline
+        Melting point & 58--63$^\circ$C & \cite{pitt1981polycaprolactone} \\[0.3em]
+        \hline
+        Glass transition temperature (Tg) & --60$^\circ$C & \cite{woodruff2010returnforgotten} \\[0.3em]
+        \hline
+        Crystallinity & 45--65\% & Semi-crystalline \cite{gunatillake2003polycaprolactone} \\[0.3em]
+        \hline
+        Young's modulus & 300--400 MPa & Depends on MW and crystallinity \cite{woodruff2010returnforgotten} \\[0.3em]
+        \hline
+        Tensile strength & 10--25 MPa & \cite{woodruff2010returnforgotten} \\[0.3em]
+        \hline
+        Elongation at break & 300--500\% & Highly ductile \cite{woodruff2010returnforgotten} \\[0.3em]
+        \hline
+        Flexural modulus & $\sim$400 MPa & -- \\[0.3em]
+        \hline
+        Hardness (Shore D) & $\sim$55 & Relatively soft \\[0.3em]
+        \hline
+        Print temperature (FDM) & 80--120$^\circ$C & Low-temperature thermoplastic \\[0.3em]
+        \hline
+        Decomposition temperature & $\sim$350$^\circ$C & Thermal degradation limit \\[0.3em]
+        \hline
+        Biodegradability & Months to years & Hydrolytic ester cleavage \cite{gunatillake2003polycaprolactone} \\[0.3em]
+        \hline
+        Biocompatibility & Excellent & Used in FDA-approved medical devices \cite{woodruff2010returnforgotten} \\[0.3em]
+        \hline
+        Degradation byproduct & Caproic acid & Non-toxic \\[0.3em]
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\linewidth]{figures/Chapter 2/chapter2_biomaterials.pdf}
+    \caption{\textbf{Overview of Natural and Synthetic Biomaterials Used in Scaffold Fabrication.} Porcine-derived gelatin A (GelA) is obtained through acid hydrolysis of collagen, preserving lysine amine groups essential for crosslinking. Glutaraldehyde (GTA), a dialdehyde crosslinker, facilitates network formation by reacting with amine groups on GelA chains. Poly-$\varepsilon$-caprolactone (PCL), a biodegradable polyester, serves as a synthetic reinforcement material, offering mechanical strength and ease of processing for composite scaffold integration. }
+    \label{fig:chap2_biomaterials}
+\end{figure}
+
+
+\subsection{Gelatin A: Biochemical Properties and Mechanical Contributions}
+
+Gelatin Type A (hereafter GelA), a hydrolyzed form of collagen, was selected as the base material for hydrogel fabrication~\cite{ahmed2015hydrogelpreparation}. Derived from type I collagen, GelA provides inherent biocompatibility, biodegradability, and the presence of cell-binding motifs such as Lys-Arg-Gly-Asp (L-RGD) sequences, promoting cellular adhesion, proliferation, and differentiation~\cite{2021synthesisapplication,ahmed2015hydrogelpreparation,choi20213dprintedgelatin,zhang2005electrospinninggelatin}. These attributes are critical for supporting fibrocartilaginous matrix deposition and maintaining cellular activity within engineered scaffolds. Additionally, GelA's mechanical properties are tunable via polymer concentration and crosslinking density, allowing the fabrication of hydrogels that mimic the viscoelastic characteristics of the native meniscus.
+
+Extensive research supports the use of GelA as a scaffold material in cartilage and meniscal tissue engineering. Studies have demonstrated that GelA-based constructs promote better cell attachment and extracellular matrix production compared to alternatives like alginate and chitosan, which lack intrinsic cell-binding motifs. Furthermore, GelA's ability to undergo various crosslinking reactions enables precise mechanical property tuning to better match the biomechanical environment of the knee.
+
+\subsection{Glutaraldehyde Crosslinking: Chemical Mechanisms and Property Control}
+
+While GelA offers significant biological advantages, its structural integrity at physiological temperatures is poor, leading to rapid degradation and mechanical failure. To enhance stability and extend functional performance, chemical crosslinking is required~\cite{ahmed2015hydrogelpreparation,gao2018electrospunfiber,chaudhuri2016hydrogelstunable}. Crosslinking introduces covalent bonds between GelA chains, creating a stable network that can resist enzymatic degradation and mechanical forces within the joint environment.
+
+Glutaraldehyde (GTA) was selected as the crosslinking agent due to its ability to form stable covalent bonds between free amine groups in the GelA matrix. GTA crosslinking effectively increases the hydrogel's mechanical stiffness, improves structural stability, and allows tuning of water content and degradation rates. However, the potential cytotoxicity of residual GTA necessitates rigorous post-crosslinking rinsing protocols. In this study, all hydrogels underwent extensive rinsing and equilibration to remove unreacted GTA, ensuring biocompatibility while maintaining mechanical performance.
+
+\section{Hydrogel Development Strategy and Methodology} \label{sec:ch2_methods}
+
+\subsection{Gelatin-GTA Hydrogel Fabrication Overview}
+Hydrogel fabrication was performed through a systematic crosslinking protocol involving GelA solutions and varying concentrations of GTA. Solutions were cast into defined molds, crosslinked under controlled conditions, thoroughly rinsed to remove unreacted crosslinker, and equilibrated in phosphate-buffered saline (PBS) to achieve osmotic balance. This standardized fabrication process enabled reproducible hydrogel properties across experimental groups, facilitating systematic evaluation of how crosslinking parameters influence swelling behavior, mechanical properties, and stress-relaxation characteristics.
+
+\subsection{Gelatin Hydrogel Preparation}
+
+Gelatin-based hydrogels were fabricated using Type A gelatin (300 bloom, Sigma-Aldrich) with precise temperature and pH control. The 0.15 g/mL GelA solution was prepared at 65$^\circ$C under continuous stirring (400 rpm) to ensure complete solubilization. Solution pH was maintained at 7.4 ± 0.1 using PBS buffer to optimize crosslinking conditions. Glutaraldehyde (GTA) stock solution (25\%, Sigma-Aldrich), diluted to specific concentrations (v/v) in PBS, was then added at various volumes to the GelA solution.
+
+The resulting hydrogel precursor solutions were cast into custom-designed molds and allowed to crosslink at room temperature (23\textdegree C) for 1 hour. Crosslinking was terminated by briefly immersing the hydrogels in PBS for 5 minutes, followed by an equilibration step in PBS at 4\textdegree C for 12 hours to ensure full osmotic balance prior to further characterization.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\linewidth]{figures/Chapter 2/chapter2_hydrogel.pdf}
+    \caption{\textbf{GelA--GTA Hydrogel Fabrication and Crosslinking Behavior.} Schematic overview of hydrogel synthesis using 15\% (w/v) GelA solution crosslinked with glutaraldehyde (GTA) at varying concentrations (0.5\%, 1.5\%, 2.5\% v/v) and crosslinker volumes (0.25, 0.50, and 1.00 mL). The hydrogels were formed by heating to 65°C and stirring prior to crosslinking at room temperature (23°C) for 60 minutes. The crosslinking density (bottom left) illustrates increasing network tightness with rising GTA molar ratios. The GTA solution matrix (top right) highlights different solution conditions used for crosslinking. The photographic comparison (bottom right) shows hydrated hydrogels post-fabrication, demonstrating variations in physical appearance across formulations, with 0.5\% and 1.5\% GTA at 0.25 mL achieving hydration profiles approximating native meniscal water content. }
+    \label{fig:ch2_hydrogel}
+\end{figure}
+
+\subsection{Crosslinking Concentrations and Volumes}
+
+To systematically explore the effects of crosslinking density, nine hydrogel groups were prepared by varying the GTA concentration (0.5\%, 1.5\%, and 2.5\% v/v) and crosslinker volume (0.25, 0.50, and 1.00 mL). This design enabled detailed evaluation of the influence of crosslinking on hydrogel hydration and mechanical stabilization.
+
+\section{Swelling and Water Content Analysis} \label{sec:ch2_swelling}
+
+\subsection{Measurement Protocol}
+
+The water content (\(\phi_{\text{WC}}\)) of each hydrogel formulation was assessed via gravimetric analysis~\cite{ahmed2015hydrogelpreparation, ateshian1997finitedeformation}. Following complete dehydration, samples were weighed to obtain their dry mass (\(\text{Wt}_{\text{Dry}}\)). Hydrogels were then rehydrated to equilibrium in 5~mL PBS at 4$^\circ$C and reweighed (\(\text{Wt}_{\text{Wet}}\)). Water content was calculated using the following equation:
+
+\[
+\phi_{\text{WC}} = \frac{\text{Wt}_{\text{Wet}} - \text{Wt}_{\text{Dry}}}{\text{Wt}_{\text{Wet}}} \times 100\%
+\]
+
+\subsection{Swelling Kinetics and Equilibration}
+
+Swelling kinetics were assessed by weighing samples at 1, 2, 3, 4, 5, 6, 12, and 24~hours following immersion in PBS. After gentle blotting to remove excess surface fluid, sample mass was recorded at each time point. All groups achieved osmotic equilibrium by 12~hours, with no significant further mass changes observed thereafter.
+
+\subsection{Selection of Optimal Hydrogel Formulations}
+
+Based on the water content analysis, two hydrogel conditions—0.5\% GTA at 0.25~mL and 1.5\% GTA at 0.25~mL—were selected for further study. These formulations exhibited water content values closely approximating the physiological hydration of native meniscal tissue (\(76.79\% \pm 3.32\%\))~\cite{morejon2020compressiveproperties}. Hydrogels crosslinked with 2.5\% GTA were excluded from further analysis due to excessive crosslinking, resulting in reduced swelling capacity and structural heterogeneity.
+
+\bigskip
+
+This hydrogel development workflow established a reproducible, tunable platform capable of supporting subsequent composite scaffold fabrication using integrated synthetic reinforcement networks.
+
+\subsubsection{Swelling Analysis}
+
+The swelling behavior varied significantly with both GTA concentration and volume:
+\begin{itemize}
+    \item Lower GTA concentrations (0.5\%) resulted in higher equilibrium swelling ratios
+    \item Reduced crosslinker volumes (250~\(\mu\)L) allowed for greater water uptake
+    \item Equilibrium was achieved within 12--24~hours for all formulations
+\end{itemize}
+
+Statistical analysis using two-way ANOVA revealed:
+\begin{itemize}
+    \item Significant main effects for both GTA concentration (p~<~0.001) and volume (p~<~0.001)
+    \item No significant difference between 0.5\% and 1.5\% GTA at 0.25~mL (p~=~0.310)
+    \item Effect size (\(\eta_p^2 = 0.096\)) indicating small-to-moderate concentration effects
+\end{itemize}
+
+\subsubsection{Water Content Analysis}
+
+The water content \((\phi_{WC})\) of GelA-GTA hydrogels was quantified across varying cross-linker concentrations and volumes to assess hydration properties critical for mimicking native meniscal tissue. As shown in Table~\ref{tab:ch2_water_content}, the water content decreased with increasing GTA concentration at each volume tested. Specifically, at 0.25~mL, hydrogels exhibited water contents of \(83.48\% \pm 5.99\%\), \(75.62\% \pm 5.49\%\), and \(80.85\% \pm 5.63\%\) for 0.5\%, 1.5\%, and 2.5\% GTA, respectively. Similarly, at 0.50~mL and 1.00~mL, a progressive reduction in \(\phi_{WC}\) was observed with increasing cross-linker concentration, indicating that higher GTA levels led to denser polymer networks and reduced hydration capacity. These results are consistent with prior findings highlighting the inverse relationship between cross-linking density and hydrogel swelling behavior.
+
+\vspace{1em}
+\begin{table}[H]
+    \centering
+    \caption{\textbf{Hydrogel Water Content Analysis.} Measured water content ($\phi_{WC}$) across hydrogel formulations with varying crosslinker concentrations and volumes, demonstrating the relationship between crosslinking parameters and hydration capacity.}
+    \label{tab:ch2_water_content}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Volume (mL)} & \textbf{0.5\% GTA} & \textbf{1.5\% GTA} & \textbf{2.5\% GTA} \\[0.3em]
+        \hline
+        0.25 & 83.48\% $\pm$ 5.99\% & 75.62\% $\pm$ 5.49\% & 80.85\% $\pm$ 5.63\% \\[0.3em]
+        \hline
+        0.50 & 77.94\% $\pm$ 4.93\% & 77.49\% $\pm$ 5.46\% & 64.48\% $\pm$ 4.07\% \\[0.3em]
+        \hline
+        1.00 & 72.65\% $\pm$ 9.71\% & 70.55\% $\pm$ 6.58\% & 59.48\% $\pm$ 4.54\% \\[0.3em]
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{figures/Chapter 2/chapter2_watercontent.pdf}
+    \caption{\textbf{Water Content Analysis of GelA--GTA Hydrogels.} Water content ($\varphi_{\mathrm{WC}}$) was calculated by comparing hydrated ($\mathrm{Wt}_{\mathrm{wet}}$) and dehydrated ($\mathrm{Wt}_{\mathrm{dry}}$) weights after equilibration in PBS and 24-hour drying. Representative images illustrate swollen and dehydrated hydrogels. The left graph shows $\varphi_{\mathrm{WC}}$ across varying GTA concentrations (0.5\%, 1.5\%, 2.5\% v/v) and crosslinker volumes (1.00, 0.50, 0.25 mL), highlighting the inverse relationship between crosslink density and hydration capacity (*$p < 0.05$). The right graph compares selected formulations (1.5\% GTA 0.25 mL and 0.5\% GTA 0.25 mL) to native meniscus tissue, demonstrating comparable water content to physiological levels.}    \label{fig:ch2_watercontent}
+\end{figure}
+
+\subsubsection{Physiological Relevance}
+
+Hydrogels intended for meniscal tissue engineering must closely replicate the high water content characteristic of native meniscus tissue, which has been reported as \(76.79\% \pm 3.32\%\)~\cite{morejon2020compressiveproperties}. Based on the measured water content (\(\phi_{WC}\)) of the fabricated hydrogel formulations, two specific crosslinking conditions were identified as optimal for further investigation:
+\begin{itemize}
+    \item 0.5\% GTA at 0.25 mL
+    \item 1.5\% GTA at 0.25 mL
+\end{itemize}
+
+These two conditions provided water contents closest to physiological levels while preserving sufficient structural integrity necessary for subsequent mechanical testing. Moreover, it allowed for maintenance of a 10:1 vol/vol ratio for GelA--GTA solutions for future experiments~\cite{morejon2020compressiveproperties}.
+
+Formulations crosslinked with 2.5\% GTA were excluded from further consideration due to excessive crosslinking, which resulted in significantly reduced water retention and compromised swelling behavior. Hydrogels crosslinked with 2.5\% GTA demonstrated markedly reduced water content, particularly at higher volumes, indicating excessive network densification that limited fluid uptake. This reduction in swelling behavior and water retention would likely compromise the viscoelastic behavior necessary for effective mechanical mimicry of the meniscus. Therefore, the 2.5\% GTA groups were not selected for further mechanical characterization.
+
+Overall, selecting hydrogel formulations with physiological water content is critical to replicating the osmotic and load-bearing behaviors observed in native meniscal tissue, ensuring relevance for future mechanical testing and scaffold development.
+
+\subsubsection{Mechanical Testing Challenges and Development of Novel Approaches}
+
+Initial mechanical characterization of these hydrogel formulations presented several technical challenges that necessitated the development of specialized testing approaches. Traditional confined compression setups, while commonly used for biomaterial characterization, proved inadequate for accurately capturing the complex poroviscoelastic behavior of these highly hydrated constructs. Key limitations included poor force sensitivity at low strains and difficulties in maintaining sample hydration during extended testing periods. Additionally, challenges with platen alignment introduced measurement artifacts that compromised data accuracy. Furthermore, conventional testing geometries were poorly suited for detecting subtle differences between formulations, particularly during stress relaxation phases critical for assessing time-dependent mechanical responses. These limitations motivated the development of an improved testing apparatus, detailed in Chapter 3 (``Augmented via Additive''), which leverages additive manufacturing techniques to create custom-designed mechanical testing equipment specifically optimized for hydrogel characterization. This novel approach enables more precise measurement of mechanical properties while maintaining physiologically relevant testing conditions, ultimately providing deeper insights into the biomechanical behavior of these promising meniscal tissue engineering constructs.
+
+\subsubsection{Mechanical Testing Protocol}
+Testing was conducted using a custom-built confined compression apparatus with:
+\begin{itemize}
+    \item Temperature control (37$^\circ$C ± 0.5$^\circ$C)
+    \item Hydration maintenance via PBS immersion
+    \item Precise platen alignment (< 0.1$^\circ$ deviation)
+    \item Real-time force and displacement monitoring
+\end{itemize}
+
+
+\section{"Hybrid" : Electrospun Gelatin Fibers} \label{sec:ch2_electrospinning}
+
+\subsubsection{Co-Deposition with PCL Networks}
+
+To enhance mechanical integrity and control scaffold porosity, an exploratory co-deposition method was developed. After electrospinning an initial 2~mL of the gelatin solution onto the collector plate, a pre-fabricated polycaprolactone (PCL) grid network was carefully placed on top of the partially formed fibrous mat. The remaining gelatin solution was then electrospun directly over the PCL network, effectively embedding the synthetic framework within the fibrous matrix.
+
+The overarching purpose of this co-deposition strategy was to create composite constructs with **tunable porosity and integrated mechanical reinforcement, with the intent to later assess their permeability and integration potential within the overall HANI scaffold system. While mechanical testing was not conducted at this stage, these constructs were earmarked for future permeability assays designed to evaluate fluid transport properties critical for nutrient diffusion and tissue integration.
+
+\begin{table}[H]
+    \centering
+    \caption{\textbf{Electrospinning Parameters and Conditions.} Detailed summary of key parameters and conditions used for gelatin fiber fabrication via electrospinning, including solution preparation, processing conditions, and post-treatment steps.}
+    \label{tab:electrospinning_params}
+    \begin{tabular}{|p{4.5cm}|p{7.5cm}|}
+        \hline
+        \textbf{Parameter} & \textbf{Value / Description} \\[0.3em]
+        \hline
+        Polymer Solution & 10\% w/v Gelatin A in HFIP \\[0.3em]
+        \hline
+        Solvent & Hexafluoroisopropanol (HFIP) \\[0.3em]
+        \hline
+        Syringe & 10~mL Luer-lock \\[0.3em]
+        \hline
+        Dispensing Needle & 23G tip \\[0.3em]
+        \hline
+        Voltage & 21~kV \\[0.3em]
+        \hline
+        Flow Rate & 2 and 3~mL/hr \\[0.3em]
+        \hline
+        Needle-Collector Distance & 15~cm \\[0.3em]
+        \hline
+        Collector Type & Vertical aluminum block with foil \\[0.3em]
+        \hline
+        Crosslinking Agent & 2.5\% Glutaraldehyde (30~min) \\[0.3em]
+        \hline
+        Post-Treatment & Glycine rinse + DI water wash \\[0.3em]
+        \hline
+        Fiber Analysis & SEM imaging + diameter measurement \\[0.3em]
+        \hline
+        Co-Deposition Method & Initial 2~mL gelatin electrospun; PCL grid placed; remainder electrospun over \\[0.3em]
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Preliminary Observations}
+
+SEM analysis confirmed the formation of randomly oriented fibers, successfully mimicking the superficial meniscal layer's disorganized collagen architecture. Fiber diameter was observed to increase with higher extrusion rates, consistent with prior findings~\cite{xie2009alignment}. Although the hybrid co-deposition technique was developed to improve mechanical integrity and porosity, further mechanical and permeability testing is required to validate its effectiveness.
+
+\subsection{Electrospinning Chamber Refinements and Future Testing}
+
+To facilitate improved fabrication control, a revised electrospinning chamber was developed utilizing custom-designed components produced via additive manufacturing. This refined setup aimed to improve environmental stability, precision alignment, and user safety during scaffold fabrication. Notably, the development of a custom permeation chamber, also fabricated using additive techniques, was initiated to evaluate the strain-dependent permeability of these co-deposition constructs. Details of the permeation chamber design, operational principles, and future testing protocols will be presented in Chapter~\ref{chap:3}, highlighting its role in assessing the fluid transport characteristics of HANI scaffold components.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/Chapter 2/chapter2_ES_sem.pdf}
+    \caption{\textbf{SEM Analysis of Scaffold Components.} Placeholder for SEM images showcasing: (A) native GelA hydrogel microstructure; (B) electrospun gelatin fibers; (C) PCL grid structure; (D) hybrid co-deposited composite. Final images will highlight fiber morphology, pore distribution, and integration features.}
+    \label{fig:ch2_ES_SEM}
+\end{figure}
+
+\section*{Early "HANI" Scaffold Development}
+
+Initial development of the Hybrid Hydrogels Augmented via Additive Network Integration (HANI) platform focused on the incorporation of poly-$\varepsilon$-caprolactone (PCL) reinforcement structures into gelatin-based hydrogel matrices. The goal was to fabricate composite scaffolds that exhibited improved mechanical strength and anisotropic characteristics aligned with the functional requirements of  the deep layer of native meniscal tissue. Early constructs featured PCL grids produced via fused deposition modeling (FDM), integrated directly into GelA--GTA hydrogels during the crosslinking process to promote cohesive bonding between the synthetic and hydrogel phases.
+
+However, early mechanical testing exposed significant challenges. The compliant and hydrated nature of the hydrogels made compression testing difficult, with issues such as sample slippage, misalignment, and inconsistent force transmission limiting the reliability of initial data. These obstacles highlighted the need for a refined mechanical testing platform capable of delivering accurate, reproducible measurements.
+
+In response, project efforts pivoted toward the iterative design and optimization of an enhanced confined compression system. This upgrade prioritized precise sample alignment, secure confinement, and seamless integration with imaging systems to facilitate high-resolution mechanical characterization. The testing platform improvements established a critical foundation for assessing scaffold poroviscoelastic properties and mechanical behavior under physiologically relevant loading.
+
+A more detailed discussion of the additive manufacturing strategies and testing platform development will be presented in subsequent chapters: "A" (Augmented via Additive) and "ANI" (Additive Network Integration), where the engineering innovations and technical solutions are covered in depth.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{figures/Chapter 2/chapter2_earlyHANI.pdf}
+    \caption{\textbf{Representative Early HANI Scaffold Prototypes.} Images showcase the initial generation of Hybrid Hydrogels Augmented via Additive Network Integration (HANI) scaffolds, including hydrogel constructs embedded with PCL frameworks of varied geometries and designs. Top row: examples of custom-shaped PCL reinforcements integrated into GelA–GTA hydrogels, demonstrating the flexibility of the composite system. Bottom row: scanning electron microscopy (SEM) images highlighting the microarchitecture of the PCL networks, illustrating porosity and interconnectivity critical for mechanical reinforcement and nutrient diffusion. }
+    \label{fig:ch2_earlyHANI}
+\end{figure}
+
+
+\section{Transitioning to Augmented via Additive}
+
+The development and characterization of hybrid hydrogel systems presented in this chapter established a foundation for meniscal tissue engineering through GelA-GTA formulations. Our systematic investigation demonstrated the ability to achieve physiologically-relevant water content and swelling behavior while maintaining mechanical stability, particularly through the optimization of crosslinking parameters at 0.5\% and 1.5\% GTA concentrations with 0.25~mL volume. This platform enables precise control over:
+
+\begin{itemize}
+    \item Stress relaxation behavior through tunable crosslinking density and network architecture
+    \item Mechanical properties via strategic GTA concentration and volume selection
+    \item Dimensional control and geometric precision through standardized fabrication protocols
+    \item Swelling kinetics and equilibrium water content for physiological relevance
+\end{itemize}
+
+However, the characterization process revealed significant limitations in conventional mechanical testing approaches for these highly hydrated constructs. Traditional confined compression setups proved inadequate for capturing the complex poroviscoelastic behavior critical to meniscal function. These challenges, including poor force sensitivity, hydration maintenance issues, and alignment difficulties, highlight the need for more sophisticated testing methodologies.
+
+Chapter 3, "Augmented via Additive," builds upon these findings by introducing novel instrumentation specifically designed to capture the complex poroviscoelastic behavior of these promising scaffold materials. Through the integration of additive manufacturing techniques, we develop custom-designed mechanical testing equipment optimized for hydrogel characterization, enabling more precise measurement of mechanical properties while maintaining physiologically relevant testing conditions.

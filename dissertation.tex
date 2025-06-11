@@ -1,0 +1,241 @@
+\documentclass[12pt]{umdiss}
+
+% Essential packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+
+% Math packages
+\usepackage{amsmath, amssymb, amsfonts, amsxtra}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{esvect}
+\usepackage{mathrsfs}
+\usepackage{dsfont}
+
+% Graphics and figures
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric, shadows}
+
+% Tables
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{tabularx}
+\usepackage{arydshln}
+\usepackage{diagbox}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{multicol}
+
+% Layout and formatting
+\usepackage{afterpage}
+\usepackage{changepage}
+\usepackage{boxedminipage}
+\usepackage{lastpage}
+\usepackage{lscape}
+\usepackage{enumitem}
+\usepackage{lineno}
+\usepackage{stackengine}
+\usepackage{caption}
+
+% Citations and references
+\usepackage{cite}
+\usepackage[multiple,symbol]{footmisc}
+
+% Fonts
+\usepackage{mathpazo}
+\usepackage{charter}
+\usepackage{calligra}
+
+% Table of contents
+\usepackage{titletoc}
+\titlecontents{chapter}
+  [0pt]
+  {}
+  {\bfseries\MakeUppercase{\chaptername}\ \thecontentslabel\quad}
+  {\bfseries}
+  {\bfseries\hfill\contentspage}
+
+% Custom commands
+\newcommand{\etal}{\textit{et al.}\xspace}
+\newcommand{\ie}{i.e.,\xspace}
+\newcommand{\eg}{e.g.,\xspace}
+\newcommand{\nb}{n.b.,\xspace}
+
+% Caption settings
+\captionsetup[table]{justification=centering}
+
+% Graphics paths
+\graphicspath{{figures/}{figures/intro/}{figures/chapter3/}{figures/chapter4/}{figures/chapter5/}}
+
+% Additional formatting
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\widowpenalty10000
+\clubpenalty10000
+
+% Theorem environments
+\newtheorem{theorem}{Theorem}
+\newtheorem{result}{Result}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+\newtheorem{scenario}{Scenario}
+\newtheorem{condition}{Condition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{claim}{Claim}
+\newtheorem{lemma}{Lemma}
+\newtheorem{example}{Example}
+\newtheorem{property}{Property}
+
+% Document spacing
+\leftchapter
+\doublespace
+
+% Math commands
+\newcommand{\ml}{\multicolumn}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\ol}{\overline}
+\newcommand{\mc}{\mathcal}
+\newcommand{\mf}{\mathfrak}
+\newcommand{\mb}{\mathbf}
+\newcommand{\tx}{\text}
+\newcommand{\tb}{\textbf}
+\newcommand{\T}{\Theta}
+\newcommand{\MF}{_{MF}}
+\newcommand{\SF}{_{SF}}
+\newcommand{\bs}{\boldsymbol}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+
+% QED symbols
+\def\QEDopen{{\setlength{\fboxsep}{0pt}\setlength{\fboxrule}{0.2pt}\fbox{\rule[0pt]{0pt}{1.3ex}\rule[0pt]{1.3ex}{0pt}}}}
+\def\QED{\QEDclosed}
+\def\endbox{\hspace*{\fill}~\QED\par\endtrivlist\unskip}
+\def\whitebox{\hspace{\fill}\QEDopen}
+
+% Load these packages last
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{setspace}
+
+% Hyperref should be loaded last (except for cleveref)
+\usepackage[colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=black,
+    filecolor=black
+]{hyperref}
+
+% Cleveref should be loaded after hyperref
+\usepackage{cleveref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=black,
+    filecolor=black,
+    pdftitle={Hybrid Hydrogels Augmented via Additive Network Integration (HANI) for Meniscal Tissue Engineering Applications},
+    pdfauthor={Anthony John El Kommos},
+    pdfsubject={Biomedical Engineering},
+    pdfkeywords={meniscal tissue engineering, hybrid hydrogels, additive manufacturing, biomedical engineering}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   
+%%%%%  Start of Dissertation Information
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\dissauthorFirst}{Anthony John}
+\renewcommand{\dissauthorLast}{El Kommos}
+\renewcommand{\dissmonth}{August}
+\renewcommand{\dissyear}{2025}
+\renewcommand{\disstitle}{Hybrid Hydrogels Augmented via Additive Network Integration (HANI) for Meniscal Tissue Engineering Applications}
+\renewcommand{\dissabstitle}{Hybrid Hydrogels Augmented Via Additive Network Integration (HANI)\\for Meniscal Tissue Engineering Applications}
+\renewcommand{\dissauthoraddress}{\\Department of Biomedical Engineering
+				    University of Miami}
+\renewcommand{\disssupervisor}{Fotios M. Andreopoulos}
+\renewcommand{\disssupervisortitle}{Associate Professor of Biomedical Engineering}
+\renewcommand{\disscommitteeFirst}{Alicia R.Jackson}
+\renewcommand{\disscommitteeFirsttitle}{Associate Professor of Biomedical Engineering}
+\renewcommand{\disscommitteeSecond}{Chun-Yuh (Charles) Huang}
+\renewcommand{\disscommitteeSecondtitle}{Associate Professor of Biomedical Engineering}
+\renewcommand{\disscommitteeThird}{Edward Dauer}
+\renewcommand{\disscommitteeThirdtitle}{Clinical Professor of Biomedical Engineering}
+\renewcommand{\disscommitteeoutside}{Francesco Travascio}
+\renewcommand{\disscommitteeoutsidetitle}{Associate Professor of Mechanical and Aerospace Engineering}
+\renewcommand{\dissdean}{Nicole Leeper Piquero}
+\renewcommand{\dissdeantitle}{Interim Dean of the Graduate School}
+
+%\renewcommand{\dissdedication}{To my father, Hani El Kommos,\\[-0.25cm] and my mother, Mariam Akhnoukh,\\[-0.25cm] for their endless love and support}
+
+\renewcommand{\dissdedication}{
+\thispagestyle{empty} % No page number
+\vspace*{3cm} % Push down to center it nicely
+\begin{center}
+\begin{minipage}{0.9\textwidth}
+\centering
+{\fontfamily{bch}\selectfont\large
+``Every morning you have to look yourself in the mirror and ask yourself if you like what you see.\\
+If you don't, smack him around a little bit until you do''}
+\end{minipage}
+\end{center}
+
+\vspace{2em}
+
+\begin{flushright}
+{\fontfamily{pzc}\selectfont\Large\textsc{-- Hani El Kommos}}
+\end{flushright}
+
+\vfill % Push dedication text to botto
+}
+
+   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%  End of Dissertation Information
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\disstitlepage          % Cover page for dissertation
+\disscopyrightpage
+\disssignaturepage
+\input{sources/abstract}
+\doublespace
+\newpage
+\dissdedicationpage
+
+\doublespace
+
+\input{sources/acknowledgments}
+\tableofcontents \listoffigures \listoftables
+
+% Main content chapters
+\include{sources/introduction}    % loads introduction.tex
+\include{sources/chapter2}        % loads chapter2.tex
+\include{sources/chapter3}        % loads chapter3.tex
+\include{sources/chapter4}        % loads chapter4.tex
+\include{sources/chapter5}        % loads chapter5.tex
+%\include{sources/chapter6}      % commented out as it's not ready
+\include{sources/conclusion}      % loads conclusion.tex
+
+% Bibliography
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\baselineskip 0.25in
+\interlinepenalty=10000
+\bibliographystyle{plain}
+\bibliography{sources/DissertationReferences}
+
+\let\color\relax
+\let\textcolor\relax
+
+\end{document}

@@ -1,20 +1,44 @@
 {
-    // Auto-compilation settings (commented out - manual mode)
-    // "latex-workshop.latex.autoBuild.run": "never",
-    // "latex-workshop.latex.autoClean.run": "never",
-    // "latex-workshop.latex.autoBuild.interval": 0,
-
-    // Auto-compilation settings (active - automatic mode)
+    "latex-workshop.latexmk.args": [
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-synctex=1"
+    ],
     "latex-workshop.latex.autoBuild.run": "onSave",
-    "latex-workshop.latex.autoClean.run": "onFailed",
-    "latex-workshop.latex.autoBuild.interval": 0,
-
-    // Editor settings
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 80,
-    "editor.wrappingIndent": "same",
-
-    // ChkTeX settings
-    "latex-workshop.chktex.enabled": true,
-    "latex-workshop.chktex.autoCheck": true
+    "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-pdf",
+                "-interaction=nonstopmode",
+                "-synctex=1",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk"
+    ],
+    "latex-workshop.latex.autoClean.run": "onFailed"
 } 
