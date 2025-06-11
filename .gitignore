@@ -23,4 +23,4 @@
 Thumbs.db
 
 # Optional: Uncomment if you don't want to track PDFs
-# *.pdf 
+*.pdf 
