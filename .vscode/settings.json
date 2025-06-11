@@ -1,23 +1,36 @@
 {
-    "latex-workshop.latexmk.args": [
-        "-pdf",
-        "-interaction=nonstopmode",
-        "-synctex=1"
-    ],
-    "latex-workshop.latex.autoBuild.run": "onSave",
-    "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
-    "latex-workshop.latex.tools": [
+    "latex-workshop.latex.recipes": [
         {
-            "name": "latexmk",
-            "command": "latexmk",
-            "args": [
-                "-pdf",
-                "-interaction=nonstopmode",
-                "-synctex=1",
-                "%DOC%"
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
             ]
         }
     ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipe.default": "pdflatex -> bibtex -> pdflatex*2",
+    "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
@@ -40,5 +53,6 @@
         "*.log",
         "*.fdb_latexmk"
     ],
-    "latex-workshop.latex.autoClean.run": "onFailed"
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.autoBuild.interval": 0
 } 

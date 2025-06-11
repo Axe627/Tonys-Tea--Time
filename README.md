@@ -1,38 +1,80 @@
-# What's Da Word
+# Tonys-Tea--Time
 
-A LaTeX dissertation project.
+A LaTeX dissertation project for Biomedical Engineering research on Hybrid Hydrogels Augmented via Additive Network Integration (HANI) for Meniscal Tissue Engineering Applications.
 
 ## Project Structure
 
 ```
-Whats--Da--Word/
+Tonys-Tea--Time/
 ├── dissertation.tex    # Main LaTeX document
 ├── umdiss.cls         # Custom class file
-├── psfig.sty          # Style file
 ├── figures/           # All diagrams and images
-└── sources/           # Source files and references
+│   ├── intro/        # Introduction figures
+│   ├── Chapter 2/    # Chapter 2 figures
+│   ├── chapter 3/    # Chapter 3 figures
+│   ├── chapter 4/    # Chapter 4 figures
+│   ├── chapter_5/    # Chapter 5 figures
+│   └── appendix/     # Appendix figures
+├── sources/          # Source files and references
+│   ├── abstract.tex
+│   ├── acknowledgments.tex
+│   ├── introduction.tex
+│   ├── chapter2.tex
+│   ├── chapter3.tex
+│   ├── chapter4.tex
+│   ├── chapter5.tex
+│   ├── conclusion.tex
+│   └── DissertationReferences.bib
+└── .vscode/         # VS Code settings
 ```
 
 ## Setup
 
-1. Clone the repository
-2. Ensure you have a LaTeX distribution installed
-3. Compile using your preferred LaTeX editor
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Axe627/Tonys-Tea--Time.git
+   ```
 
-## Collaboration
+2. Ensure you have a LaTeX distribution installed (e.g., MiKTeX, TeX Live)
 
-This repository is synchronized with Overleaf for collaborative editing.
+3. Compile using your preferred LaTeX editor (VS Code with LaTeX Workshop recommended)
+
+## Development
+
+- The project uses VS Code with LaTeX Workshop for development
+- Auto-compilation is enabled on save
+- Clean build files using the provided `Cleaner.bat` script
+
+## File Organization
+
+### Figures
+- Organized by chapter in the `figures/` directory
+- Naming convention: `ch{chapter number}_{description}.{extension}`
+  - Example: `ch3_initialCC.pdf`, `ch4_ANI_flow.pdf`
+
+### Source Files
+- All chapter files are in the `sources/` directory
+- Bibliography file: `DissertationReferences.bib`
+
+## Best Practices
+1. Keep file names descriptive and consistent
+2. Use appropriate file formats:
+   - PDF for vector graphics
+   - PNG for raster images
+   - TEX for source files
+3. Maintain proper LaTeX structure and formatting
+4. Regular commits with descriptive messages
 
 ## License
 
 [Add your license information here]
 
-# Whats--Da--Word Directory Structure
+# Tonys-Tea--Time Directory Structure
 
 ## Directory Organization
 
 ```
-Whats--Da--Word/
+Tonys-Tea--Time/
 ├── figures/
 │   ├── intro/
 │   ├── chapter_2/
