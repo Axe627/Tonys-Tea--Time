@@ -1,0 +1,86 @@
+TROUBLESHOOTING BIBLIOGRAPHY COMPILATION IN CURSOR VS OVERLEAF
+===============================================================
+
+✅ CONTEXT:
+-------------
+- Your LaTeX document uses classic BibTeX with:
+    \bibliographystyle{plain}
+    \bibliography{sources/DissertationReferences}
+
+- In Overleaf, citations compile correctly.
+- In Cursor, PDF compiles, but citations do not appear (showing ??).
+
+
+✅ FIX & DIAGNOSTIC STEPS:
+----------------------------
+
+1. ✅ Ensure .bib File Exists and Is Accessible
+-----------------------------------------------
+- Check that `DissertationReferences.bib` exists inside `./sources/`.
+- Confirm the file is named exactly: DissertationReferences.bib (case-sensitive).
+- Ensure it's not ignored by `.gitignore` if you're using Git.
+
+✅ Test: Move the file to the project root and try:
+    \bibliography{DissertationReferences}
+
+2. ✅ Use the Correct Build Recipe in Cursor
+--------------------------------------------
+Cursor uses `settings.json` for build logic.
+Make sure your recipe includes BibTeX:
+
+{
+  "name": "pdflatex -> bibtex -> pdflatex*2",
+  "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
+}
+
+⚠️ In Cursor:
+- Open Command Palette (Ctrl+Shift+P)
+- Run: `LaTeX Workshop: Build with Recipe`
+- Choose: `pdflatex -> bibtex -> pdflatex*2`
+
+3. ✅ Clean Build to Reset Auxiliary Files
+------------------------------------------
+Run this in terminal or clean manually:
+
+    rm sources/*.aux sources/*.bbl sources/*.blg
+
+Then rebuild the PDF.
+
+Or:
+- Use `LaTeX Workshop: Clean Auxiliary Files` from the Command Palette.
+
+4. ✅ Force All References to Compile Using \nocite{*}
+--------------------------------------------------------
+Just before your `\bibliography{}` line, insert:
+
+    \nocite{*}
+
+This forces BibTeX to include *all* entries even if not cited. If nothing appears in the PDF, BibTeX isn't working.
+
+5. ✅ Check the BibTeX Log (.blg)
+----------------------------------
+After compiling, open the `.blg` file in your `sources/` folder.
+Look for:
+
+    This is BibTeX, Version ...
+    Database file #1: sources/DissertationReferences.bib
+
+If this line is missing or there's an error about the .bib file, it's not being read.
+
+6. ✅ Print Diagnostic Info to Log
+----------------------------------
+Right after \begin{document}, insert:
+
+    \typeout{*** USING BIBTEX WITH FILE: sources/DissertationReferences.bib ***}
+
+This will show up in the log to confirm the compiler is reading your .tex setup.
+
+✅ Summary:
+------------
+- BibTeX must match your LaTeX citation setup (no biblatex if you're using bibtex).
+- Cursor must run a full build including BibTeX.
+- Relative paths and file names must be exact.
+- Use \nocite{*} to test for missing entries.
+
+✅ If you want to switch to biblatex + biber instead, update both your .tex file and your Cursor `settings.json` accordingly.
+
