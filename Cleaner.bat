@@ -19,6 +19,7 @@ echo - Bibliography aux files (*.bbl, *.blg)
 echo - LaTeX database files (*.fdb_latexmk)
 echo - LaTeX auxiliary files (*.fls)
 echo - Device Independent files (*.dvi)
+echo - Chapter auxiliary files (sources/*.aux)
 
 echo.
 echo Current directory: %CD%
@@ -47,6 +48,15 @@ del /F /Q *.blg 2>nul
 del /F /Q *.fdb_latexmk 2>nul
 del /F /Q *.fls 2>nul
 del /F /Q *.dvi 2>nul
+
+REM Clean chapter auxiliary files from sources directory
+if exist "sources\*.aux" (
+    echo Cleaning chapter auxiliary files...
+    del /F /Q "sources\*.aux" 2>nul
+    echo Chapter auxiliary files removed.
+) else (
+    echo No chapter auxiliary files found in sources directory.
+)
 
 echo.
 echo Cleanup completed successfully!

@@ -1,4 +1,4 @@
-\documentclass[12pt]{umdiss}
+\documentclass[12pt,synctex=1]{umdiss}
 
 % Essential packages
 \usepackage[utf8]{inputenc}
@@ -40,6 +40,29 @@
 \usepackage{lineno}
 \usepackage{stackengine}
 \usepackage{caption}
+\usepackage{listings}  % For code listings in appendix
+
+% Listings configuration
+\lstset{
+    language=Python,
+    basicstyle=\small\ttfamily,
+    numbers=left,
+    numberstyle=\tiny,
+    frame=tb,
+    tabsize=4,
+    columns=fixed,
+    showstringspaces=false,
+    showtabs=false,
+    keepspaces,
+    commentstyle=\color{gray},
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+    breaklines=true,
+    breakatwhitespace=true,
+    captionpos=b,
+    xleftmargin=2em,
+    xrightmargin=2em
+}
 
 % Citations and references
 \usepackage{cite}
@@ -119,7 +142,7 @@
 % Load these packages last
 \usepackage{microtype}
 \usepackage{siunitx}
-\usepackage{setspace}
+% \usepackage{setspace}
 
 % Hyperref should be loaded last (except for cleveref)
 \usepackage[colorlinks=true,
@@ -155,12 +178,12 @@
 \renewcommand{\dissmonth}{August}
 \renewcommand{\dissyear}{2025}
 \renewcommand{\disstitle}{Hybrid Hydrogels Augmented via Additive Network Integration (HANI) for Meniscal Tissue Engineering Applications}
-\renewcommand{\dissabstitle}{Hybrid Hydrogels Augmented Via Additive Network Integration (HANI)\\for Meniscal Tissue Engineering Applications}
+\renewcommand{\dissabstitle}{Hybrid Hydrogels Augmented Via Additive Network Integration\\ (HANI) for Meniscal Tissue Engineering Applications}
 \renewcommand{\dissauthoraddress}{\\Department of Biomedical Engineering
 				    University of Miami}
 \renewcommand{\disssupervisor}{Fotios M. Andreopoulos}
 \renewcommand{\disssupervisortitle}{Associate Professor of Biomedical Engineering}
-\renewcommand{\disscommitteeFirst}{Alicia R.Jackson}
+\renewcommand{\disscommitteeFirst}{Alicia R. Jackson}
 \renewcommand{\disscommitteeFirsttitle}{Associate Professor of Biomedical Engineering}
 \renewcommand{\disscommitteeSecond}{Chun-Yuh (Charles) Huang}
 \renewcommand{\disscommitteeSecondtitle}{Associate Professor of Biomedical Engineering}
@@ -236,6 +259,10 @@ If you don't, smack him around a little bit until you do''}
 \nocite{*}
 \bibliographystyle{plain}
 \bibliography{sources/DissertationReferences}
+
+% Appendix
+\appendix
+\include{sources/appendix}        % loads appendix.tex
 
 \let\color\relax
 \let\textcolor\relax

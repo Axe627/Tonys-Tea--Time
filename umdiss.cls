@@ -115,7 +115,7 @@
 \newcommand{\disscommitteeThird}{Edward Dauer}
 \newcommand{\disscommitteeThirdtitle}{Clinical Professor of Biomedical Engineering}
 \newcommand{\disscommitteeoutside}{Francesco Travascio}
-\newcommand{\disscommitteeoutsidetitle}{Associate Profeesor of Mechanical Engineering}
+\newcommand{\disscommitteeoutsidetitle}{Associate Professor of Mechanical Engineering}
 \newcommand{\dissdean}{Nicole Leeper Piquero, J.D}
 \newcommand{\dissdeantitle}{Interim Dean of the Graduate School}
 

@@ -1,20 +1,21 @@
-\chapter[Augmented via Additive]{Augmented via Additive}\label{chap:3}
+\chapter{Augmented via Additive}\label{chap:3}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_A.pdf}
     \caption[Augmented via Additive "A"]{\textbf{Augmented via Additive "A" } Visual representation of the "Augmented via Additive" strategy, highlighting the integration of additive manufacturing techniques (e.g., 3D printing) into scaffold fabrication workflows to enhance mechanical performance, structural precision, and design versatility in tissue engineering applications. }
-    \label{fig:ch3_A}\end{figure}
+    \label{fig:ch3_A}
+\end{figure}
 
-\section{Defining ``Augmented via Additive'' in a Mechanical Context}
+\section{Defining ``Augmented via Additive''}
 
 The ``augmented via additive'' approach reflects a dual strategy: first, the use of additive manufacturing to develop precision-engineered mechanical testing equipment that overcomes the limitations of traditional hydrogel characterization; and second, the reinforcement of hydrogels through additively manufactured PCL networks to enhance mechanical performance. 
 
 Before advancing to scaffold reinforcement, it was essential to establish accurate baseline mechanical characterization of the hydrogel components. Conventional mechanical testing methods often fail to capture the complex poroviscoelastic behavior of hydrated, low-modulus biomaterials. Additive manufacturing provided a transformative solution, enabling rapid prototyping of a custom confined compression chamber with high precision, transparent materials for visual monitoring, and design features unattainable through traditional machining. This platform established a robust foundation for subsequent scaffold development and validation.
 
-\section{Mechanical Testing Challenges and Characterization Approach}
+\section{Testing and Characterization Challenges}
 
-Accurately characterizing the mechanical behavior of hydrated, low-modulus biomaterials—such as gelatin-based hydrogels—remains a significant challenge in meniscal tissue engineering. Traditional mechanical testing systems, though effective for stiffer materials, often fail to capture the complex poroviscoelastic behavior inherent to these highly hydrated scaffolds \cite{chaudhuri2016hydrogels, roberts2011mechanicalproperties}. These challenges arise both from intrinsic material properties (e.g., high water content, low modulus) and from limitations of conventional testing platforms.
+Accurately characterizing the mechanical behavior of hydrated, low-modulus biomaterials—such as gelatin-based hydrogels—remains a significant challenge in meniscal tissue engineering. Traditional mechanical testing systems, though effective for stiffer materials, often fail to capture the complex poroviscoelastic behavior inherent to these highly hydrated scaffolds \cite{chaudhuri2016hydrogelstunable, roberts2011comparativestudy,nichol2010cellviability, antoine2014review}. These challenges arise both from intrinsic material properties (e.g., high water content, low modulus) and from limitations of conventional testing platforms.
 
 In our initial mechanical characterization, we employed unconfined compression testing to assess the hydrogels' behavior under axial loading. However, we quickly identified significant limitations with this method. The hydrogels exhibited substantial lateral expansion during compression, which not only altered the stress distribution but also introduced slippage at the platen interfaces. These factors led to unstable force readings and low peak force values, making it difficult to capture meaningful mechanical data. Moreover, the unconfined setup failed to accurately replicate the constrained mechanical environment of native meniscal tissue, limiting its relevance for our biomimetic design goals. These challenges underscored the need to transition toward confined compression testing to achieve more reliable and physiologically relevant measurements. 
 
@@ -22,39 +23,27 @@ In our initial mechanical characterization, we employed unconfined compression t
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_unconfinedEarly.pdf}
     \caption[Initial unconfined compression testing of hydrogel scaffolds]{\textbf{Initial unconfined compression testing of hydrogel scaffolds.} The setup (left) shows the hydrogel sample positioned between compression platens, while force–time plots (right) illustrate unstable and low-force responses characteristic of early testing attempts. Key challenges included lateral expansion, slippage at platen interfaces, and non-biomimetic loading, all of which hindered reliable mechanical characterization. }
-    \label{fig:ch3_unconfined}\end{figure}
+    \label{fig:ch3_unconfined}
+\end{figure}
 
 Confined compression setups, typically designed for bulk materials, present key obstacles: misalignment between platens and samples leads to edge effects and non-uniform loading; small chamber sizes (3--10 mm diameter) yield weak force signals and poor signal-to-noise ratios; and friction between samples and chamber walls distorts true material response. Additionally, lack of environmental controls often results in sample dehydration and compromised data integrity. Early tests using commercial and ad hoc systems yielded inconsistent results, underscoring the need for a purpose-built platform capable of precise alignment, rigid confinement, uniform drainage, and continuous hydration.
 
-To assess hydrogel mechanical performance under physiologically relevant conditions, stress-relaxation testing was employed. In this method, samples are compressed to a fixed strain while the decay in stress over time reflects the scaffold's ability to dissipate mechanical energy \cite{joshi1995biomechanical, makris2011kneemeniscus}. GelA--GTA hydrogels, in particular, exhibit poroviscoelastic responses strongly influenced by crosslinking density and hydration state \cite{chaudhuri2016hydrogels, morejon2020compressiveproperties}, highlighting the critical need for precise and reproducible testing protocols.
+To assess hydrogel mechanical performance under physiologically relevant conditions, stress-relaxation testing was employed. In this method, samples are compressed to a fixed strain while the decay in stress over time reflects the scaffold's ability to dissipate mechanical energy \cite{watasestressrelaxation makris2011kneemeniscus}. GelA--GTA hydrogels, in particular, exhibit poroviscoelastic responses strongly influenced by crosslinking density and hydration state \cite{chaudhuri2016hydrogelstunable, morejon2020compressiveproperties}, highlighting the critical need for precise and reproducible testing protocols.
 
 Having established the practical challenges and rationale for a refined characterization approach, we now turn to the theoretical framework underpinning compression testing—specifically, the distinctions between unconfined and confined compression methods, and their implications for accurate mechanical evaluation.
 
-\section{Theoretical Framework: Unconfined vs. Confined Compression}
+\clearpage
+\section{Theoretical Framework: \protect\\ Unconfined vs. Confined Compression Testing}
 
-Two primary modes are employed to characterize soft biomaterials: unconfined and confined compression. Both derive from poroelastic theory, where the material's mechanical response results from fluid flow and solid matrix deformation.
+Two primary modes characterize soft biomaterials: unconfined and confined compression, both derived from poroelastic theory where mechanical response results from fluid flow and solid matrix deformation.
 
 \subsection{Unconfined Compression}
 
-In unconfined compression, the sample is compressed axially while allowed to expand radially. This setup mimics physiological deformation but introduces complexity due to multi-directional fluid flow. Boundary conditions include:
-\begin{itemize}
-    \item Radial displacement: $u_r \neq 0$
-    \item Pore pressure: fluid exits radially and axially
-\end{itemize}
-
-The characteristic relaxation time is proportional to the square of the sample radius ($\tau \sim a^2$), highlighting the role of radial drainage in time-dependent behavior.
+In unconfined compression, samples are compressed axially while allowed to expand radially, mimicking physiological deformation but introducing complexity through multi-directional fluid flow. Boundary conditions include radial displacement ($u_r \neq 0$) and pore pressure allowing fluid to exit both radially and axially. The characteristic relaxation time scales with sample radius squared ($\tau \sim a^2$), emphasizing how radial drainage determines time-dependent behavior.
 
 \subsection{Confined Compression}
 
-In confined compression, radial displacement is restricted ($u_r = 0$), forcing fluid to drain axially through porous platens. This more closely simulates constrained environments like the meniscus under load. Theoretical assumptions include:
-
-\begin{itemize}
-    \item Perfect confinement: no radial movement
-    \item Uniform axial drainage: pore pressure $p = 0$ at platen interfaces
-    \item Smooth, rigid chamber walls: no wall deformation or frictional effects
-\end{itemize}
-
-Here, the characteristic relaxation time scales with sample thickness ($\tau \sim h^2$).
+Confined compression restricts radial displacement ($u_r = 0$), forcing fluid to drain axially through porous platens. This simulates constrained environments like the meniscus under load, where rigid anatomical structures prevent lateral expansion. The theoretical framework relies on perfect confinement with no radial movement, uniform axial drainage with pore pressure $p = 0$ at platen interfaces, and smooth, rigid chamber walls to prevent wall deformation or frictional effects. Under these conditions, the characteristic relaxation time scales with sample thickness squared ($\tau \sim h^2$), indicating that stress relaxation rate is determined by fluid travel distance rather than lateral dimensions.
 
 \subsection{Stress Relaxation Testing}
 
@@ -62,11 +51,12 @@ Here, the characteristic relaxation time scales with sample thickness ($\tau \si
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_CCstressrelaxation.pdf}
     \caption[Schematic of stress relaxation in confined compression testing]{\textbf{Schematic of stress relaxation in confined compression testing.} The diagram (left) illustrates axial compression of a hydrogel scaffold within a confined chamber, forcing fluid flow through the porous platen. The accompanying plot (right) shows a typical stress relaxation curve, highlighting key parameters: peak force immediately after compression and equilibrium force following full relaxation at 10\% strain.}
-    \label{fig:ch3_CCstressrelaxation}\end{figure}
+    \label{fig:ch3_CCstressrelaxation}
+\end{figure}
 
 Stress relaxation testing provides critical insight into the viscoelastic and poroelastic behavior of hydrogels under confined conditions. After an initial rapid axial compression to a set strain (typically 10\%), the hydrogel is held at constant strain while the force response decays over time as fluid redistributes through the porous platen. This decay curve allows extraction of key mechanical parameters such as peak stress, equilibrium stress, and characteristic relaxation times. Confined compression stress relaxation is particularly relevant for simulating the in situ loading environment of the meniscus, where compressive forces act within a constrained anatomical space and fluid flow predominantly occurs axially.
 
-\section{Boundary Condition Violations and Testing Challenges}
+\section{Testing Challenges and \protect\\ Boundary Condition Limitations}
 
 While these models provide a clear theoretical basis, their assumptions are difficult to uphold in practice, leading to common testing challenges:
 
@@ -89,7 +79,8 @@ Opaque chambers prevent real-time verification of proper placement and deformati
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_initialCC.pdf}
     \caption[Initial confined compression testing setup and limitations.]{\textbf{Initial confined compression testing setup and limitations.} The 5 mm diameter chamber (right) presented significant challenges, including high wall friction, a glued porous plate, and lack of visibility, all of which complicated alignment, cleaning, and accurate force measurements. Force–time plots (left) illustrate low-force detection and noisy signal output, highlighting the need for a redesigned testing platform. }
-    \label{fig:ch3_initialCC}\end{figure}
+    \label{fig:ch3_initialCC}
+\end{figure}
 
 \section{"Augmentation" in Confined Compression Testing}
 
@@ -106,24 +97,20 @@ These challenges underscored the need for a customized testing system explicitly
 
 This approach provided a robust framework for accurate poroviscoelastic characterization, bridging the gap between theoretical modeling and experimental practice.
 
-\subsubsection{Data Analysis and Signal Processing}
+\subsection{Data Analysis and Signal Processing}
 
 The analysis of compression testing data requires sophisticated signal processing techniques to ensure accurate interpretation of material properties. Raw data from compression tests often contains various forms of noise and artifacts that must be carefully addressed through systematic processing approaches.
 
-A custom Python script was also developed to streamline data processing and enhance reproducibility (see Appendix \textbackslash{}ref\{appendix:python\_script\}). The script automates key steps including batch processing of CSV files, extraction of force data for specific strain regions (5\%, 10\%, 20\%), and application of signal smoothing using an Exponential Moving Average (EMA). It fits exponential decay curves to the force-relaxation data, extracting parameters such as peak force, equilibrium force, and the time constant. Additional features include Fourier analysis for noise characterization, automated plot generation, and compilation of mechanical parameters into an Excel summary file, ensuring both precision and efficiency in data analysis. 
+A custom Python script was also developed to streamline data processing and enhance reproducibility (see Appendix~\ref{appendix:data_analysis_script}). The script automates key steps including batch processing of CSV files, extraction of force data for specific strain regions (5\%, 10\%, 20\%), and application of signal smoothing using an Exponential Moving Average (EMA). It fits exponential decay curves to the force-relaxation data, extracting parameters such as peak force, equilibrium force, and the time constant. Additional features include Fourier analysis for noise characterization, automated plot generation, and compilation of mechanical parameters into an Excel summary file, ensuring both precision and efficiency in data analysis. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_signalAug.pdf}
     \caption[Improved data collection and curve-fitting in confined compression testing]{\textbf{Improved data collection and curve-fitting in confined compression testing.} Comparison between the initial setup (left), featuring a 5 mm diameter chamber, and the improved setup (right) with a 12.7 mm diameter chamber. The larger chamber resulted in a 645\% increase in cross-sectional area, enabling higher force readings and significantly reducing signal noise. Enhanced signal quality and force detection improved the reliability of stress-relaxation data and curve-fitting accuracy. }
-    \label{fig:ch3_signalAug}\end{figure}
+    \label{fig:ch3_signalAug}
+\end{figure}
 
-Data normalization enables meaningful comparisons between different samples and testing conditions by:
-
-\begin{itemize}
-    \item Normalizing stress values to account for variations in initial sample dimensions
-    \item Adjusting time scales to account for differences in loading rates
-    \item Standardizing strain measurements relative to initial sample height
-\end{itemize}
+Data normalization is a critical step that enables meaningful comparisons between different samples and testing conditions. This process typically involves normalizing stress values to account for variations in initial sample dimensions, adjusting time scales to compensate for differences in loading rates, and standardizing strain measurements relative to the initial sample height. Such normalization ensures that the intrinsic material properties can be evaluated independently of variations in sample geometry or specific test parameters.
 
 For stress relaxation data, experimental results are fitted to theoretical models such as:
 
@@ -131,7 +118,7 @@ $$\sigma(t) = \sigma_{\infty} + (\sigma_0 - \sigma_{\infty})e^{-t/\tau}$$
 
 where $\sigma_{\infty}$ represents the equilibrium stress, $\sigma_0$ is the peak stress, and $\tau$ is the characteristic relaxation time.
 
-\subsubsection{Material Property Extraction}
+\subsection{Material Property Extraction}
 
 The extraction of material properties requires consideration of underlying physical models:
 
@@ -144,36 +131,19 @@ For unconfined compression: $k = \frac{a^2 \mu}{E \tau}$
 
 where $h$ is sample thickness, $a$ is sample radius, $\mu$ is fluid viscosity, $E$ is modulus, and $\tau$ is characteristic time.
 
-\subsubsection{Common Issues and Solutions}
+\subsection{Common Issues and Solutions}
 
-Several challenges commonly arise during compression testing of hydrogels. Here we outline the major issues and their corresponding solutions:
+Several challenges commonly arise during compression testing of hydrogels, which can compromise data quality if not properly addressed. Key issues include non-linear initial responses, signal noise, and baseline drift.
 
-\textbf{Non-linear Initial Response:}  
-Unexpected non-linearity at the start of the stress--strain curve typically indicates:
-\begin{itemize}
-    \item Misalignment between the platen and sample surface
-    \item Uneven sample surfaces or preparation inconsistencies
-\end{itemize}
-\textit{Solution:} Implement rigorous alignment verification protocols and standardize sample preparation methods.
+\textbf{Non-linear Initial Response.} An unexpected non-linear region at the beginning of the stress--strain curve often indicates poor platen-to-sample contact, stemming from either misalignment or uneven sample surfaces. This can be resolved by implementing rigorous alignment verification protocols and standardizing sample preparation methods.
 
-\textbf{Signal Noise:}  
-Testing data can be contaminated by:
-\begin{itemize}
-    \item Environmental vibrations from nearby equipment
-    \item Electrical interference with measurement instruments 
-    \item Accuracy of load cell
-\end{itemize}
-\textit{Solution:}  Ensure force values are within reasonable range and consider testings when building vibrations are minimal.
+\textbf{Signal Noise.} Data can be contaminated by environmental vibrations, electrical interference with measurement instruments, or inaccuracies in the load cell. To mitigate this, testing should be conducted when building vibrations are minimal, and force readings must be verified to be within the expected range of the load cell.
 
-\textbf{Baseline Drift:}  
-Long-term testing may exhibit gradual baseline shifts due to:
-\begin{itemize}
-    \item Progressive sample dehydration
-    \item Temperature changes affecting both sample and equipment
-\end{itemize}
-\textit{Solution:} Maintain strict environmental controls.
+\textbf{Baseline Drift.} During long-term experiments, gradual baseline shifts may occur due to progressive sample dehydration or temperature fluctuations affecting both the sample and equipment. Maintaining strict environmental controls throughout testing is critical to prevent such artifacts.
 
-These issues can significantly impact data quality if left unaddressed. Implementation of systematic quality control procedures, including regular calibration and validation of testing protocols, ensures reliable and reproducible mechanical characterization results.
+A systematic approach to quality control, including regular calibration and protocol validation, is essential for ensuring reliable and reproducible mechanical characterization results.
+
+\clearpage
 
 \section{Design and Additive Fabrication of the Confined Compression Apparatus}
 
@@ -191,7 +161,8 @@ A key aspect of this development was the deliberate refinement of multiple inter
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_iterations.pdf}
     \caption[Iterative design development with color-coded highlights and feature linkages]{\textbf{Iterative design development with color-coded highlights and feature linkages.} This composite image traces the progressive refinement of the confined compression testing chamber, with inset windows highlighting specific changes or challenges across five key design categories: Measurement (red), Visibility (yellow), Attachment (orange), Additive (blue), and Hydration (teal). }
-    \label{fig:ch3_iterations}\end{figure}
+    \label{fig:ch3_iterations}
+\end{figure}
 
 The development process was highly iterative, with each design cycle targeting specific improvements while balancing trade-offs between mechanical performance, usability, and manufacturability. The figure employs color-coded highlight windows to emphasize visual improvements, while connecting lines indicate the evolution of key design features and their interdependencies. This layered annotation illustrates how changes in one area often impacted others—for example, magnetic attachments successfully reduced friction and improved measurement sensitivity but introduced new complications related to visibility and moisture-driven corrosion. Similarly, adjustments in additive manufacturing strategies, such as modifying print orientation and geometry, were used to improve both transparency and mechanical precision. 
 
@@ -320,44 +291,47 @@ Statistical analyses were performed using two-way ANOVA to assess the effects of
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_CCdata.pdf}
     \caption[Comparison of mechanical testing outcomes between the initial and improved setups]{\textbf{Comparison of mechanical testing outcomes between the initial and improved setups.} Bar plots show measured values for aggregate modulus (kPa), peak force (N), and equilibrium force (N) across different hydrogel formulations (0.5\% GTA, 1.5\% GTA, 2\% Alginate, and 4\% Alginate). The improved setup consistently yielded higher peak and equilibrium forces as well as more reliable modulus measurements, reflecting enhanced sensitivity and accuracy in confined compression testing. Asterisks indicate statistically significant differences between setups. }
-    \label{fig:ch3_data}\end{figure}
+    \label{fig:ch3_data}
+\end{figure}
 
 
 To validate the performance and improvements of the novel confined compression apparatus, a direct comparison was conducted against a conventional confined compression setup. Testing was performed on identical hydrogel formulations using both systems, allowing for side-by-side assessment of measurement sensitivity, reproducibility, and physiologically relevant force detection.
 
 
 \begin{table}[H]
-\centering
-\caption[Aggregate Modulus and Force Comparison]{\textbf{Aggregate Modulus and Force Comparison.} Summary of values for aggregate modulus, equilibrium force, and peak force for both the conventional setup and revised setup. Values are reported in Mean ± Std. Dev.}
-\label{tab:aggregate_force_comparison}
-\renewcommand{\arraystretch}{1.3}
-\setlength{\tabcolsep}{12pt}
-\begin{tabular}{|l|c|c|}
-\hline
-\textbf{Gel Type} & \textbf{Conventional Setup} & \textbf{Revised Setup} \\
-\hline
-\multicolumn{3}{|c|}{\textbf{Equilibrium Force (N)}} \\
-\hline
-0.5\% GelA       & 0.121 ± 0.046  & 0.248 ± 0.050 \\
-1.5\% GelA       & 0.127 ± 0.033  & 0.505 ± 0.085 \\
-2\% Agarose      & 0.056 ± 0.023  & 0.192 ± 0.036 \\
-4\% Agarose      & 0.034 ± 0.007  & 0.554 ± 0.085 \\
-\hline
-\multicolumn{3}{|c|}{\textbf{Aggregate Modulus (MPa)}} \\
-\hline
-0.5\% GelA       & 0.062 ± 0.026  & 0.021 ± 0.006 \\
-1.5\% GelA       & 0.067 ± 0.029  & 0.033 ± 0.009 \\
-2\% Agarose      & 0.029 ± 0.012  & 0.015 ± 0.003 \\
-4\% Agarose      & 0.017 ± 0.004  & 0.044 ± 0.007 \\
-\hline
-\multicolumn{3}{|c|}{\textbf{Peak Force (N)}} \\
-\hline
-0.5\% GelA       & 1.077 ± 0.383  & 0.430 ± 0.162 \\
-1.5\% GelA       & 0.348 ± 0.054  & 1.489 ± 0.255 \\
-2\% Agarose      & 0.144 ± 0.059  & 0.327 ± 0.067 \\
-4\% Agarose      & 0.101 ± 0.016  & 1.113 ± 0.229 \\
-\hline
-\end{tabular}\end{table}
+    \centering
+    \caption[Aggregate Modulus and Force Comparison]{\textbf{Aggregate Modulus and Force Comparison.} Summary of values for aggregate modulus, equilibrium force, and peak force for both the conventional setup and revised setup. Values are reported in Mean ± Std. Dev.}
+    \label{tab:aggregate_force_comparison}
+    \renewcommand{\arraystretch}{1.3}
+    \setlength{\tabcolsep}{12pt}
+    \begin{tabular}{|l|c|c|}
+        \hline
+        \rowcolor{blue!20}
+        \textbf{Gel Type} & \textbf{Conventional Setup} & \textbf{Revised Setup} \\
+        \hline
+        \multicolumn{3}{|c|}{\textbf{Equilibrium Force (N)}} \\
+        \hline
+        0.5\% GelA       & 0.121 ± 0.046  & 0.248 ± 0.050 \\
+        1.5\% GelA       & 0.127 ± 0.033  & 0.505 ± 0.085 \\
+        2\% Agarose      & 0.056 ± 0.023  & 0.192 ± 0.036 \\
+        4\% Agarose      & 0.034 ± 0.007  & 0.554 ± 0.085 \\
+        \hline
+        \multicolumn{3}{|c|}{\textbf{Aggregate Modulus (kPa)}} \\
+        \hline
+        0.5\% GelA       & 62.0 ± 26.0  & 21.0 ± 6.0 \\
+        1.5\% GelA       & 67.0 ± 29.0  & 33.0 ± 9.0 \\
+        2\% Agarose      & 29.0 ± 12.0  & 15.0 ± 3.0 \\
+        4\% Agarose      & 17.0 ± 4.0   & 44.0 ± 7.0 \\
+        \hline
+        \multicolumn{3}{|c|}{\textbf{Peak Force (N)}} \\
+        \hline
+        0.5\% GelA       & 1.077 ± 0.383  & 0.430 ± 0.162 \\
+        1.5\% GelA       & 0.348 ± 0.054  & 1.489 ± 0.255 \\
+        2\% Agarose      & 0.144 ± 0.059  & 0.327 ± 0.067 \\
+        4\% Agarose      & 0.101 ± 0.016  & 1.113 ± 0.229 \\
+        \hline
+    \end{tabular}
+\end{table}
 
 \subsection{Improvements in Signal Quality and Detection}
 
@@ -391,111 +365,102 @@ The revised setup yielded aggregate modulus values of 15 kPa and 44 kPa for 2\% 
 
 \section{Key Augmentations}
 
-The development of this additively manufactured testing platform represents a significant advance in biomaterials characterization, enabling precise measurement of mechanical properties previously difficult to quantify. By closing critical gaps in mechanical testing of hydrated biomaterials, this platform lays the groundwork for translating laboratory-scale hydrogel composites into clinically viable meniscal replacements. The improved measurement capabilities will prove instrumental in developing and validating the reinforced scaffold designs explored in subsequent chapters.
+The development of this additively manufactured testing platform represents a significant advance in biomaterials characterization, enabling precise measurement of mechanical properties previously difficult to quantify. By closing critical gaps in mechanical testing of hydrated biomaterials, this platform lays the groundwork for translating laboratory-scale hydrogel composites into clinically viable meniscal replacements~\cite{patel2019systematicreview,chaudhuri2016hydrogelstunable,busby2013confinedcompression buschmannconfinedcompression}. The improved measurement capabilities will prove instrumental in developing and validating the reinforced scaffold designs explored in subsequent chapters.
 
-The methodological advances achieved here not only resolve critical barriers in hydrogel characterization but also offer a reproducible blueprint for future biomaterials testing platforms across multiple disciplines. The integration of additive manufacturing with precision mechanical testing has demonstrated how rapid prototyping can accelerate biomaterials research through customized instrumentation development, while the significant improvements in measurement sensitivity (205\%-1640\% increase in force detection) have enabled detection of subtle mechanical differences between formulations that were previously indistinguishable using conventional testing methods.
+The methodological advances achieved here not only resolve critical barriers in hydrogel characterization but also offer a reproducible blueprint for future biomaterials testing platforms across multiple disciplines. The integration of additive manufacturing with precision mechanical testing has demonstrated how rapid prototyping can accelerate biomaterials research through customized instrumentation development~\cite{korhonen2002comparisonequilibrium,seitz2013stressrelaxationresponse,patel2019systematicreview, schinagl1997depthdependentconfined, schinagl1996videomicroscopy}, while the significant improvements in measurement sensitivity (205\%-1640\% increase in force detection) have enabled detection of subtle mechanical differences between formulations that were previously indistinguishable using conventional testing methods.
 
 \subsection{System Advantages and Improvements}
 
-The revised setup offers several key advantages:
+The revised setup offers several key advantages that address fundamental limitations in conventional hydrogel testing methodologies. The enhanced force range maintains the ability to capture peak force values while improving accuracy at lower equilibrium forces, enabling comprehensive characterization of viscoelastic properties essential for tissue engineering applications~\cite{nichol2010cellviability,xiao2013mechanicaltesting,schinagl1997depthdependentconfined, schinagl1996videomicroscopy,seitz2013stressrelaxationresponse}. The magnetic plate suspension system allows slight XY-plane movement, significantly reducing friction during compression and improving measurement accuracy, a critical factor when working with soft, hydrated materials.
 
-\begin{itemize}
-    \item \textbf{Enhanced Force Range}: The system maintains the ability to capture peak force values while improving accuracy at lower equilibrium forces, enabling comprehensive characterization of viscoelastic properties.
-    
-    \item \textbf{Reduced Friction}: Magnetic plate suspension allows slight XY-plane movement, reducing friction during compression and improving measurement accuracy.
-    
-    \item \textbf{Visual Confirmation}: Optical clarity enables direct visualization of:
-    \begin{itemize}
-        \item Sample placement within the chamber
-        \item Alignment of compressing plug and chamber
-        \item Contact surface between porous plate and hydrogel
-    \end{itemize}
-    
-    \item \textbf{Improved Sample Representation}: The larger sample surface area (645\% increase) provides a more heterogeneous representation of hydrogel properties, averaging local variations in crosslinking density and mechanical properties.
-\end{itemize}
+Optical clarity represents another significant improvement, enabling direct visualization of sample placement within the chamber, alignment of the compressing plug and chamber, and contact surface between the porous plate and hydrogel. This visual confirmation capability is particularly valuable for ensuring proper experimental setup and identifying potential artifacts that could compromise data quality~\cite{antoine2014review, elkommos2025hybridhydrogels, watasestressrelaxation,buschmannconfinedcompression, patel2019systematicreview}. Furthermore, the larger sample surface area (645\% increase) provides a more heterogeneous representation of hydrogel properties, effectively averaging local variations in crosslinking density and mechanical properties that are inherent in hydrogel fabrication processes.
 
 \subsection{Manufacturing and Cost Considerations}
-The utilization of additive manufacturing provides several advantages for testing system development:
-\begin{itemize}
-    \item Rapid prototyping capabilities
-    \item Low material costs (~\$20 per setup)
-    \item Two-hour print time for final components
-    \item Customizable design process
-    \item Potential for varied sample sizes and geometries
-\end{itemize}
+
+The utilization of additive manufacturing provides several advantages for testing system development that align with modern trends in laboratory instrumentation~\cite{bercea2024recent, korhonen2002comparisonequilibrium, seitz2013stressrelaxationresponse, patel2019systematicreview, schinagl1997depthdependentconfined, schinagl1996videomicroscopy, prasad2019additive,ngo2018additivemanufacturing}. Rapid prototyping capabilities enable iterative design optimization, while low material costs (approximately \$20 per setup) make the system accessible for research laboratories with limited budgets. The two-hour print time for final components facilitates quick implementation and modification, while the customizable design process allows adaptation to specific experimental requirements. This approach demonstrates the potential for varied sample sizes and geometries, expanding the system's applicability across different biomaterial formulations and testing protocols.
 
 \subsection{Current Limitations and Future Opportunities}
 
-While the current setup represents a significant advancement, several areas for improvement remain:
+While the current setup represents a significant advancement in hydrogel mechanical characterization, several areas for improvement remain that warrant consideration for future development. These limitations span hardware constraints, analytical challenges, and system integration issues that must be addressed to further advance biomaterial testing capabilities.
 
-\begin{itemize}
-    \item \textbf{Hardware Constraints}:
-    \begin{itemize}
-        \item Porous plate availability and sizing constraints
-        \item Limited resolution for printing microstructures
-        \item Need for more sensitive load cells for softer biomaterials
-        \item Potential for further optimization of chamber dimensions
-    \end{itemize}
-    
-    \item \textbf{Analysis Challenges}:
-    \begin{itemize}
-        \item Signal processing challenges for very soft materials
-        \item Temperature sensitivity effects
-        \item Environmental control precision
-    \end{itemize}
-    
-    \item \textbf{Future Development Paths}:
-    \begin{itemize}
-        \item Integration of automated sample handling
-        \item Enhanced environmental control systems
-        \item Dynamic testing capabilities
-        \item Expanded material compatibility
-        \item Advanced strain-rate dependent characterization
-    \end{itemize}
-\end{itemize}
+\textbf{Hardware Constraints and Material Limitations.} The current system faces several hardware-related challenges that impact its broader applicability. Porous plate availability and sizing limitations restrict the range of materials that can be effectively tested, particularly for very soft or highly porous biomaterials where specialized pore geometries may be required~\cite{rowley1999alginatehydrogels,schinagl1996videomicroscopy,patel2019systematicreview}. The limited resolution for printing microstructures (typically 50 µm for SLA processes) may impact the precision of certain experimental configurations, particularly when attempting to replicate the complex microarchitectures found in native tissues~\cite{bercea2024recent, prasad2019additive}. Additionally, the need for more sensitive load cells for softer biomaterials represents an ongoing challenge in mechanical characterization of hydrogels, where force signals may fall below the detection threshold of standard equipment~\cite{patel2019systematicreview, xiao2013mechanicaltesting}.
 
-Future studies will focus on addressing these limitations while expanding the system's capabilities to assess a broader range of materials and testing conditions, particularly focusing on dynamic mechanical analysis and automated testing protocols.
+\textbf{Analytical and Signal Processing Challenges.} The complexity of accurately characterizing hydrated biomaterials extends beyond hardware limitations to encompass sophisticated analytical requirements. Signal processing difficulties for very soft materials often result in low signal-to-noise ratios, requiring advanced filtering techniques that may inadvertently remove meaningful mechanical data~\cite{chaudhuri2016hydrogelstunable}. Temperature sensitivity effects can significantly influence hydrogel properties, with variations of just 1-2°C potentially altering mechanical responses by 10-20\%, necessitating precise environmental control systems~\cite{antoine2014review, nichol2010cellviability}. Environmental control precision requirements become particularly critical during extended testing periods, where gradual dehydration or temperature drift can compromise data integrity and reproducibility~\cite{seitz2013stressrelaxationresponse}.
+
+\textbf{System Integration and Automation Opportunities.} Future development paths should focus on addressing these limitations through enhanced system integration and automation. Integration of automated sample handling systems would significantly improve throughput and reproducibility, reducing operator-dependent variability that currently limits the reliability of comparative studies~\cite{patel2019systematicreview}. Enhanced environmental control systems for precise temperature and humidity regulation are essential for maintaining sample integrity during extended testing protocols, particularly for stress relaxation studies that may require several hours of continuous monitoring~\cite{schinagl1997depthdependentconfined, schinagl1996videomicroscopy}. Dynamic testing capabilities for comprehensive material characterization would enable assessment of strain-rate dependent behavior, providing more complete mechanical profiles that better reflect physiological loading conditions~\cite{korhonen2002comparisonequilibrium}.
+
+The potential for expanded material compatibility and advanced strain-rate dependent characterization represents significant opportunities to broaden the system's applicability across diverse biomaterial platforms. Current limitations in testing very soft materials (modulus <1 kPa) could be addressed through integration of more sensitive force measurement systems and improved signal processing algorithms~\cite{antoine2014review, nichol2010cellviability}. Additionally, the development of multi-axial testing capabilities would enable more comprehensive characterization of anisotropic biomaterials, better reflecting the complex mechanical environment of native tissues~\cite{seitz2013stressrelaxationresponse}.
+
+Future studies will focus on addressing these limitations while expanding the system's capabilities to assess a broader range of materials and testing conditions. Particular emphasis will be placed on dynamic mechanical analysis and automated testing protocols that can accelerate the development of next-generation tissue engineering scaffolds. The integration of real-time imaging capabilities with mechanical testing would provide unprecedented insight into structure-function relationships in biomaterials, while the development of standardized testing protocols would facilitate better comparability between studies and accelerate translation of promising biomaterials to clinical applications~\cite{patel2019systematicreview, chaudhuri2016hydrogelstunable}.
 
 \subsection{Broader Impact on Biomaterial Testing}
 
-The development of this additively manufactured testing platform extends beyond meniscal tissue engineering applications. The methodological advances presented in this chapter provide a foundation for more accurate mechanical characterization of a wide range of hydrated, low-modulus biomaterials, including:
-\begin{itemize}
-    \item Cartilage substitutes
-    \item Neural tissue scaffolds
-    \item Wound healing matrices
-    \item Drug delivery hydrogels
-    \item Synthetic extracellular matrices
-\end{itemize}
+The development of this additively manufactured testing platform extends beyond meniscal tissue engineering applications, representing a significant advancement in the broader field of biomaterials characterization. The methodological advances presented in this chapter provide a foundation for more accurate mechanical characterization of a wide range of hydrated, low-modulus biomaterials across diverse tissue engineering applications.
 
-By improving the accuracy and reliability of mechanical testing for these materials, this work contributes to advancing the broader field of biomaterials development and characterization. The accessible, cost-effective nature of the additively manufactured testing platform also enables wider adoption of standardized testing protocols, potentially leading to better comparability between studies and accelerated translation of promising biomaterials.
+\textbf{Orthopedic and Musculoskeletal Applications.} The testing platform's enhanced sensitivity and precision make it particularly valuable for characterizing biomaterials used in orthopedic applications beyond meniscal tissue engineering. Cartilage substitutes, including articular cartilage scaffolds and osteochondral constructs, require precise mechanical characterization to ensure proper load distribution and stress dissipation~\cite{patel2019systematicreview, chaudhuri2016hydrogelstunable, armiento2018biomaterialsarticular}. Similarly, bone tissue engineering scaffolds, particularly those incorporating hydrogel components for enhanced cellular infiltration, benefit from the platform's ability to detect subtle mechanical differences between formulations~\cite{bercea2024recent, nichol2010cellviability, ashwin20203dpolylactic}. The system's capability to maintain sample hydration during extended testing periods is particularly critical for these applications, where dehydration can significantly alter mechanical properties and compromise data reliability~\cite{antoine2014review}.
+
+\textbf{Neural and Soft Tissue Engineering.} Neural tissue scaffolds represent another important application area where the platform's capabilities provide significant advantages. Hydrogels used in neural tissue engineering often exhibit extremely low moduli (0.1-10 kPa), making them particularly challenging to characterize using conventional testing methods~\cite{rowley1999alginatehydrogels, nichol2010cellviability}. The enhanced force detection capabilities of the additively manufactured platform enable accurate characterization of these soft materials, providing essential data for optimizing scaffold design for neural regeneration applications. Additionally, the platform's ability to maintain precise environmental control during testing is crucial for neural tissue engineering, where temperature and hydration variations can significantly impact cellular behavior and scaffold performance~\cite{schinagl1996videomicroscopy}.
+
+\textbf{Cardiovascular and Vascular Applications.} Cardiovascular tissue engineering applications, including heart valve scaffolds and vascular grafts, require biomaterials that can withstand dynamic mechanical loading while supporting cellular infiltration and tissue remodeling~\cite{seitz2013stressrelaxationresponse, ma2025structurallysophisticated}. The platform's stress relaxation testing capabilities provide critical insights into the time-dependent mechanical behavior of these materials, enabling optimization of scaffold design for cardiovascular applications. The system's ability to maintain sample integrity during extended testing periods is particularly valuable for these applications, where long-term mechanical stability is essential for clinical success~\cite{korhonen2002comparisonequilibrium}.
+
+\textbf{Drug Delivery and Therapeutic Applications.} Hydrogel-based drug delivery systems require precise mechanical characterization to ensure proper drug release kinetics and structural integrity under physiological conditions~\cite{chaudhuri2016hydrogelstunable, shamloo2018acceleratedfullthickness}. The platform's enhanced sensitivity enables detection of mechanical changes associated with drug loading and release, providing essential data for optimizing delivery system design. Additionally, the system's ability to maintain controlled environmental conditions during testing is crucial for these applications, where temperature and pH variations can significantly impact drug release behavior~\cite{patel2019systematicreview}.
+
+\textbf{Wound Healing and Regenerative Medicine.} Wound healing matrices and regenerative medicine scaffolds often incorporate hydrogel components to provide optimal cellular microenvironments~\cite{antoine2014review, shamloo2018acceleratedfullthickness}. The platform's ability to characterize the mechanical properties of these materials under physiologically relevant conditions provides essential data for optimizing scaffold design for wound healing applications. The system's enhanced sensitivity enables detection of mechanical changes associated with cellular infiltration and matrix remodeling, providing insights into scaffold-tissue interactions~\cite{nichol2010cellviability}.
+
+\textbf{Synthetic Extracellular Matrices and Bioinks.} The development of synthetic extracellular matrices and bioinks for 3D bioprinting applications represents a rapidly growing area of biomaterials research~\cite{bercea2024recent, bahcecioglu20193dprinted, elkommos2025hybridhydrogels}. These materials require precise mechanical characterization to ensure proper printability and post-printing stability. The platform's enhanced capabilities enable characterization of the complex mechanical behavior of these materials, providing essential data for optimizing bioink formulation and printing parameters~\cite{rowley1999alginatehydrogels, shim2012bioprintingmechanically}.
+
+By improving the accuracy and reliability of mechanical testing for these diverse biomaterial applications, this work contributes to advancing the broader field of biomaterials development and characterization. The accessible, cost-effective nature of the additively manufactured testing platform also enables wider adoption of standardized testing protocols, potentially leading to better comparability between studies and accelerated translation of promising biomaterials to clinical applications. The platform's modular design and customizable features make it adaptable to the specific requirements of different biomaterial applications, further enhancing its utility across the diverse field of tissue engineering~\cite{patel2019systematicreview, chaudhuri2016hydrogelstunable}.
+
+\subsection{Mechanical Property Ranges Across Biomaterial Applications}
+
+The mechanical properties of hydrated biomaterials vary significantly depending on their composition, crosslinking density, and intended application. Representative values for commonly used hydrogels in tissue engineering applications have been compiled from multiple sources including comprehensive reviews~\cite{chaudhuri2016hydrogelstunable, antoine2014review}, alginate hydrogel studies~\cite{rowley1999alginatehydrogels}, recent PVA hydrogel advances~\cite{bercea2024recent}, cell-laden hydrogel characterization~\cite{nichol2010cellviability}, fibrin-based cardiac applications~\cite{ma2025structurallysophisticated}, silk scaffold development~\cite{mandal2011multilayeredsilk}, chitosan-gelatin composites~\cite{yu2019developmentdecellularized}, and 3D printed hydrogel systems~\cite{bahcecioglu20193dprinted}. 
+
+The applications of these biomaterials span diverse tissue engineering fields. Gelatin-based hydrogels are primarily used in cartilage tissue engineering and drug delivery systems~\cite{armiento2018biomaterialsarticular, ahmed2015hydrogelpreparation}, while agarose hydrogels find applications in both cartilage and neural scaffold development~\cite{bahcecioglu2019hydrogelsagarose}. Alginate hydrogels are commonly employed in neural tissue engineering and drug delivery applications~\cite{rowley1999alginatehydrogels}. Hyaluronic acid hydrogels are particularly valuable for wound healing and extracellular matrix mimicry~\cite{vedadghavami2017manufacturinghydrogel}. PVA hydrogels, with their higher mechanical strength, are suitable for cartilage and drug delivery applications~\cite{bercea2024recent}. PEG-based hydrogels are widely used in drug delivery and neural repair applications~\cite{nichol2010cellviability}. Collagen hydrogels serve as extracellular matrix substitutes and are particularly effective for neural repair~\cite{antoine2014review}. Fibrin hydrogels are essential for wound healing and cardiac tissue engineering~\cite{ma2025structurallysophisticated}. Chitosan hydrogels are versatile materials used in drug delivery and wound healing applications~\cite{yu2019developmentdecellularized}. Silk fibroin hydrogels are employed in neural tissue and bone regeneration~\cite{mandal2011multilayeredsilk}. Decellularized ECM hydrogels provide organ-specific regeneration capabilities~\cite{yu2019developmentdecellularized}. Composite materials such as PVA/chitosan/gelatin blends are particularly effective for wound healing and drug delivery applications~\cite{shamloo2018acceleratedfullthickness}. GelMA hydrogels are increasingly important for 3D bioprinting and cartilage tissue engineering~\cite{bahcecioglu20193dprinted}.
+
+The data presented in Table~\ref{tab:soft_biomaterial_properties} illustrates the broad range of mechanical properties achievable with different hydrogel formulations, from very soft neural tissue scaffolds (0.1-5 kPa compressive modulus) to stiffer cartilage substitutes (50-300 kPa compressive modulus).
 
 \begin{table}[H]
-\centering
-\caption[Hydrated Biomaterial Mechanical Properties]{\textbf{Hydrated Biomaterial Mechanical Properties.} Mechanical properties of hydrated biomaterials relevant to tissue engineering and drug delivery applications.}
-\label{tab:biomaterial_mechanics}
-\renewcommand{\arraystretch}{1.3}
-\setlength{\tabcolsep}{12pt}
-\rowcolors{2}{gray!10}{white}
-\begin{tabular}{|p{3.8cm}|p{2.5cm}|p{2cm}|p{2cm}|p{5cm}|}
-\hline
-\rowcolor{gray!30}
-\textbf{Biomaterial} & \textbf{Application Area} & \textbf{Compressive Modulus (kPa)} & \textbf{Tensile Modulus (kPa)} & \textbf{Notes and References} \\
-\hline
-Gelatin-based Hydrogels& Cartilage, Drug Delivery& 10--80 & 5--30 & Tunable via GTA crosslinking \cite{chaudhuri2016hydrogels, roberts2011mechanicalproperties}. \\
-\hline
-Agarose Hydrogels & Cartilage, Neural Scaffolds& 10--60 & 1--10 & Concentration-dependent stiffness \cite{buschmann1998mechanicalproperties}. \\
-\hline
-Alginate Hydrogels & Neural Tissue, Drug Delivery & 20--100 & 10--50 & Ionically crosslinked, low adhesion \cite{rowley1999alginatehydrogels}. \\
-\hline
-Hyaluronic Acid (HA) Hydrogels& Wound Healing, ECM Mimicry & 1--20 & 0.5--10 & High hydration; soft \cite{chaudhuri2016hydrogels}. \\
-\hline
-PVA Hydrogels & Cartilage, Drug Delivery & 50--300 & 50--100 & Tougher, osteochondral scaffold use \cite{matsumoto2005pvahydrogels}. \\
-\hline
-PEG-based Hydrogels& Drug Delivery, Neural Repair & 1--100 & 0.5--10 & Highly tunable, bioinert \cite{nichol2010cellviability}. \\
-\hline
-Collagen Hydrogels & ECM Substitute, Neural Repair & 0.1--5 & 0.05--1 & Ultra-soft, cell-friendly \cite{yang2004collagenhydrogels}. \\
-\hline
-\end{tabular}\end{table}
+    \centering
+    \caption[Hydrated Biomaterial Mechanical Properties]{\textbf{Comparison of mechanical properties of various hydrated biomaterials.}}
+    \label{tab:soft_biomaterial_properties}
+    \renewcommand{\arraystretch}{1.3}
+    \setlength{\tabcolsep}{12pt}
+    {
+    \newcolumntype{C}[1]{>{\centering\arraybackslash\hyphenpenalty=10000}p{#1}}
+    \begin{tabular}{|C{4.5cm}|C{2.5cm}|C{2.5cm}|}
+        \hline
+        \rowcolor{blue!20}
+        \textbf{Biomaterial} & \textbf{Compressive Modulus (kPa)} & \textbf{Tensile Modulus (kPa)} \\
+        \hline
+        Gelatin-based Hydrogels& 10--80 & 5--30 \\
+        \hline
+        Agarose Hydrogels & 10--60 & 1--10 \\
+        \hline
+        Alginate Hydrogels & 20--100 & 10--50 \\
+        \hline
+        Hyaluronic Acid (HA) Hydrogels& 1--20 & 0.5--10 \\
+        \hline
+        PVA Hydrogels & 50--300 & 50--100 \\
+        \hline
+        PEG-based Hydrogels& 1--100 & 0.5--10 \\
+        \hline
+        Collagen Hydrogels & 0.1--5 & 0.05--1 \\
+        \hline
+        Fibrin Hydrogels & 0.5--15 & 0.1--5 \\
+        \hline
+        Chitosan Hydrogels & 5--50 & 2--20 \\
+        \hline
+        Silk Fibroin Hydrogels & 10--100 & 5--40 \\
+        \hline
+        Decellularized ECM Hydrogels & 1--30 & 0.5--15 \\
+        \hline
+        PVA/Chitosan/Gelatin & 20--80 & 10--40 \\
+        \hline
+        GelMA Hydrogels & 15--120 & 8--60 \\
+        \hline
+    \end{tabular}
+    }
+\end{table}
 
 \section{Transitioning from Testing Platform to Network Integration}
 
@@ -605,7 +570,8 @@ The permeation testing apparatus comprises several key components:
     \centering
     \includegraphics[width=1\linewidth]{figures/chapter 3/ch3_permCH.pdf}
     \caption[Iterative development of the permeation chamber design]{\textbf{Iterative development of the permeation chamber design.} The image outlines the evolution from an initial chamber with poor sealing and compression (top left) to an optimized 3-piece system featuring quad-ring seals, improved tissue compression, an air relief valve, and an electrode port for integrated monitoring. CAD renderings and assembly photos highlight key functional improvements, including enhanced sealing performance and modular construction to address early design limitations. }
-    \label{fig:ch3_permCH}\end{figure}
+    \label{fig:ch3_permCH}
+\end{figure}
     
 \subsection{Current Status and Future Directions}
 

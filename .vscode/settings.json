@@ -1,11 +1,75 @@
 {
     "latex-workshop.latex.recipes": [
         {
+            "name": "Quick Build (Auto)",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "Full Build (Manual)",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
             "name": "pdflatex -> bibtex -> pdflatex*2",
             "tools": [
                 "pdflatex",
                 "bibtex",
                 "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex -> bibtex -> xelatex*2",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex (single run)",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex (single run)",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "bibtex only",
+            "tools": [
+                "bibtex"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex",
+            "tools": [
+                "pdflatex",
+                "bibtex"
+            ]
+        },
+        {
+            "name": "xelatex -> bibtex",
+            "tools": [
+                "xelatex",
+                "bibtex"
+            ]
+        },
+        {
+            "name": "Progressive Build",
+            "tools": [
+                "pdflatex",
+                "bibtex",
                 "pdflatex"
             ]
         }
@@ -19,18 +83,31 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "%DOC%"
-            ]
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
         },
         {
             "name": "bibtex",
             "command": "bibtex",
             "args": [
                 "%DOCFILE%"
-            ]
+            ],
+            "env": {}
         }
     ],
-    "latex-workshop.latex.recipe.default": "pdflatex -> bibtex -> pdflatex*2",
-    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.recipe.default": "Quick Build (Auto)",
+    "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
@@ -51,9 +128,20 @@
         "*.ist",
         "*.fls",
         "*.log",
-        "*.fdb_latexmk"
+        "*.fdb_latexmk",
+        "*.synctex.gz"
     ],
     "latex-workshop.latex.autoClean.run": "never",
-    "latex-workshop.latex.autoBuild.interval": 0,
-    "latex-workshop.latex.rootFile.useSubFile": false
-} 
+    "latex-workshop.latex.autoBuild.interval": 7000,
+    "latex-workshop.latex.rootFile.useSubFile": false,
+    "latex-workshop.latex.outDir": "%DIR%",
+    "latex-workshop.latex.tmpDir": "%DIR%",
+    "latex-workshop.view.pdf.internal.synctex.enabled": true,
+    "latex-workshop.view.pdf.zoom": "page-width",
+    "latex-workshop.message.error.show": true,
+    "latex-workshop.message.warning.show": true,
+    "latex-workshop.latex.recipe.outputs": [
+        "%DIR%/%DOCFILE%.pdf"
+    ],
+    "latex-workshop.synctex.afterBuild.enabled": true
+}

@@ -1,0 +1,270 @@
+# TASKS:
+#  - Separate regions (5%, 10%, etc..) ✓
+#  - Perfect curve fit using max value and changing time ✓ (Not perfect yet? Need your opinion)
+#  - Make it easier to run input multiple files ✓
+#  - Peak force to ~1/e % ✓
+#  - Put data in text file for max force, time constant, curve fit equation with file name ✓* (Now data is being input to an excel sheet)
+#  - R^2 value? (Implemented but does not work well due to exponential curve)
+#  - Legends for important data, Max Force, Time constant, Aggregate modulus, (Start working on this)
+#  - Line for Fmax, possibly just a star or something like ✓
+#  - Input important data into excel ✓
+#  - Energy dissipation from start of hold phase to 50% (Fmax - Feq/2) and 50% (Fmax - Feq/2) to end. [ ]
+
+# User note:
+#  Will loop over every .csv file as chosen in the GUI, after which user can append or create new excel file to store data into.
+
+import pandas as pd
+import glob
+import matplotlib.pyplot as plt
+import numpy as np
+import sympy as sym
+from scipy.optimize import curve_fit
+import openpyxl
+from scipy.fft import fft, fftfreq
+import easygui as gui
+import sys
+
+
+# Defining an exponential function to use later
+def exp(x, a, b, c):
+    return a * np.exp(-x/b) + c
+
+# Linearizing the exponential for regression [ ln(y - c) = ]
+def linear_exp(x, a, b):
+    return -(x/b) + np.log(a)
+
+# Useful defines and settings
+
+SETNAME = 'SetName'
+CYCLE = 'Cycle'
+TIME_S = 'Time_S'
+SIZE_MM = 'Size_mm' 
+DISP_MM = 'Displacement_mm'
+FORCE_N = 'Force_N'
+FORCE_N_EMA = 'Force_N_EMA'
+TIME_S_HOLD = 'Time_S_hold'
+
+Area_m2 = 0.0001267 # Area of sample (Measured in m^2)
+
+strain_map = {
+    '5%' : 0.05,
+    '10%' : 0.1,
+    '20%' : 0.2,
+}
+
+# Pa = Force/(Area * strain)
+
+strain_values = ['5%', '10%', '20%'] # Strain regions
+
+atm = 0.00000986923 # 1 N/m^2 = 1 Pascal = 1/101325 atm 
+
+SPAN_FORCE = 5 #  ***HIGHER VALUE IS GREATER SMOOTHING***  #
+
+COMPRESS_REGION = '1-Compress'
+HOLD_REGION = '1-Hold'
+
+SAMPLE_RATE = 100
+
+# Choosing folder with .csv files to analyze
+
+folderPath = gui.diropenbox("Choose folder with .csv files!")
+
+if folderPath is None:
+    sys.exit(0)
+
+# Choosing if you want to create a new excel file or append to existing excel file
+
+msg = "Do you want to create a new excel file or append to an existing excel file\nOr Press <cancel> to exit."
+
+createChoice = gui.choicebox(msg, "Excel file choice", ["Create new", "Append"]) # Window for choice selection
+print(createChoice)
+
+if createChoice is None:
+    sys.exit(0)
+
+if createChoice == "Append":
+
+    excelFile = gui.fileopenbox(filetypes= ['*.xlsx'], title = "Select properly formatted existing excel file!")
+    print(excelFile)
+
+else:
+    # Code to create new excel file!
+    newExcelFolder = gui.diropenbox("Choose folder to save new excel file!")
+    newExcelName = gui.enterbox("Enter name of new excel file!", "Name input", "DataSummary")
+    newExcelPath = newExcelFolder + '\\' + newExcelName + '.xlsx'
+    writer = pd.ExcelWriter(newExcelPath, engine= 'auto')
+
+    for workbook_name in strain_values:
+        df = pd.DataFrame({'Name':[], 'Fmax':[], "~0.3679*Fmax":[], 'Estimated time constant':[], 'a (Fmax - Fequil. for eq.)':[], 'b (time constant for eq.)':[], 'c (equilibrium force for eq.)':[], 'Aggregate Modulus (HA)':[], 'Area under hold start to Fmax/2 + Feq/2':[], 'Area under entire hold region':[], 'Impulse over half area':[], 'Impulse over full area':[]})
+        df.to_excel(writer, sheet_name=workbook_name, index=False)
+
+    writer.close() # Saving new excel file.
+    excelFile = newExcelPath
+    print(excelFile)
+    
+
+files = glob.glob(folderPath + '/*.csv') # Finds all .csv files in chosen folder
+
+# Setting up workbook for excel sheet
+
+wb = openpyxl.load_workbook(excelFile) # Loading specified excel file
+
+# This loop looks for .csv as selected in the GUI! Can be changed :)
+
+for filename in files:
+    df_all = pd.read_csv(filename) # Dataframe with everything included
+    for strain in strain_values: # Iterates through strain_values defined above!
+
+        ws = wb[strain] # Sheet with the strain value it is analyzing
+
+        df = df_all.loc[df_all[SETNAME] == strain].reset_index() # Dataframe for given strain 
+        df_hold = df[df[CYCLE] != COMPRESS_REGION] # Dataframe with only hold region
+        startTime =  df.iloc[0][TIME_S]
+        startTime_holdregion = df_hold.iloc[0][TIME_S]
+
+        # EWM settings 
+
+        df[FORCE_N_EMA] = df.loc[ :, FORCE_N].ewm(span=SPAN_FORCE, adjust=False).mean()
+
+        # Finding max 
+
+        max_index = df[FORCE_N].idxmax()
+        max_force = df.loc[max_index, FORCE_N]
+
+        # Estimated force value at time constant to get an approximate time constant 
+
+        estimate_force = max_force / np.exp(1) # Max force divided by e (~0.367% of Fmax)
+        closest_exp_force_row = df.iloc[(df[FORCE_N]-estimate_force).abs().argsort()[:1]]
+        estimated_timeconstant = (closest_exp_force_row[TIME_S] - df.iloc[0][TIME_S]).iloc[-1]
+
+        print('Estimate Force:', estimate_force,'Estimate Time Constant:', estimated_timeconstant) # Prints out force and time taken in data to reach 0.367% of Fmax
+
+        # Finding last force
+
+        end_force = df_hold.iloc[-1][FORCE_N]
+
+        # Brute force data type to float for curve fit
+
+        x_time_s = np.array(df.iloc[max_index: ][TIME_S] - df.loc[max_index, TIME_S], dtype = float) # Made it so that this starts at 0 
+        y_force_n = np.array(df.iloc[max_index: ][FORCE_N], dtype = float) ### CHANGE THIS TO FORCE_N_EMA TO USE MOVING AVERAGE FORCE VALUES !! ###
+
+        # Data to curve fit
+
+        popt, pcov = curve_fit(exp, x_time_s, y_force_n, p0=[max_force, estimated_timeconstant, end_force], maxfev=20000) # Values in p0 are estimations, can be changed
+
+        # Getting time relative to hold region
+
+        df[TIME_S] = (df.loc[: , TIME_S] - startTime_holdregion)
+        df_hold[TIME_S] = (df_hold.loc[: , TIME_S] - startTime_holdregion)
+
+        # Getting row with Fmax / 2 + Feq / 2
+
+        closest_half_force_df = df_hold.iloc[(df_hold[FORCE_N]-(max_force/2 + end_force/2)).abs().argsort()[:1]]
+        half_force_index = (closest_half_force_df['index'] - df_hold.iloc[0]['index']).iloc[-1]
+
+        df_hold_firstHalf = df_hold[ : half_force_index + 1 ]
+        df_hold_secondHalf = df_hold[ half_force_index + 1 : ]  
+
+        # Calculating area using numpy trapezoids for discrete points
+
+        firstHalf_area = np.trapz(df_hold_firstHalf[FORCE_N], x = df_hold_firstHalf[TIME_S])
+        secondHalf_area = np.trapz(df_hold_secondHalf[FORCE_N], x = df_hold_secondHalf[TIME_S])
+        sum_Area = firstHalf_area + secondHalf_area
+        #full_area = np.trapz(df_hold[FORCE_N], x = df_hold[TIME_S])
+
+        # print('Area from start of hold to (Fmax + Feq)/2: ', firstHalf_area,'Area from (Fmax + Feq/2) to end of hold region', secondHalf_area, 'Area under entire hold region', sum_Area)
+
+        # Finding impulse over area
+
+        impulse_area_half = firstHalf_area/Area_m2
+
+        impulse_area_full = sum_Area/Area_m2
+
+        # Aggregate modulus in Pascals
+
+        force_pa = popt[2] / (Area_m2 * strain_map.get(strain))
+
+        # Calculating R^2 value
+
+        y_force_n_log = np.log(y_force_n - popt[2])
+        residuals = y_force_n_log - linear_exp(x_time_s, popt[0], popt[1])
+        ss_res = np.sum(residuals**2)
+
+        ss_tot = np.sum((y_force_n_log-np.mean(y_force_n_log))**2)
+
+        r_squared = 1 - (ss_res / ss_tot)
+
+        # Printing variables and covariance matrix for exponential function
+
+        title = filename.replace(folderPath + "\\", '')
+        plot_title = title + " " + strain
+
+        # Data that is being input into excel file
+
+        excel_data = [title, max_force, estimate_force, estimated_timeconstant, popt[0], popt[1], popt[2], force_pa, firstHalf_area, sum_Area, impulse_area_half, impulse_area_full]
+
+        ws.append(excel_data)
+
+        # Printing out essential data to check if its sensible
+
+        # print(title)
+        # print(popt)
+        # print(pcov)
+        # print(estimate_force, estimated_timeconstant) # Prints out force and time taken in data to reach 0.367% of Fmax
+        # print(force_pa)
+        # print(r_squared)
+
+        # FFT code
+        normalized_data = np.int16((y_force_n/y_force_n.max())*32767)
+        yfft = fft(normalized_data)
+        xfft = fftfreq(len(x_time_s), 1/SAMPLE_RATE)
+        
+        # Format text for the plot
+        sigfig = 3  # Number of significant figures
+        tc_reciprocal = round(1 / popt[1], sigfig)
+        power_str = str(tc_reciprocal).translate(str.maketrans('-.0123456789', '⁻˙⁰¹²³⁴⁵⁶⁷⁸⁹'))
+        
+        plotText = f"""
+        Max. Force : {round(max_force, sigfig)} N
+        Est. Time Constant : {round(estimated_timeconstant, sigfig)} s
+        Aggregate Modulus (HA) : {round(force_pa, sigfig)} Pa
+        Curve Fit Eq. : {round(popt[0], sigfig)}e⁻{power_str} + {round(popt[2], sigfig)}
+        """
+        
+        # Create figure with two subplots
+        fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 10))
+        
+        # Main force plot
+        ax1.plot(df[TIME_S], df[FORCE_N_EMA], 'b-', label="Force/N (EMA)")
+        ax1.plot(df_hold[TIME_S], df_hold[FORCE_N], 'c-', label="Force/N (Hold)")
+        ax1.plot(x_time_s, exp(x_time_s, *popt), 'r--', label="Exponential Fit")
+        ax1.scatter(0, max_force, s=100, c='red', marker='*', label="Max Force")
+        
+        # Add grid and labels for main plot
+        ax1.grid(True)
+        ax1.set_title(plot_title)
+        ax1.set_xlabel("Time (s)")
+        ax1.set_ylabel("Force (N)")
+        ax1.legend(loc='upper right')
+        
+        # Add text box with important data
+        ax1.text(0.02, 0.98, plotText, transform=ax1.transAxes, 
+                fontsize=10, verticalalignment='top', 
+                bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
+        
+        # FFT plot
+        ax2.plot(xfft[:len(xfft)//2], np.abs(yfft)[:len(xfft)//2], 'g-')
+        ax2.set_title("Frequency Analysis")
+        ax2.set_xlabel("Frequency (Hz)")
+        ax2.set_ylabel("Amplitude")
+        ax2.grid(True)
+        
+        # Adjust layout and show
+        plt.tight_layout()
+        plt.show()
+        
+        # Save the figure
+        plt.savefig(f"{filename.replace('.csv', '')}_{strain}_analysis.png", dpi=300, bbox_inches='tight')
+        plt.close()
+    
+    wb.save(excelFile) # Save excel file!
