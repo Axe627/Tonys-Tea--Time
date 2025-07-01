@@ -1,0 +1,122 @@
+Unused Citations List:
+athanasiou2009synthesislecturesa - DUPLICATE (duplicate of athanasiou2009synthesislectures)
+barsimantov2024poroelasticcharacterization
+bercea2024recent
+brand2001structuraloutline
+buckley2009effectconcentration
+bursac2000microstructuralmodel
+bursaconnedunconned
+carterindepthguide
+cengiz2016buildingbasis
+chendepthstraindependent
+commisso2014effectnonuniform
+daelemans2018nanostructuredhydrogels
+danielbiomechanicalanalysis
+danso2014comparisonnonlinear
+daszkiewicz2021biomechanicsmedial
+davis2004polymerchemistry
+demulder2009anisotropicporous
+eganarchitecturalacoustics
+fernandes2021mechanicallyrobust
+fitzgerald2015tunablestress
+hong2020digitallight
+huang2021ultrahighenergydissipation
+jaidev2019surfacefunctionalization
+johannessen2005effectsdegeneration
+jongerius2010structuralanalysis
+jurvelin2000topographicalvariation
+klarmann20243dbioprinting
+kleinhans2018hydraulicpermeability
+koch2022mechanicalproperties
+lopez-calzada2016developmentmeniscus
+loverde2024compressioncycling
+luis20203dprinted
+maldonado-codina2004impactmanufacturing
+maleki2022polylacticacidbased
+mansourbiomechanicscartilage
+mauck2002influenceseeding
+mauckseedingdensity
+meniscusregeneration
+methodstesting
+morejon2023tensileenergy
+morin2021individualaccelerationspeed
+nakagawa2019longtermevaluation
+nelson2024methodstesting
+nguyen2012cartilagelikemechanical
+niu2016cellbasedstrategies
+obregon2016effectpolymer
+osaki2018microphysiological3d
+park2003biomaterialsprinciples
+
+
+UNUSED CITATIONS ORGANIZED BY TOPIC
+1. MECHANICAL PROPERTIES & BIOMECHANICS
+barsimantov2024poroelasticcharacterization - Poroelastic characterization of subcutaneous tissue
+morejon2023tensileenergy - Tensile energy dissipation and mechanical properties
+kleinhans2018hydraulicpermeability - Hydraulic permeability studies
+mansourbiomechanicscartilage - Cartilage biomechanics
+danso2014comparisonnonlinear - Nonlinear mechanical comparisons
+daszkiewicz2021biomechanicsmedial - Medial meniscus biomechanics
+koch2022mechanicalproperties - Mechanical properties analysis
+jurvelin2000topographicalvariation - Topographical variation in mechanical properties
+2. ADDITIVE MANUFACTURING & 3D PRINTING
+klarmann20243dbioprinting - 3D bioprinting advances
+loverde2024compressioncycling - Compression cycling in 3D printed materials
+luis20203dprinted - 3D printed materials
+maldonado-codina2004impactmanufacturing - Manufacturing impact studies
+maleki2022polylacticacidbased - PLA-based materials
+hong2020digitallight - Digital light processing
+huang2021ultrahighenergydissipation - Energy dissipation in 3D printed materials
+3. HYDROGELS & BIOMATERIALS
+bercea2024recent - Recent hydrogel developments
+daelemans2018nanostructuredhydrogels - Nanostructured hydrogels
+nguyen2012cartilagelikemechanical - Cartilage-like mechanical properties
+fernandes2021mechanicallyrobust - Mechanically robust materials
+fitzgerald2015tunablestress - Tunable stress properties
+jaidev2019surfacefunctionalization - Surface functionalization
+4. CELL BIOLOGY & TISSUE ENGINEERING
+mauck2002influenceseeding - Seeding density influence
+mauckseedingdensity - Seeding density studies
+niu2016cellbasedstrategies - Cell-based strategies for meniscus engineering
+johannessen2005effectsdegeneration - Degeneration effects
+jongerius2010structuralanalysis - Structural analysis
+santhanam2018stemcell - Stem cell applications
+5. TESTING & CHARACTERIZATION METHODS
+nelson2024methodstesting - Methods for testing meniscal repair
+methodstesting - Testing methodologies
+carterindepthguide - In-depth testing guide
+chendepthstraindependent - Strain-dependent testing
+danielbiomechanicalanalysis - Biomechanical analysis methods
+6. POLYMER SCIENCE & MATERIALS
+brand2001structuraloutline - Structural polymer properties
+buckley2009effectconcentration - Concentration effects on polymers
+demulder2009anisotropicporous - Anisotropic porous materials
+obregon2016effectpolymer - Polymer effects in manufacturing
+park2003biomaterialsprinciples - Biomaterials principles
+7. COMPUTATIONAL & MODELING
+bursac2000microstructuralmodel - Microstructural modeling
+bursaconnedunconned - Confined/unconfined compression modeling
+cengiz2016buildingbasis - Building computational basis
+commisso2014effectnonuniform - Non-uniform effects modeling
+8. CLINICAL & TRANSLATIONAL
+meniscusregeneration - Meniscus regeneration clinical aspects
+nakagawa2019longtermevaluation - Long-term clinical evaluation
+osaki2018microphysiological3d - Microphysiological 3D models
+9. MISCELLANEOUS
+eganarchitecturalacoustics - Architectural acoustics
+lopez-calzada2016developmentmeniscus - Meniscus development
+morin2021individualaccelerationspeed - Individual acceleration-speed profiles
+RECOMMENDATIONS FOR INTEGRATION:
+High Priority (Directly Relevant to Your Work):
+barsimantov2024poroelasticcharacterization - Integrate into your poroelastic analysis section
+morejon2023tensileenergy - Add to your mechanical properties discussion
+kleinhans2018hydraulicpermeability - Include in permeability analysis
+mansourbiomechanicscartilage - Add to cartilage mechanics section
+Medium Priority (Supporting Your Methods):
+nelson2024methodstesting - Add to your testing methodology section
+klarmann20243dbioprinting - Include in 3D printing discussion
+nguyen2012cartilagelikemechanical - Add to hydrogel properties section
+Low Priority (Background/Context):
+bercea2024recent - Could be added to recent developments section
+park2003biomaterialsprinciples - Background material
+niu2016cellbasedstrategies - Future work discussion
