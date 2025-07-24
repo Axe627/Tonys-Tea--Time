@@ -107,8 +107,21 @@
         }
     ],
     "latex-workshop.latex.recipe.default": "Quick Build (Auto)",
-    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.view.pdf.internal.viewer.pageMode": "FacingFirst",
+    "latex-workshop.intellisense.citation.label": "citekey",
+    "latex-workshop.intellisense.citation.detection": "bibtex",
+    "latex-workshop.intellisense.citation.bibtex.files": [
+        "sources/DissertationReferences.bib"
+    ],
+    "latex-workshop.intellisense.citation.bibtex.maxItems": 1000,
+    "latex-workshop.intellisense.citation.bibtex.sort.enabled": true,
+    "latex-workshop.intellisense.citation.bibtex.sort.order": [
+        "author",
+        "title",
+        "year"
+    ],
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
         "*.bbl",
@@ -144,5 +157,5 @@
         "%DIR%/%DOCFILE%.pdf"
     ],
     "latex-workshop.synctex.afterBuild.enabled": true,
-    "files.autoSave": "onSave"
+    "files.autoSave": "afterDelay"
 }

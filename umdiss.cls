@@ -217,11 +217,9 @@
       {A DISSERTATION} \\[15mm]
 
 	\begin{spacing}{1}
-		Submitted to the MacArthur School \\
-		of Engineering, University of Miami \\
+		Submitted to the University of Miami \\
 		in partial fulfillment of the requirements \\
-		for the degree of Doctor of Philosophy\\
-		\MakeUppercase{\dissdegreetitle} \\[30mm]
+		for the degree of Doctor of Philosophy\\[30mm]
 	\end{spacing}
       \@universityaddress \\
       \dissmonth \ \dissyear
@@ -286,7 +284,6 @@
     A dissertation submitted in partial fulfillment of \\
     the requirements for the degree of\\
     Doctor of Philosophy\\
-    $[$Biomedical Engineering$]$\\
     \end{spacing}
     \vspace{2mm}
     \parbox[t]{\textwidth}{
@@ -417,6 +414,9 @@
     \end{center}
     \end{spacing}
     \vfill \strut
+    \begin{center}
+      iii
+    \end{center}
     \newpage
 }
 
@@ -427,19 +427,26 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newenvironment{dissacknowledgments}{
-    %\doublespace\small\normalsize
-     \chapter*{\dissacknowledgmenthead
-         \@mkboth{\uppercase{\dissacknowledgmenthead}}
-                 {\uppercase{\dissacknowledgmenthead}}}     
+  %\doublespace\small\normalsize
+    \chapter*{\dissacknowledgmenthead
+        \@mkboth{\uppercase{\dissacknowledgmenthead}}
+                {\uppercase{\dissacknowledgmenthead}}}     
+    \def\ps@plain{%
+      \let\@mkboth\@gobbletwo
+      \let\@oddhead\@empty
+      \let\@evenhead\@empty
+      \def\@oddfoot{\hfil\thepage\hfil}%
+      \def\@evenfoot{\hfil\thepage\hfil}%
+    }
+    \pagestyle{plain}
 %     \begin{spacing}{\@defaultbaselinestretch}}
-      \begin{spacing}{1.5}}
-      { \end{spacing} \par \vspace{5mm}
-        \raggedleft
-        \includegraphics[height=2cm]{figures/appendix/tony signatureOG_filled.pdf}\\[1mm]
-        \@dissacknowledgmentsigname \\[1mm]
-        \raggedright \@dissacknowledgmentsigplace \newpage}
-
-     
+    \begin{spacing}{1.5}}
+    { \end{spacing} \par \vspace{5mm}
+      \raggedleft
+      \includegraphics[height=2cm]{figures/appendix/tony signatureOG_filled.pdf}\\[1mm]
+      \@dissacknowledgmentsigname \\[1mm]
+      \raggedright \@dissacknowledgmentsigplace 
+      \newpage}
      
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%  Environment to generate the vita page  %%%
@@ -465,7 +472,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\@chapteralignment}{\centering}
-\renewcommand{\chapter}{\clearpage
+\renewcommand{\chapter}{\newpage
    \ifnum\@appendix=1
      \renewcommand{\@chaptertype}{\appendixname}
    \else
@@ -512,7 +519,7 @@
       \else
 	\addcontentsline{toc}{chapter}%
 	    {
-	\space\protect\numberline {APPENDIX \thechapter  \quad \MakeUppercase{#1}}}%
+	\space\protect\numberline {APPENDIX \thechapter}}%
       \fi
     \else
       \addcontentsline{toc}{chapter}{%

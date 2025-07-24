@@ -1,6 +1,5 @@
-\chapter{APPENDIX}\label{appendix}
-
-\section{Data Analysis Script}\label{appendix:data_analysis_script}
+\chapter{Data Analysis Script}\label{appendix:data_analysis_script}
+\addcontentsline{toc}{chapter}{APPENDIX~\thechapter: Data Analysis Script}
 
 The following Python script was used to analyze the stress-relaxation data and generate the plots presented in this dissertation. The script processes CSV files containing force-displacement data, performs curve fitting to extract mechanical parameters, and outputs results to Excel files.
 
@@ -125,6 +124,6 @@ for filename in files:
         # Analysis implementation continues as in original script...
         # Code truncated for brevity
 \end{lstlisting}
-
+\newpage
 \subsection{Usage Notes}
-The script requires input CSV files containing stress-relaxation test data with specific column headers. It processes multiple strain levels (5\%, 10\%, 20\%) and generates both graphical and numerical outputs. The analyzed data is automatically saved to Excel files for further processing.
+The script requires input CSV files containing stress-relaxation test data with specific column headers, including time, displacement, and force measurements. It processes multiple strain levels (5\%, 10\%, 20\%) and generates both graphical and numerical outputs. The graphical outputs include stress-relaxation curves and model fits, while numerical outputs comprise parameters like maximum force, time constants, and aggregate modulus. The analyzed data is automatically saved to Excel files for further processing, with separate worksheets for each strain level. The script provides an interactive interface for selecting input files and output locations through dialog boxes.
